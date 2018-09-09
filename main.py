@@ -35,6 +35,9 @@
 import sys
 from spider import MySpider
 from helper import makeLinkFromKeyword
+from underthesea import pos_tag
+
+FILE_50_WORD_ACCIDENTS = "traffic_accidents\\50_accidents_words.txt"
 '''
 Usage:
     type: python main.py --tra
@@ -48,10 +51,12 @@ def main():
         getTrafficAccidents()
     elif args[0] == "--ord":
         getOrdinaryContent()
+    elif args[0] == "--test":
+        test()
         
 def getTrafficAccidents():
     print("1.1.A. Read 50 VNese word related to traffic accidents from accidents.txt...")
-    tra_words = [line.rstrip('\n') for line in open('traffic_accidents\\50_accidents_words.txt', encoding="utf8")]
+    tra_words = [line.rstrip('\n') for line in open(FILE_50_WORD_ACCIDENTS, encoding="utf8")]
     tra_words = tra_words[1:]    # bypass first row
     
     print("1.1.B. Google 50 words seperate (using Bing replace)...")
@@ -66,7 +71,9 @@ def getTrafficAccidents():
                 is_process_whole_list = True
         
     
-    
+def test():
+    text = u"Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét"
+    print(pos_tag(text))    
     
 if __name__ == "__main__":
     main()
