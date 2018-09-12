@@ -1,6 +1,7 @@
 from urllib.parse import urlparse   # for domain extraction
 import re                       # for regular expression
 from urllib.parse import quote
+import string
 
 SEARCH_ENGINE = "https://bing.com/search?q="
 EXCEPT_DOMAIN = ["bing.com", "javascript:void(0)", "microsoft.com"]
@@ -77,3 +78,16 @@ def containStatic(val):
 
 def makeLinkFromKeyword(kw):
     return SEARCH_ENGINE+quote(kw)
+
+def isNoun(w):
+    isNoun = True
+    if len(w) == 0 or len(w) == 1:
+        isNoun = False
+    if "www" in w or "http" in w:
+        isNoun = False
+    if any(char.isdigit() for char in w):
+        isNoun = False
+    invalidChars = set(string.punctuation)
+    if any(char in invalidChars for char in w):
+        isNoun = False
+    return isNoun
