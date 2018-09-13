@@ -1,0 +1,15 @@
+Đừng bỏ lỡ Đặt làm trang chủ Trình duyệt của bạn: 
+, 
+, 
+(Internet Explorer) - Microsoft Edge, 1. Cách đặt Báo điện tử Một Thế Giới làm trang chủ trên Chrome 
+Bước 1: Đối với Chrome các bạn nhấp vào dấu 3 gạch bên gốc phải phía trên của Chrome, có một menu xổ xuống bạn click chọn Setting (Cài đặt) >> sẽ đi vào phần cài đặt của Chrome 
+Bước 2: Ở đây bạn phải click chọn vào chấm nhỏ của dòng Open a specffic page of set page (Mở một trang cụ thể hoặc tập hợp các trang) >> sau đó click vào chữ Set pages (Tập hợp các trang) >> nó sẽ bật lên một của sổ mới 
+Bước 3: ở bước này bạn gõ địa vào ô Add a new page (Thêm trang mới), bạn có thể nhập bất kì một trang nào, ở đây tôi chọn Google >> Nhấp chọn OK để hoàn thành! 
+Xong việc thiết lập trang chủ cho Chrome, bạn thử tắt Chrome và mở lại xem, Chrome sẽ vào trang Google ngay sau khi mở xong trình duyệt. 2. Cách đặt Báo điện tử Một Thế Giới làm trang chủ trên Firefox: 
+Bước 1: Đối với Firefox bạn Click vào 3 dấu gạch bên gốc phải của nó, Firefox bản mới nó có thiết kế như vậy, nếu bạn không có dấu 3 gạch thì của bạn là bản cũ đó, bạn nên cập nhật Firefox lên bản mới nhất 
+Bước 2: Tiếp theo chọn Option >> nó sẽ hiện ra một cửa sổ mới 
+Đầu tiên bạn chọn Tab General >> rồi đánh địa chỉ vào ô Home page >> cuối cùng là click OK. Sau đó khởi động lại trình duyệt Firefox, nếu trang chủ Một Thế Giới hiện ra ngay sau khi mở xong trình duyệt là bạn đã thao tác đúng. 3. Cách đặt Báo điện tử Một Thế Giới làm trang chủ trên Internet explorer (IE) 
+IE có nhiều phiên bản, trong bài hướng dẫn này sử dụng IE11. Đối với các phiên bản khác cũng thao tác tương tự: 
+Bước 1: Bấm vào icon bánh răng phía góc phải màn hình (như ảnh) >> Chọn Internet Options, một cửa sổ mới sẽ hiện ra. Bước 2: Gõ http://motthegioi.vn vào trường Homepage >> Sau đó bấm OK, khởi động trình duyệt lại và kiểm tra. 4. Cách cài Báo điện tử Một Thế Giới làm trang chủ trên Cốc Cốc: Cốc Cốc sử dụng mã nguồn giống Chrome, do đó thao tác hoàn toàn giống trên Chrome, vui lòng bấm về để làm theo hướng dẫn. Advertisement Advertisement Advertisement Advertisement Advertisement Advertisement Blogger nổi bật Advertisement Advertisement Advertisement Advertisement Advertisement Advertisement Advertisement Advertisement Advertisement Advertisement Advertisement Advertisement 
+Cảm ơn bạn đã gửi ý kiến. 
+Bạn đã gửi ý kiến cho bài viết này.

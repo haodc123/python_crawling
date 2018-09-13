@@ -1,0 +1,76 @@
+Quy đổi mác bê tông (M) tương ứng với cấp độ bền (B) 
+Đăng lúc: 15:29, Thứ Hai, 16-06-2014 - Lượt xem: 383549 
+- Trong kết cấu xây dựng, bê tông chịu nhiều tác động khác nhau: chịu nén, uốn, kéo, trượt, trong đó chịu nén là ưu thế lớn nhất của bê tông. Do đó, người ta thường lấy cường độ chịu nén là chỉ tiêu đặc trưng để đánh giá chất lượng bê tông, gọi là mác bê tông. 
+Theo tiêu chuẩn 
+, mẫu dùng để đo cường độ là một mẫu bê tông hình lập phương có kích thước 150 × 150 × 150 mm được dưỡng hộ trong điều kiện tiêu chuẩn 28 ngày sau khi bê tông ninh kết. Sau đó được đưa vào máy nén để đo ứng suất nén phá hủy mẫu, đơn vị tính bằng MPa (N/mm²) hoặc daN/cm² (kg/cm²). 
+Trong nhiều hồ sơ thiết kế, thay vì ghi mác bê tông 100#, 200#,... mác bê tông được ghi theo cấp độ bền B (ví dụ B7.5, B10, B12.5,...) gây lúng túng cho kỹ sư giám sát. Do vậy, để dễ hiểu - dễ nhớ, 
+xin trích bảng quy đổi mác bê tông (M) tương ứng với cấp độ bền (B) từ 
+để các bạn dễ theo dõi, cụ thể như sau: Cấp độ bền (B) Cường độ chịu nén (Mpa) Mác bê tông (M) B3.5 4.50 50 B5 6.42 75 B7.5 9.63 100 B10 12.84 B12.5 16.05 150 B15 19.27 200 B20 25.69 250 B22.5 28.90 300 B25 32.11 B27.5 35.32 350 B30 38.53 400 B35 44.95 450 B40 51.37 500 B45 57.80 600 B50 64.22 B55 70.64 700 B60 77.06 800 B65 83.48 B70 89.90 900 B75 96.33 B80 102.75 1000 
+Download bảng quy đổi tại đây 
+Kết cấu bê tông tại chỗ được coi là đạt yêu cầu về mác thiết kế (quy định trong thiết kế) khi giá trị trung bình của từng tổ mẫu (mác thực tế) không được nhỏ hơn mác thiết kế, nhưng đồng thời phải không có mẫu nào trong các tổ mẫu có kết quả thí nghiệm dưới 85% mác thiết kế. 
+Theo tiêu chuẩn EC-2 của Hoa Kỳ, cấp bền bê tông được ký hiệu là C. Mời quý vị xem bảng quy đổi sang cấp bền B hoặc M của Việt Nam Quy định về lấy mẫu bê tông 
+Theo tiêu chuẩn Việt Nam về thi công và nghiệm thu bê tông và bê tông cốt thép toàn khối hiện hành - 
+- thì việc lấy mẫu được quy định như sau: 
+- Đối với bê tông thương phẩm thì ứng với mỗi mẻ vận chuyển trên xe (khoảng 6÷10 m³) phải lấy một tổ mẫu, tại hiện trường công trình trước khi đổ bê tông vào khuôn; 
+- Trường hợp đổ bê tông kết cấu đơn chiếc, khối lượng ít (<20 m³) thì lấy một tổ mẫu; 
+- Đối với kết cấu khung và các loại kết cấu mỏng (cột, dầm, bản, vòm...) thì cứ 20 m³ bê tông phải lấy một tổ mẫu; 
+- Đối với bê tông móng máy khối lượng khoang đổ (phân khu bê tông) > 50 m³ thì cứ 50 m³ bê tông lấy một tổ (nếu khối lượng bê tông móng máy ít hơn 50 m³ vẫn phải lấy một tổ); 
+- Các móng lớn, thì cứ 100 m³ lấy một tổ mẫu, nhưng không ít hơn 1 tổ mẫu cho mỗi khối móng; 
+- Đối với bê tông nền, mặt đường (đường ô tô, sân bay,..) thì cứ 200 m³ bê tông phải lấy một tổ mẫu (nhưng nếu khối lượng < 200 m³ thì vẫn phải lấy một tổ). 
+- Đối với bê tông khối lớn: 
++ Khi khối lượng bê tông đổ trong mỗi khoang đổ (phân khu bê tông) ≤ 1000 m³ thì cứ 250 m³ bê tông phải lấy một tổ mẫu 
++ Khi khối lượng bê tông đổ trong mỗi khoang đổ (phân khu bê tông) > 1000 m³ thì cứ 500 m³ bê tông phải lấy một tổ mẫu. 
+Đăng bởi: Phòng thí nghiệm LAS-XD 1043 Từ khóa: 
+, 
+, 
+, 
+, 
+, 
+, 
+, Liên hệ 
+Xin trân trọng cảm ơn Quý vị đã truy cập website tìm hiểu thông tin và dịch vụ của VNT. Khi cần dịch vụ 
+hoặc các 
+của chúng tôi, vui lòng liên hệ theo thông tin dưới đây: 
+- Trụ sở công ty: 93 phố Đức Giang - Quận Long Biên - Hà Nội 
+- Điện thoại: 024.66.809.810 - Hotline: 098.999.6440 
+- Email: 
+- Hoặc 
+để trao đổi trực tiếp với chúng tôi. 
+Đồng thời, Quý vị có thể download hồ sơ năng lực mới nhất của chúng tôi tại đây Cùng chuyên mục 
+Bản vẽ hoàn công được lập như thế nào? Những cá nhân, pháp nhân nào bắt buộc phải ký vào bản vẽ hoàn công? Bài viết sau sẽ đăng lại nguyên văn giải thích của Bộ Xây dựng về vấn đề này. 
+Những ai được phép/không được phép/bắt buộc phải ký vào phiếu Kết quả thí nghiệm vật liệu? Câu hỏi tưởng dễ mà không dễ. Vì không phải ai cũng biết được gốc gác của quy định về vấn đề này. 
+Đa số kỹ sư xây dựng đều biết mác thép cốt bê tông có các loại CB240-T, CB300-V, CB400-V, CB500-V. Tuy nhiên, hỏi về mác thép các bon để sản xuất kết cấu thép có những loại nào thì không nhiều kỹ sư nắm được. 
+Lắp đặt ống thoát nước trong công trình không phải là nội dung công việc khó. Tuy nhiên vẫn có lỗi xảy ra nếu chúng ta không tinh ý. 
+Đầu ống chờ của hệ thống điện nước được đặt sẵn trong kết cấu bê tông dùng để kết nối thiết bị với hệ thống ống ngầm. Do vậy, với ống bằng nhựa PVC cần có biện pháp bảo vệ đầu ống tránh bị vỡ và dị vật rơi vào ống. 
+Chiều dày của bê tông bao bọc quanh tiết diện ống luồn dây hoặc bề mặt phía ngoài của ống sâu hơn mặt tường hoàn thiện không nhỏ hơn 15 mm; hay số cút ống luồn dây trên một tuyến ống không được vượt quá 4 góc vuông,... là một số điểm nổi bật của quy định này. 
+Vật liệu dạng hạt dùng trong xử lý nước sạch đặc biệt quan trọng vì nó gắn một phần lớn trách nhiệm trong việc đảm bảo chất lượng nguồn nước. Vì vậy các kỹ sư tư vấn giám sát cần nắm vững quy định và tần suất lấy mẫu của các loại vật liệu này. 
+Vết nứt vữa trát tường hay trần có nhiều nguyên nhân. Ngoại trừ nguyên nhân về lún nứt công trình thì nguyên nhân gây nứt lớp trát phổ biến nhất là do khi thi công không xử lý mối nối vật liệu trước khi trát. 
+Lựa chọn kích cỡ dây điện nguồn cấp điện tổng hay cho từng thiết bị nhỏ nhất trong nhà rất quan trọng. Nếu lựa chọn không đúng sẽ dẫn tới nguy cơ cháy nổ do quá tải... ảnh hưởng tới an toàn điện và an toàn cháy nổ chung cho cả công trình. 
+Từ trước tới nay hầu hết mọi kỹ sư xây dựng đều nghĩ muốn làm Chỉ huy trưởng công trường chỉ cần có Chứng chỉ chỉ huy trưởng công trường. Tuy nhiên, đến khi bị cơ quan quản lý xây dựng xử phạt mới vỡ lẽ không phải như vậy. Dịch vụ gia cố kết cấu 
+Gia cố, nâng sức chịu tải của cột bê tông 
+Gia cố dầm do thiếu thép chịu lực 
+Gia cố dầu dầm bị nứt 
+Gia cố vách bê tông bể nước 
+Gia cố chống võng và chống nứt cho sàn mái 
+Gia cố bê tông sàn tầng hầm không đủ cường độ 
+Gia cố bê tông đáy bể nước 
+Gia cố bê tông đáy bể bơi 
+Gia cố sàn phòng đặt máy phát điện 
+Gia cố bê tông cầu thang bộ Dịch vụ giám sát thi công 
+Kiểm tra ván khuôn, cốt thép dầm sàn trong quá trình thi công, nhắc nhà thầu sửa chữa kịp thời 
+Nghiệm thu ván khuôn vách bê tông cốt thép 
+Giám sát quá trình lấy mẫu bê tông thương phẩm tại hiện trường 
+Kiểm tra, đôn đốc nhà thầu trong quá trình lắp dựng cốt thép cột 
+Giám sát quá trình nối thép bằng Coupler 
+Nhắc nhở nhà thầu thường xuyên bằng Phiếu nhắc nhở - không nói miệng 
+Giám sát quá trình thử tải cọc 
+Kiểm tra cao độ dầm sàn bằng Máy thủy bình 
+Kiểm tra chất lượng láng vữa mái dốc 
+Kiểm tra công tác lắp đặt hệ thống điện 
+Nghiệm thu cốt thép dầm sàn nhà cao tầng 
+Kiểm tra, nhắc nhở công tác an toàn lao động trên công trường >>> MOITHAU.NET - Đăng tải thông tin mời thầu thuộc tất cả các lĩnh vực trên Toàn quốc. 
+Hotline: 098.999.6440 
+Facebook 
+Youtube 
+Google Plus 
+<< Download hồ sơ năng lực

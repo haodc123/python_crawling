@@ -1,0 +1,68 @@
+Nồng độ tính chất vật lý Bài viết này cần thêm để . Mời bạn giúp bằng cách bổ sung chú thích tới . Các nội dung không có nguồn có thể bị nghi ngờ và xóa bỏ. Nồng độ 
+là khái niệm cho biết lượng 
+trong một 
+, thường là 
+. Mục lục Các khái niệm 
+Dung dịch bao gồm chất tan 
+và dung môi 
+. Chất tan càng nhiều trong một lượng dung môi cố định, thì nồng độ càng cao. Nồng độ đạt giá trị cao nhất, ở những điều kiện môi trường nhất định khi dung dịch bão hòa, có nghĩa chất tan không thể hòa tan thêm vào dung dịch. 
+Nếu chất tan được thêm vào một dung dịch đã bão hoà 
+, nó sẽ không tan nữa mà sẽ xảy ra hiện tượng 
+( 
+: phase separation 
+), dẫn đến các pha đồng tồn tại hoặc tạo 
+(còn gọi là thể vẩn 
+). Điểm bão hoà phụ thuộc vào nhiều yếu tố như nhiệt độ môi trường, bản chất hoá học của dung môi và chất tan. 
+Nồng độ có thể tăng bằng cách thêm chất tan vào dung dịch, hoặc giảm lượng dung môi, ví dụ bằng cách cho bay hơi có điều kiện. Ngược lại, nồng độ có thể giảm bằng cách tăng thêm dung môi hay giảm chất tan. 
+Nồng độ có thể được biểu thị 
+hoặc 
+. Hệ thống định tính Các cốc chứa thuốc nhuộm đỏ biểu thị thay đổi nồng độ định tính. Dung dịch về phía trái loãng hơn dung dịch về phía phải. 
+Về mặt định tính, dung dịch có nồng độ tương đối thấp được miêu tả với các tính từ "loãng," trong khi dung dịch có nồng độ cao được miêu tả là "đậm đặc." Theo lệ thường, một dung dịch 
+càng cô đặc thì có màu càng đậm. Hệ thống định lượng 
+Hệ thống định lượng của nồng độ mang nhiều thông tin và hữu ích từ góc độ khoa học. Có nhiều cách khác nhau để biểu thị nồng độ một cách định lượng; các cách thông dụng nhất trong số đó được liệt kê bên dưới. Lưu ý: Nhiều đơn vị nồng độ cần đo thể tích của một chất, số đo này lại thay đổi phụ thuộc vào nhiệt độ và áp suất xung quanh. Nếu không được ghi rõ, tất cả các trường hợp bên dưới đều được giả định ở được đo ở áp suất và nhiệt độ (nghĩa là 25 độ ở 1 ). Nồng độ phần trăm Phần trăm khối lượng Phần trăm khối lượng 
+biểu thị 
+một chất có trong hỗn hợp theo 
+của chất đó trong toàn bộ hỗn hợp. Ví dụ: nếu một chai chứa 40 
+và 60 g 
+, nó chứa 40% ethanol theo khối lượng. Trong thương mại, các hoá chất lỏng đậm đặc như acid và base thường được ghi nhãn hiệu theo phần trăm khối lượng 
+cùng với 
+. Trong các tài liệu cũ nó thường được gọi là phần trăm khối lượng-khối lượng 
+(viết tắt w/w 
+). Phần trăm khối lượng-thể tích Phần trăm khối lượng-thể tích 
+, (thường được viết tắt % m/v hay % w/v) biểu thị khối lượng chất trong một hỗn hợp theo phần trăm thể tích của toàn bộ hỗn hợp. Phần trăm khối lượng-thể tích thường được dùng cho các dung dịch pha từ thuốc thử rắn. Nó là khối lượng chất tan (g) nhân với 100 và chia cho thể tích dung dịch (mL). Phần trăm thể tích thể tích Phần trăm thể tích thể tích 
+hay % (v/v) biểu thị thể tích của chất tan theo mL trong 100 mL dung dịch kết quả. Nó thường dùng nhất khi pha 2 dung dịch lỏng. Ví dụ, bia có 5% ethanol theo thể tích nghĩa là mỗi 100 mL bia chứa 5 mL ethanol. Nồng độ mol Nồng độ mol thể tích 
+(nồng độ phân tử gam), ký hiệu M, biểu thị số 
+của một chất tan cho trước trong 1 
+dung dịch. Ví dụ: 4,0 lit dung dịch chứa 2,0 mol hạt tan tạo thành dung dịch 0,5 M, còn gọi là 0,5 phân tử gam ("0,5 molar"). Sử dụng mol có nhiều ưu điểm vì nó cho phép đo số tuyệt đối các hạt có trong dung dịch, bất kể khối lượng và thể tích của chúng. Nồng độ molan Nồng độ mol khối lượng 
+(m) biểu thị số mol của một chất cho trước trong 1 kilogam dung môi. Ví dụ: 2,0 kg dung môi chứa 1,0 mol hạt tan, tạo thành dung dịch có nồng độ 0,5 mol/kg, còn gọi là "0,5 molal." 
+Ưu điểm của nồng độ mol khối lượng là nó không thay đổi theo nhiệt độ, và nó liên hệ với khối lượng dung môi hơn là thể tích dung dịch. Thể tích tăng khi nhiệt độ tăng dẫn đến giảm nồng độ mol thể tích. Nồng độ mol khối lượng luôn luôn hằng định bất kể các điều kiện vật lý như nhiệt độ và áp suát. Molinity Molinity 
+là thuật ngữ hiếm dùng, biểu thị chỉ số mol một chất cho trước trong 1 
+dung dịch. Ví dụ: thêm 1,0 mol của các hạt hoà tan vào 2,0 kg chất tan, khối lượng tổng cộng là 2,5 kg; khi đó molinity 
+của dung dịch là 1,0 mol / 2,5 kg = 0,4 mol/kg. Lưu ý: molarity và molinity được tính dùng thể tích toàn bộ dung dịch, còn molality được tính chỉ dùng khối lượng của dung môi. [ ] Nồng độ chuẩn Nồng độ chuẩn 
+là một khái niệm có liên hệ với nồng độ mol thể tích 
+, thường được áp dụng cho các phản ứng và dung dịch 
+- 
+. Trong phản ứng axít-bazơ, 
+(equivalent) là lượng acid hoặc bazơ có thể nhận hoặc cho đúng 1 mol proton (ion H + 
+). Nồng độ chuẩn cũng được dùng cho phản ứng oxi hoá-khử, trong đó đương lượng là lượng tác nhân oxi hoá hoặc khử có thể nhận hoặc cung cấp một mol 
+. 
+Nếu như nồng độ mol thể tích đo số hạt trong một lit dung dịch, nồng độ chuẩn đo số đương lượng trong một lit dung dịch. 
+Trong thực hành, điều này chỉ có nghĩa là nhân nồng độ mol thể tích của dung dịch với 
+của chất tan ion. Đối với phản ứng oxi hoá-khử thì hơi phức tạp hơn một chút. 
+Ví dụ: 1 M axít sulfuric (H 2 
+SO 4 
+) là 2 N trong phản ứng acid-bazơ vì mỗi mol axít surfuric cung cấp 2 mol ion H + 
+. Nhưng 1 M axít sulfuric là 1 N trong phản ứng kết tủa sulfate, vì 1 mol axít sulfuric cung cấp 1 mol ion sulfate. Lưu ý: Đối với phản ứng axít-bazơ, nồng độ chuẩn luôn bằng hoặc lớn hơn nồng độ mol thể tích; còn đối với phản ứng oxi hoá-khử thì nó luôn bằng hoặc bé hơn nồng độ mol thể tích. Tỉ lệ mol 
+χ (chi) là số mol chất tan tính theo tỉ lệ với tổng số mol trong dung dịch. Ví dụ: 1 mol chất tan hoà tan trong 9 mol dung môi sẽ có tỉ lệ mol 1/10 hay 0,1. Nồng độ chính tắc (formal) Nồng độ chính tắc 
+(F) là một cách đo nồng độ tương tự như nồng đổ mol thể tích. Nó hiếm được dùng. Nó tính toán dựa trên lượng hoá chất của công thức cấu tạo trong một lit dung dịch. Sự khác biệt giữa các nồng độ chính tắc và mol thể tích là nồng độ chính tắc biểu thị số mol của công thức hoá học nguyên thuỷ trong dung dịch, mà không xét đến các thực thể thực sự tồn tại trong dung dịch. Nồng độ mol thể tích, trái lại, là nồng độ các thực thể trong dung dịch. 
+Ví dụ: nếu hoà tan calcium carbonate (CaCO 3 
+) trong 1 lit nước, hợp chất phân li thành các ion Ca 2+ 
+và CO 3 2- 
+. CO 3 2- 
+tiếp tục phân li thành HCO 3 - 
+và H 2 
+CO 3 
+. Thực tế không có CaCO 3 
+còn lại trong. Vì vậy, mặc dù ta thêm 1 mol CaCO 3 
+vào dung dịch, dung dịch lại không chứa 1 M chất này; tuy vậy, ta vẫn có thể nói dung dịch chứa 1 F CaCO 3 
+. Tham khảo Lấy từ “ ”

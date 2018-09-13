@@ -114,12 +114,12 @@ def getOrdinaryContent():
     alexa_links = [line.rstrip('\n') for line in open(FILE_50_ALEXA_ORDINARY_LINK, encoding="utf8")]
     alexa_links = alexa_links[1:]    # bypass first row
     
-    print("1.1.B. Crawling 10 pages for each site....")
+    print("1.2.B. Crawling 10 pages for each site....")
     spider = MySpider()
     for l in alexa_links:
         spider.craw_link(l, "ordinary")
         
-    print("1.1.D. Crawling 500 pages from 500_page_ordinary.txt....")
+    print("1.2.D. Crawling 500 pages from 500_page_ordinary.txt....")
     ord_links = [line.rstrip('\n') for line in open(FILE_500_PAGE_ORDINARY, encoding="utf8")]
     arr_500links = []
     for l in ord_links:
@@ -130,7 +130,7 @@ def getOrdinaryContent():
             content = spider.craw_content(l[3:])
             saveContentEachPage(content, len(arr_500links)-1, "ordinary")
     
-    print("1.1.G. Count all the noun words together and align  them desc and pick up 3000 words...")
+    print("1.2.G. Count all the noun words together and align  them desc and pick up 3000 words...")
     countAndGetCommonNounFromFile("ordinary")
     return arr_500links
 
@@ -150,19 +150,21 @@ def saveContentEachPage(content, index, mode):
     if mode == "accident":
         file_content_page = "traffic_accidents\\content_accidents_page_"+str(index)+".txt"
         file_all_noun = FILE_ALL_ACCIDENTS_NOUNS
+        print("1.1.E. Get all the texts in each page...")
+        print("1.1.F. Separate and extract all the noun words using the morphing analysis tool...")
     elif mode == "ordinary":
         file_content_page = "ordinary_contents\\content_ordinary_page_"+str(index)+".txt"
         file_all_noun = FILE_ALL_ORDINARY_NOUNS
+        print("1.2.E. Get all the texts in each page...")
+        print("1.2.F. Separate and extract all the noun words using the morphing analysis tool...")
 
-    print("1.1.E. Get all the texts in each page...")
-    with open(file_content_page, "a", encoding="utf-8") as gd:
+    with open(file_content_page, "a", encoding="utf-8", errors='ignore') as gd:
         gd.write(content)
 
-    print("1.1.F. Separate and extract all the noun words using the morphing analysis tool...")
     arr_nouns = extractNoun(str(content))
 
     for n in arr_nouns:
-        with open(file_all_noun, "a", encoding="utf-8") as gd:
+        with open(file_all_noun, "a", encoding="utf-8", errors='ignore') as gd:
             gd.write(n+", ")
 
 def extractNoun(content):
@@ -174,24 +176,24 @@ def extractNoun(content):
 
 def create500FileCountNoun(forwhich, index, filenameAccidentNoun, filenameOrdinaryNoun, arr_500_link):
     # Read 3000 accident noun from file
-    File = open(filenameAccidentNoun, encoding="utf-8")
+    File = open(filenameAccidentNoun, encoding="utf-8", errors='ignore')
     accident_nouns = File.read()
     arr_accident_noun = accident_nouns.split(", ")
     # Read 3000 ordinary noun from file
-    File = open(filenameOrdinaryNoun, encoding="utf-8")
+    File = open(filenameOrdinaryNoun, encoding="utf-8", errors='ignore')
     ordinary_nouns = File.read()
     arr_ordinary_noun = ordinary_nouns.split(", ")
 
     if forwhich == "accident":
         # Read content file each page
-        File = open("traffic_accidents\\content_accidents_page_"+str(index)+".txt", encoding="utf-8")
+        File = open("traffic_accidents\\content_accidents_page_"+str(index)+".txt", encoding="utf-8", errors='ignore')
         content = File.read()
-        csv_file_name = open("traffic_accidents//"+urlToFileName(arr_500_link[index])+".csv", 'w', encoding="utf-8")
+        csv_file_name = open("traffic_accidents//"+urlToFileName(arr_500_link[index])+".csv", 'w', encoding="utf-8", errors='ignore')
     elif forwhich == "ordinary":
         # Read content file each page
-        File = open("ordinary_contents\\content_ordinary_page_"+str(index)+".txt", encoding="utf-8")
+        File = open("ordinary_contents\\content_ordinary_page_"+str(index)+".txt", encoding="utf-8", errors='ignore')
         content = File.read()
-        csv_file_name = open("ordinary_contents//"+urlToFileName(arr_500_link[index])+".csv", 'w', encoding="utf-8")
+        csv_file_name = open("ordinary_contents//"+urlToFileName(arr_500_link[index])+".csv", 'w', encoding="utf-8", errors='ignore')
 
     # Count noun in content
     csv_data = [[], []]
@@ -216,13 +218,13 @@ def countAndGetCommonNounFromFile(mode):
         file_all_noun = FILE_ALL_ORDINARY_NOUNS
         file_3000_noun = FILE_3000_ORDINARY_NOUNS
 
-    File = open(file_all_noun, encoding="utf-8")
+    File = open(file_all_noun, encoding="utf-8", errors='ignore')
     all_nouns = File.read()
     arr_all_noun = all_nouns.split(", ")
     arr_nouns = Counter(arr_all_noun).most_common(NUMBER_NOUN_FILTERED)
         
     for word,num in arr_nouns:
-        with open(file_3000_noun, "a", encoding="utf-8") as gd:
+        with open(file_3000_noun, "a", encoding="utf-8", errors='ignore') as gd:
             gd.write(word+", ")
 
 

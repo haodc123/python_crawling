@@ -1,0 +1,61 @@
+Giới thiệu trình duyệt Cốc Cốc 
+Trình duyệt Cốc Cốc là một sản phẩm của Cốc Cốc – Công ty công nghệ do các kỹ sư Việt Nam thành lập. 
+Trình duyệt mang lại một trải nghiệm lướt web được “may đo” theo nhu cầu hàng ngày của người dùng Việt Nam. Với Cốc Cốc, bạn có thể: 
+Trong trường hợp bạn có bất kỳ góp ý nào cho trình duyệt hãy liên lạc ngay với chúng tôi qua phần 
+hoặc 
+. 
+Bạn có thể tìm hiểu thêm về công ty Cốc Cốc và các sản phẩm khác của chúng tôi Vào Facebook nhanh bằng trình duyệt Cốc Cốc Số người đang dùng: 23,836,585 
+Dung lượng: 1.14 Mb 
+Dành cho Windows: 7 / 8 / 10 
+Sử dụng trình duyệt Cốc Cốc 
+có thể truy cập Facebook nhanh chóng mà không cần cài đặt thêm phần mềm hoặc can thiệp gì khác. 
+Trình duyệt Cốc Cốc thường xuyên tự động cập nhật cách truy cập Facebook mới, người dùng không cần phải làm gì thêm. Đồng thời, do truy cập Facebook là một trong các tính năng miễn phí tích hợp trong trình duyệt, tốc độ truy cập mạng sẽ không bị ảnh hưởng, và người dùng cũng không bị làm phiền bởi các quảng cáo như khi sử dụng một số phần mềm vào Facebook khác. Trình duyệt Cốc Cốc được chứng nhận an toàn bởi Norton Security. SO SÁNH CÁC CÁCH VÀO FACEBOOK Sửa file hosts Đổi DNS Hotspot Shield Tốc độ mạng Dễ thực hiện Tự động cập nhật Không phiền toái với quảng cáo Sửa file hosts để vào Facebook 
+Các bước sửa file hosts như sau: Bước 1/5 - Mở Notepad: 
+Click vào Start Menu > All Programs > Accessories > Notepad. Nếu bạn dùng Windows Vista hoặc Windows 7, thay vì click vào biểu tượng Notepad, bạn click chuột phải vào biểu tượng Notepad, trên menu hiện ra, chọn "Run as Administrator". Bước 2/5 - Mở file hosts: 
+Trong Notepad bạn vào menu File > Open. Ở phần Filter gần ô File name, bạn chọn All Files (*.*). Sau đó vào đường dẫn: C:\Windows\System32\drivers\etc để mở file có tên là hosts. Bước 3/5 - Sửa file hosts: 
+Sau khi đã mở file hosts, di chuyển con trỏ đến cuối file. Rồi bấm Enter. Copy toàn bộ nội dung tương ứng như sau để thêm vào cuối file hosts: 
+173.252.110.27 facebook.com 
+173.252.110.27 www.facebook.com 
+173.252.110.27 www.login.facebook.com 
+173.252.110.27 login.facebook.com 
+173.252.110.27 apps.facebook.com 
+173.252.110.27 graph.facebook.com 
+173.252.110.27 register.facebook.com 
+173.252.110.27 vi-vn.connect.facebook.com 
+173.252.110.27 vi-vn.facebook.com 
+173.252.110.27 static.ak.connect.facebook.com 
+173.252.110.27 developers.facebook.com 
+173.252.110.27 error.facebook.com 
+173.252.110.27 channel.facebook.com 
+173.252.110.27 register.facebook.com 
+173.252.110.27 bigzipfiles.facebook.com 
+173.252.110.27 pixel.facebook.com 
+173.252.110.27 upload.facebook.com 
+173.252.110.27 register.facebook.com 
+173.252.110.27 bigzipfiles.facebook.com 
+173.252.110.27 pixel.facebook.com 
+173.252.110.27 logins.facebook.com 
+173.252.110.27 graph.facebook.com 
+173.252.110.27 developers.facebook.com 
+173.252.110.27 error.facebook.com 
+173.252.110.27 register.facebook.com 
+173.252.110.27 blog.facebook.com 
+173.252.110.27 channel.facebook.com 
+173.252.110.27 connect.facebook.com 
+173.252.110.27 bigzipfiles.facebook.com Bước 4/5 - Bấm Save và tắt Notepad Bước 5/5 - Tắt trình duyệt bạn đang dùng và vào lại trang facebook để kiểm tra kết quả Vào Facebook bằng phần mềm Hotspot Shield 
+Áp dụng cho máy dùng hệ điều hành Windows. Bạn cần download phần mềm Hotspot Shield về, cài vào máy, và bật lên mỗi khi muốn vào Facebook. Cách này cũng có tác dụng với một số website bị chặn khác như blogspot, wordpress, hay 1 số kênh Video/phim. 
+Sau khi cài đặt hoàn tất, Hotspot Shield sẽ tự động được mở. Bạn sẽ nhìn thấy biểu tượng Hotspot Shield tại thanh Taskbar như hình: Biểu tượng sẽ màu đỏ khi nó đang ở trạng thái TẮT, và màu xanh lá cây khi đang được BẬT. Để bật/tắt, bạn hãy nhấp chuột vào KÊT NỐI. Để tắt quảng cáo trong quá trình sử dụng, bạn cần phải đăng ký tài khoản Hotspot Shield Elite. Thay đổi DNS để vào Facebook 
+Bạn có thể thay đổi DNS để "nói" với máy tính rằng hãy tìm địa chỉ IP thực của Facebook bằng 1 máy chủ khác. Các địa chỉ DNS server uy tín mà bạn có thể sử dụng: Open DNS: 208.67.222.222 và 208.67.220.220 Google DNS: 8.8.8.8 và 8.8.4.4 Các bước để thay đổi DNS như sau: Bước 1: 
+• Đối với Windows XP, Windows Vista: Vào Start Menu > Control Panel > Network Connections, sau đó chọn Properties trên cửa sổ. 
+• Đối với Windows 7: Bấm vào biểu tượng chiếc máy tính ở icon tray phía dưới bên phải màn hình. Bấm vào Open Network and Sharing Center. Trên màn hình hiện ra, chọn Change adapter settings. Sau đó bấm đúp chuột vào biểu tượng nào có hình kết nối màu xanh, rồi chọn Properties. Bước 2: 
+Trên màn hình Properties, chọn Internet Protocol Version 4 (TCP/IP v4), sau đó bấm tiếp vào Properties. Trên cửa sổ hiện ra chọn Use the following DNS server addresses: sau đó điền giá trị sau của DNS server: 
++ Prefered DNS Server: 8.8.8.8 
++ Alternate DNS Server: 8.8.4.4 
+Chọn OK để hoàn tất. Bước 3: Bạn đóng trình duyệt đang sử dụng. Sau đó mở lại và vào lại facebook! Về Cốc Cốc Trình duyệt Tìm kiếm Quảng cáo Liên hệ Cơ quan chủ quản: Công ty TNHH Cốc Cốc. Phòng 1202, tầng 12, tòa nhà HITTC, 185 Giảng Võ, Hà Nội. Điện thoại: (024) 3512 3776. Dành cho báo chí: press@coccoc.com Chi nhánh: Tầng 3, Khu AB, Tòa nhà 27B Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, TP.HCM. Điện thoại: (028) 62 88 99 00. Cơ quan chủ quản: Công ty TNHH Cốc Cốc. Trụ sở: Phòng 1202, tầng 12, tòa nhà HITTC, 185 Giảng Võ, Hà Nội. Điện thoại: (024) 3512 3776. . Gửi liên hệ Email Nội dung Xin vui lòng chọn hình captcha Cài đặt - Gỡ bỏ Cốc cốc Cài trình duyệt Cốc Cốc 
+Truy cập trang 
+Chọn phiên bản ngôn ngữ bạn muốn cài đặt và bấm Tải 
+Trong box download, chọn file cài của trình duyệt Cốc Cốc, sau đó nhấp chuột 2 lần 
+Bấm Run -> chọn Cài đặt (hoặc Install) -> Chọn Yes Gỡ trình duyệt Cốc Cốc 
+Chọn Start / Control Panel / Uninstall a program 
+Chọn trình duyệt Cốc Cốc trong danh sách phần mềm, nhấp chuột 2 lần 
+Lần lượt chọn Gỡ chương trình (hoặc Uninstall) -> Yes Điều khoản sử dụng Chúng tôi hy vọng bạn sẽ thích trình duyệt Cốc Cốc. Nhóm phát triển Cốc Cốc.

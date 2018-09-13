@@ -100,21 +100,23 @@ class MySpider(object):
         if mode == "accident":
             link_mode = "search_result"
             file_500page = FILE_500_PAGE_ACCIDENTS
+            print("Craw link for: "+target_link)
+            print("1.1.C. Get 10 URLs each...")
         elif mode == "ordinary":
             link_mode = "same_side"
             file_500page = FILE_500_PAGE_ORDINARY
+            print("Craw link for: "+target_link)
+            print("1.2.C. Get 10 URLs each...")
 
         target_link = clean(link)
 
-        print("Craw link for: "+target_link)
-        print("1.1.C. Get 10 URLs each...")
-        with open(file_500page, "a", encoding="utf-8") as gd:
+        with open(file_500page, "a", encoding="utf-8", errors='ignore') as gd:
             gd.write("**** Craw link for: "+target_link+"\n")
 
         links = self.parser.run(target_link, "link", link_mode)
         
         for l in links:
-            with open(file_500page, "a", encoding="utf-8") as gd:
+            with open(file_500page, "a", encoding="utf-8", errors='ignore') as gd:
                 gd.write(" + "+l+"\n")
 
     
