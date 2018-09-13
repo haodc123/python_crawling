@@ -45,6 +45,24 @@ def getDomain(url):
     parsed_url = urlparse(url)
     return "{url.netloc}".format(url=parsed_url)
 
+def urlToFileName(url):
+    if "https" in url:
+        return url[8:].translate({ord(c): "_" for c in "!@#$%^&*()[]{};:,./<>?\|`"})
+    elif "http" in url:
+        return url[7:].translate({ord(c): "_" for c in "!@#$%^&*()[]{};:,./<>?\|`"})
+
+def sameDomain(url, domain):
+    '''
+    Check if the given url is valid (e.g. within in "gocardless.com" domain)
+    @input:
+        url     :   the url to be checked
+    @output:
+        valid?  :   if the url is valid
+    '''
+    if re.match(r'^https?://([\w-]*\.)?' + domain + r'.*$', url, re.M|re.I):
+        return True
+    else:
+        return False
 
 def checkIsExceptDomain(link):
     '''

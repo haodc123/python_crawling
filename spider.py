@@ -1,31 +1,47 @@
 from html.parser import HTMLParser
 from urllib.parse import urljoin           # for join two urls
 from urllib.request import urlopen         # for GET request
-from helper import clean, checkIsExceptDomain, containStatic, isNoun
+from helper import clean, checkIsExceptDomain, containStatic, isNoun, getDomain, sameDomain
 from underthesea import pos_tag
 from bs4 import BeautifulSoup, NavigableString, Tag
 
+FILE_50_WORD_ACCIDENTS = "traffic_accidents\\50_accidents_words.txt"
 FILE_500_PAGE_ACCIDENTS = "traffic_accidents\\500_page_accidents.txt"
 FILE_ALL_ACCIDENTS_NOUNS = "traffic_accidents\\all_accident_nouns.txt"
 FILE_3000_ACCIDENTS_NOUNS = "traffic_accidents\\3000_accident_nouns.txt"
-NOT_CONTENT_TAG = ["script", "style", "video"]
+
+FILE_50_ALEXA_ORDINARY_LINK = "ordinary_contents\\50_alexa_ordinary.txt"
+FILE_500_PAGE_ORDINARY = "ordinary_contents\\500_page_ordinary.txt"
+FILE_ALL_ORDINARY_NOUNS = "ordinary_contents\\all_ordinary_nouns.txt"
+FILE_3000_ORDINARY_NOUNS = "ordinary_contents\\3000_ordinary_nouns.txt"
+
 NUMBER_NOUN_FILTERED = 3000
+NUMBER_LINK_EACH_PAIR = 500
+NUM_LINK_EACH_PAGE = 10
+NOT_CONTENT_TAG = ["script", "style", "video"]
 
 class MyHTMLParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
 
         if self.whatcrawling_mode == "link":              # only run when mode: crawling link
-            # For craw link handle <a> and ??? tags
-            for key, val in attrs:
-                if key == "href":
-                    if containStatic(val):
-                        pass
-                    else:                                 # handle links
-                        link = urljoin(self.link, val)    # append relative path to the root path
-                        link = clean(link)                # clean up link
-                        if not checkIsExceptDomain(link):
-                            self.arr_links.append(link)       # append link to the return list
+            if self.num_link < NUM_LINK_EACH_PAGE:
+                # For craw link handle <a> and ??? tags
+                for key, val in attrs:
+                    if key == "href":
+                        if containStatic(val):
+                            pass
+                        else:                                     # handle links
+                            link = urljoin(self.link, val)        # append relative path to the root path
+                            link = clean(link)                    # clean up link
+                            
+                            if (self.link_mode == "search_result" and not checkIsExceptDomain(link)) or (self.link_mode == "same_side" and sameDomain(link, self.domain)):
+                                if link.lower() not in self.arr_crawled:
+                                    self.arr_links.append(link)       # append link to the return list
+                                    self.num_link += 1
+                                    self.arr_crawled.append(link.lower())
+                
+
         '''
         elif self.whatcrawling_mode == "content":         # only run when mode: crawling content
             # For check tag to craw right content
@@ -45,12 +61,16 @@ class MyHTMLParser(HTMLParser):
                 self.content += " "+data
     '''
 
-    def run(self, link, whatcrawling_mode):
+    def run(self, link, whatcrawling_mode, link_mode):
         self.whatcrawling_mode = whatcrawling_mode    # define craw link or craw content,...
         self.link = link                              # save root path
         self.arr_links = []                           # return crawling link list
         self.content = ""                             # return content of page
         self.current_tag = ""
+        self.link_mode = link_mode
+        self.domain = getDomain(link)                 # get and save domain
+        self.num_link = 0
+        self.arr_crawled = []
         #self.not_content_link = False
         #self.inside_footer = False
         
@@ -73,31 +93,36 @@ class MyHTMLParser(HTMLParser):
 
 class MySpider(object):
     def __init__(self):
-        self.arr_crawled = []              # list for already crawled links
         self.parser = MyHTMLParser()
     
     # craw to get link. Input:link, Output:link
-    def craw_link(self, link):
+    def craw_link(self, link, mode):
+        if mode == "accident":
+            link_mode = "search_result"
+            file_500page = FILE_500_PAGE_ACCIDENTS
+        elif mode == "ordinary":
+            link_mode = "same_side"
+            file_500page = FILE_500_PAGE_ORDINARY
+
         target_link = clean(link)
 
-        print("Craw keyword link for: "+target_link)
-        print("1.1.C. Get top 10 URLs each...")
-        with open(FILE_500_PAGE_ACCIDENTS, "a", encoding="utf-8") as gd:
-            gd.write("**** Craw keyword link for: "+target_link+"\n")
+        print("Craw link for: "+target_link)
+        print("1.1.C. Get 10 URLs each...")
+        with open(file_500page, "a", encoding="utf-8") as gd:
+            gd.write("**** Craw link for: "+target_link+"\n")
 
-        links = self.parser.run(target_link, "link")
+        links = self.parser.run(target_link, "link", link_mode)
         
         for l in links:
-            if l not in self.arr_crawled:
-                with open(FILE_500_PAGE_ACCIDENTS, "a", encoding="utf-8") as gd:
-                    gd.write(" + "+l+"\n")
-            self.arr_crawled.append(l)
+            with open(file_500page, "a", encoding="utf-8") as gd:
+                gd.write(" + "+l+"\n")
+
     
     def craw_content(self, link):
         target_link = clean(link)
 
         print("Craw content for: "+target_link)
-        content = self.parser.run(target_link, "content")
+        content = self.parser.run(target_link, "content", "")
         return content
 
     
