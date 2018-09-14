@@ -18,6 +18,7 @@ FILE_3000_ORDINARY_NOUNS = "ordinary_contents\\3000_ordinary_nouns.txt"
 NUMBER_NOUN_FILTERED = 3000
 NUMBER_LINK_EACH_PAIR = 500
 NUM_LINK_EACH_PAGE = 10
+MAX_CHARACTER_EACH_PAGE = 20000+1
 NOT_CONTENT_TAG = ["script", "style", "video"]
 
 class MyHTMLParser(HTMLParser):
@@ -81,7 +82,7 @@ class MyHTMLParser(HTMLParser):
                 self.feed(html)                     # parse the html and parse link
                 return self.arr_links
             elif whatcrawling_mode == "content":
-                self.content = ParseContent.htmlToText(str(html))
+                self.content = ParseContent.htmlToText(str(html))[:MAX_CHARACTER_EACH_PAGE]
                 return self.content
         except KeyboardInterrupt:                   # deal with Ctrl-C
             exit()
@@ -97,6 +98,7 @@ class MySpider(object):
     
     # craw to get link. Input:link, Output:link
     def craw_link(self, link, mode):
+        target_link = clean(link)
         if mode == "accident":
             link_mode = "search_result"
             file_500page = FILE_500_PAGE_ACCIDENTS
@@ -107,8 +109,6 @@ class MySpider(object):
             file_500page = FILE_500_PAGE_ORDINARY
             print("Craw link for: "+target_link)
             print("1.2.C. Get 10 URLs each...")
-
-        target_link = clean(link)
 
         with open(file_500page, "a", encoding="utf-8", errors='ignore') as gd:
             gd.write("**** Craw link for: "+target_link+"\n")

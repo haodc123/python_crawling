@@ -73,6 +73,10 @@ def main():
         getTrafficAccidents()
     elif args[0] == "--ord":      # 1.2. Get ordinary contents
         getOrdinaryContent()
+    elif args[0] == "--file":     # 1.3. Make teacher data
+        arr_500_accident_link = get500LinksFromFile("accident")
+        arr_500_ordinary_link = get500LinksFromFile("ordinary")
+        create1000File(arr_500_accident_link, arr_500_ordinary_link)
     elif args[0] == "--mix":      # 1.1 + 1.2 + 1.3. Make teacher data
         arr_500_accident_link = getTrafficAccidents()
         arr_500_ordinary_link = getOrdinaryContent()
@@ -144,6 +148,21 @@ def create1000File(arr_500_accident_link, arr_500_ordinary_link):
     # For 500 Ordinary
     for i in range(NUMBER_LINK_EACH_PAIR):
         create500FileCountNoun("ordinary", i, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS, arr_500_ordinary_link)
+
+def get500LinksFromFile(mode):
+    if mode == "accident":
+        file_500_links = FILE_500_PAGE_ACCIDENTS
+    elif mode == "ordinary":
+        file_500_links = FILE_500_PAGE_ORDINARY
+
+    links_line = [line.rstrip('\n') for line in open(file_500_links, encoding="utf8")]
+    arr_500links = []
+    for l in links_line:
+        if l[:3] == " + ":
+            if len(arr_500links) >= NUMBER_LINK_EACH_PAIR:
+                break
+            arr_500links.append(l[3:])
+    return arr_500links
 
 
 def saveContentEachPage(content, index, mode):
@@ -231,8 +250,9 @@ def countAndGetCommonNounFromFile(mode):
 
 
 def test():
-    a= urlToFileName("https://vnexpress.net/tin-tuc/123/12~1!abc^gg")
-    print(a)
+    File = open("traffic_accidents\\content_accidents_page_12.txt", encoding="utf-8", errors='ignore')
+    c = File.read()
+    print(len(str(c)))
 
 
         

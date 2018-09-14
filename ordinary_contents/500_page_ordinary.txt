@@ -18,7 +18,7 @@
  + http://vozforums.com/external.php?type=RSS2&which=ctlt
  + http://vozforums.com/external.php?type=RSS2&which=ads
  + http://vozforums.com/index.php
- + http://vozforums.com/showthread.php?t=7391062
+ + http://vozforums.com/showthread.php?t=7399501
  + http://vozforums.com/faq.php
 **** Craw link for: http://daikynguyenvn.com
 **** Craw link for: http://chotot.vn
@@ -56,7 +56,17 @@
  + http://vnexpress.net/tin-tuc/the-gioi
  + https://kinhdoanh.vnexpress.net
  + https://giaitri.vnexpress.net
-**** Craw link for: http://zing.vn
+**** Craw link for: http://careerlink.vn
+ + https://www.careerlink.vn
+ + http://careerlink.vn/nguoi-tim-viec/ho-so/moi
+ + http://careerlink.vn/nha-tuyen-dung
+ + http://careerlink.vn/nguoi-tim-viec
+ + http://careerlink.vn/nguoi-tim-viec/dang-ky
+ + http://careerlink.vn/vi/jobseeker/to-login
+ + http://careerlink.vn
+ + http://careerlink.vn/viec-lam/an-ninh-bao-ve/197
+ + http://careerlink.vn/viec-lam/an-toan-lao-dong/191
+ + http://careerlink.vn/viec-lam/ban-hang/31
 **** Craw link for: http://doisongphapluat.com
  + http://www.doisongphapluat.com
  + http://m.doisongphapluat.com
@@ -100,7 +110,7 @@
  + http://thuthuat.taimienphi.vn/windows-10-canh-bao-nguoi-dung-cai-dat-chrome-hoac-firefox-37878n.aspx
  + http://thuthuat.taimienphi.vn/nguoi-dung-da-co-the-su-dung-grammarly-trong-google-docs-37877n.aspx
  + http://thuthuat.taimienphi.vn/giveaway-ban-quyen-mien-phi-tabbles-5-37851n.aspx
- + http://thuthuat.taimienphi.vn/giveaway-ban-quyen-mien-phi-wise-duplicate-finder-pro-tim-va-xoa-tep-tin-trung-lap-26397n.aspx
+ + http://thuthuat.taimienphi.vn/giveaway-ban-quyen-mien-phi-bitcopy-37912n.aspx
  + http://taimienphi.vn/top-moi-cap-nhat-all-web
 **** Craw link for: http://kienthuc.net.vn
  + https://kienthuc.net.vn
@@ -283,17 +293,17 @@
  + http://soha.vn/quan-su.htm
  + http://soha.vn/the-thao.htm
  + http://soha.vn/cu-dan-mang.htm
-**** Craw link for: http://wikipedia.org
- + http://wikipedia.org/portal/wikipedia.org/assets/img/sprite-6e35f464.svg
- + http://en.wikipedia.org
- + http://es.wikipedia.org
- + http://ja.wikipedia.org
- + http://de.wikipedia.org
- + http://ru.wikipedia.org
- + http://fr.wikipedia.org
- + http://it.wikipedia.org
- + http://zh.wikipedia.org
- + http://pt.wikipedia.org
+**** Craw link for: http://cafef.vn
+ + http://cafef.vn
+ + http://m.cafef.vn
+ + http://cafef.vn/gui-tin-nhanh.chn
+ + http://liveboard.cafef.vn
+ + http://s.cafef.vn/danh-muc-dau-tu.chn
+ + http://cafef.vn/doc-nhanh.chn
+ + http://cafef.vn/cuoc-chien-vo-cuc-cua-tong-thong-widodo-va-nhung-cau-chuyen-lan-toa-hau-truong-wef-asean-2018-20180914104939228.chn
+ + http://cafef.vn/co-phieu-dau-khi-ngan-hang-tiep-da-but-pha-vn-index-lay-lai-moc-tam-ly-990-diem-20180914095812806.chn
+ + http://cafef.vn/bo-truong-tre-nhat-malaysia-nu-ty-phu-dau-tien-cua-viet-nam-va-nhung-giac-mo-bo-ngo-cho-nguoi-tre-20180914110227504.chn
+ + http://cafef.vn/giam-doc-su-dung-ca-phe-tap-chat-lua-dao-hon-500-ty-dong-cua-5-ngan-hang-20180914103913556.chn
 **** Craw link for: http://batdongsan.com.vn
 **** Craw link for: http://ngoisao.vn
  + https://ngoisao.vn
@@ -356,6 +366,16 @@
 **** Craw link for: http://htpp://vietcombank.com.vn
 **** Craw link for: http://phimmoi.net
 **** Craw link for: http://vov.vn
+ + https://vov.vn
+ + https://m.vov.vn
+ + http://vov.vn
+ + http://english.vov.vn
+ + http://vov.vn/rss.aspx
+ + http://vov1.vov.vn
+ + http://vov3.vov.vn
+ + https://vov.vn/RadioPlayer.vov?c=vovgt
+ + http://vov2.vov.vn
+ + http://vov4.vov.vn
 **** Craw link for: http://htpp://timviecnhanh.com
 **** Craw link for: http://tinhte.vn
  + https://tinhte.vn/rss
@@ -368,3 +388,200 @@
  + https://tinhte.vn/windows
  + https://tinhte.vn/macos
  + http://tinhte.vn/threads/ha-noi-moi-dang-ky-tham-du-buoi-offline-nokia-fan-day-va-trai-nghiem-nokia-6-1-plus.2849429
+**** Craw link for: http://afamily.vn
+ + http://afamily.vn
+ + http://m.afamily.vn
+ + http://afamily.vn/hau-truong.chn
+ + http://afamily.vn/giai-tri.chn
+ + http://afamily.vn/dep.chn
+ + http://afamily.vn/doi-song.chn
+ + http://afamily.vn/an-ngon.chn
+ + http://afamily.vn/an-ngon/may-va.html
+ + http://afamily.vn/an-ngon/tu-lam-thiep.html
+ + http://afamily.vn/an-ngon/cach-cam-hoa-dep.html
+**** Craw link for: http://bongda.com.vn
+ + http://bongda.com.vn
+ + http://bongda.com.vn/tin-moi-nhat
+ + http://www.bongda.com.vn/tin-chuyen-nhuong
+ + http://www.bongda.com.vn/bong-da-anh
+ + http://www.bongda.com.vn/ngoai-hang-anh
+ + http://www.bongda.com.vn/cup-lien-doan-anh
+ + http://www.bongda.com.vn/cup-fa
+ + http://www.bongda.com.vn/tin-khac-anh
+ + http://www.bongda.com.vn/viet-nam
+ + http://www.bongda.com.vn/v-league
+**** Craw link for: http://eva.vn
+ + https://eva.vn
+ + https://cdn.eva.vn
+ + https://eva.vn/lang-sao/hot-an-nguy-va-kieu-minh-tuan-khang-dinh-dang-yeu-nhau-du-biet-la-sai-trai-c20a366333.html
+ + https://eva.vn/tin-tuc/ngay-cuoi-can-ke-chu-re-26-lay-co-dau-62-tuoi-noi-thang-ly-do-quyet-lay-vo-gia-c73a366332.html
+ + https://eva.vn/chu-re-26-co-dau-62-p3334c73.html
+ + https://eva.vn/lam-me/co-con-gai-lanh-loi-cua-dien-vien-huy-khanh-gio-lon-bong-va-xinh-xan-tua-thieu-nu-c10a366370.html
+ + https://eva.vn/hoang-anh-va-huy-khanh-p2459c20.html
+ + https://eva.vn/ba-bau/luon-xinh-dep-va-nha-nhan-mang-bau-my-nhan-viet-lai-hanh-chong-len-bo-xuong-ruong-c85a366351.html
+ + https://eva.vn/sao-viet-co-bau-sinh-con-p2460c20.html
+ + https://eva.vn/thoi-trang/hiem-lam-moi-dam-khoe-anh-bikini-nhung-kieu-nu-lang-hai-nam-thu-bi-fans-che-cuc-lay-c36a366315.html
+**** Craw link for: http://bongdaplus.vn
+ + http://bongdaplus.vn
+ + http://bongdaplus.vn/bong-da-viet-nam.html
+ + http://bongdaplus.vn/ngoai-hang-anh.html
+ + http://bongdaplus.vn/bong-da-tay-ban-nha.html
+ + http://bongdaplus.vn/bong-da-duc.html
+ + http://bongdaplus.vn/bong-da-phap.html
+ + http://bongdaplus.vn/bong-da-y.html
+ + http://bongdaplus.vn/champions-league-cup-c1.html
+ + http://bongdaplus.vn/europa-league.html
+ + http://bongdaplus.vn/chuyen-nhuong.html
+**** Craw link for: http://360game.vn
+ + http://360game.vn
+ + http://360game.vn/ho-tro-khach-hang
+ + https://360game.vn/web-game/ba-dao-chi-ton_24820?_src=360-search&utm_source=360Game&utm_medium=sug_tag
+ + https://360game.vn/web-game/hiep-khach-h5_24817?_src=360-search&utm_source=360Game&utm_medium=sug_tag
+ + https://360game.vn/web-game/thai-cuc-kiem_24812?_src=360-search&utm_source=360Game&utm_medium=sug_tag
+ + https://360game.vn/web-game/ba-dao_24808?_src=360-search&utm_source=360Game&utm_medium=sug_tag
+ + http://360game.vn/web-game?_src=360-menu&utm_source=360Game&utm_medium=menu_game
+ + http://360game.vn/360game-plus?_src=360-menu&utm_source=360Game&utm_medium=menu_game
+ + https://h5.360game.vn/?_src=360-menu&utm_source=360Game&utm_medium=menu_game
+ + http://360game.vn/user/game-da-choi?_src=360-menu&utm_source=360Game&utm_medium=menu_profile
+**** Craw link for: http://blogtamsu.vn
+**** Craw link for: http://laban.vn
+**** Craw link for: http://muaban.net
+ + https://muaban.net
+ + http://muaban.net/content/css?v=irmQ6oJIpdiIWozOWDwndyzZLn97FYUY6SeKRq7f1ro1
+ + http://muaban.net/content/themes/base/css?v=EMXAPOkJh5hir7Qh2z5-eLqCL4GwAgWbeJtdhu0k5601
+ + https://muaban.net/app/download
+ + http://muaban.net
+ + http://muaban.net/dang-tin
+ + http://muaban.net/tim-kiem-di-dong
+ + http://muaban.net/trang-ca-nhan/SignIn
+ + http://muaban.net/trang-ca-nhan/SignUp
+ + http://muaban.net/trang-ca-nhan
+**** Craw link for: http://nld.com.vn
+ + https://nld.com.vn
+ + http://nld.com.vn
+ + https://thitruong.nld.com.vn
+ + https://diaoc.nld.com.vn
+ + https://tv.nld.com.vn
+ + https://phunu.nld.com.vn
+ + https://nld.com.vn/kinh-te/nong-nghiep-huu-co.htm
+ + https://vieclam.nld.com.vn
+ + http://nld.com.vn/thoi-su.htm
+ + http://nld.com.vn/thoi-su-quoc-te.htm
+**** Craw link for: http://htpp://thuocbietduoc.com
+**** Craw link for: http://htpp://thegioididong.com
+**** Craw link for: http://sinhvienit.net
+ + http://sinhvienit.net
+**** Craw link for: http://phim3s.net
+ + http://phim3s.net
+**** Craw link for: http://xaluan.com
+ + http://www.xaluan.com
+ + http://www.xaluan.com/m.php
+ + http://xaluan.com/https/plus.google.com/108127124546432959424
+ + http://xaluan.com
+ + http://xaluan.com/rss.php
+ + http://xaluan.com/includes/amlich/month.html
+ + http://xaluan.com/modules.php?name=News&file=article&sid=2323777
+ + http://xaluan.com/modules.php?name=News&file=article&sid=2323410
+ + http://xaluan.com/modules.php?name=News&file=article&sid=2323411
+ + http://xaluan.com/modules.php?name=News&file=article&sid=2323412
+**** Craw link for: http://genk.vn
+ + http://genk.vn
+ + http://m.genk.vn
+ + http://genk.vn/mobile.chn
+ + http://genk.vn/dien-thoai.chn
+ + http://genk.vn/may-tinh-bang.chn
+ + http://genk.vn/internet.chn
+ + http://genk.vn/digital-marketing.chn
+ + http://genk.vn/media.chn
+ + http://genk.vn/kham-pha.chn
+ + http://genk.vn/lich-su.chn
+**** Craw link for: http://tinmoi.vn
+ + http://www.tinmoi.vn
+ + http://m.tinmoi.vn
+ + http://tinmoi.vn/tin-tuc-24h.html
+ + http://tinmoi.vn/C/tin-nhanh
+ + http://www.tinmoi.vn/C/Tin-tuc
+ + http://www.tinmoi.vn/C/Su-kien
+ + http://www.tinmoi.vn/C/facebook
+ + http://www.tinmoi.vn/C/tin-thoi-tiet
+ + http://www.tinmoi.vn/thoi-tiet
+ + http://www.tinmoi.vn/C/muon-mau-cuoc-song
+**** Craw link for: http://thiendia.com
+ + https://thiendia.com/diendan/forums/phim-sex-online-phim-nguoi-lon-download-nhanh.88
+ + https://thiendia.com/diendan/forums/anh-sex-gai-viet-hinh-sex-cuc-dam.28
+ + https://thiendia.com/diendan
+ + https://thiendia.com/diendan/forums/trung-tam-share-hang-gai-goi-ha-noi-mien-bac.189
+ + https://thiendia.com/diendan/forums/truyen-sex-truyen-nguoi-lon-truyen-xxx.34
+ + https://thiendia.com/diendan/forums/gai-goi-saigon-tphcm
+ + http://thiendia.com/disclaimer.htm
+ + https://thiendia.com/diendan/forums/kho-phim-sex-lauxanh-http-download-sex-movies.21
+ + https://thiendia.com/diendan/forums/phim-sex-chau-au-full-western-porn-full-movie.65
+ + https://thiendia.com/diendan/forums/hentai-hoat-hinh.24
+**** Craw link for: http://mibet.com
+ + https://www.mibet.com
+ + https://www.mibet.com/ngan-hang.html
+ + https://www.mibet.com/tro-giup.html
+ + https://www.mibet.com/lien-he.html
+ + https://www.mibet.com/ti-le-ca-cuoc.php
+ + https://www.mibet.com/song-bai-online.html
+ + https://www.mibet.com/tro-choi-truc-tuyen.html
+ + https://www.mibet.com/blog
+ + https://www.mibet.com/reg_account.php
+ + https://www.mibet.com/cms/Tai-khoan-dung-thu-13.html
+**** Craw link for: http://blogphongthuy
+**** Craw link for: http://rongbay.com
+ + https://rongbay.com
+ + https://rongbay.com/mua-luot-len-trang-1-cho-tin.html
+ + https://rongbay.com/tin-tron-doi.html
+ + https://rongbay.com/tin-vip.html
+ + https://rongbay.com/bang-gia-cac-dich-vu.html
+ + https://rongbay.com/su-dung-tai-khoan-chuyen-nghiep.html
+ + https://rongbay.com/su-dung-tai-khoan-vip.html
+ + https://rongbay.com/Mua-tin-vip-dai-ngay-fp38.html
+ + https://rongbay.com/Cach-viet-tieu-de-than-thien-loi-cuon-khach-hang-fp39.html
+ + https://rongbay.com/Cach-trinh-bay-noi-dung-tot-fp40.html
+**** Craw link for: http://vitalk.vn
+ + http://vitalk.vn
+ + http://vitalk.vn/forums/nong.9
+ + http://vitalk.vn/forums/sao.3
+ + http://vitalk.vn/forums/song.5
+ + http://vitalk.vn/forums/dinh.17
+ + http://vitalk.vn/forums/hai.8
+ + http://vitalk.vn/video/chi-trong-2-phut-ke-la-mat-da-khong-che-bao-ve-lam-xong-vu-cuop-ngan-hang-tai-tien-giang.153689828571287001
+ + http://vitalk.vn/members/thu-nguyen.153084294501212003
+ + http://vitalk.vn/video/khong-phai-pr-phim-muc-dich-thuc-su-khi-kieu-minh-tuan-va-an-nguy-cong-khai-yeu-nhau-la-gi.153689935240869001
+ + http://vitalk.vn/members/pe-tit-88.4149
+**** Craw link for: http://tubecup.com
+**** Craw link for: http://techz.vn
+ + http://www.techz.vn
+ + https://amp.techz.vn
+ + http://techz.vn
+ + http://www.techz.vn/C/tin-tuc-cong-nghe
+ + http://www.techz.vn/C/xe-a-z
+ + http://www.techz.vn/C/danh-gia-san-pham
+ + http://www.techz.vn/C/khoa-hoc-doi-song
+ + http://www.techz.vn/C/thu-thuat
+ + http://www.techz.vn/topic
+ + http://shop.techz.vn
+**** Craw link for: http://muare.vn
+ + https://muare.vn/locations/change-location/1
+ + https://muare.vn/locations/change-location/2
+ + https://muare.vn/locations/change-location/3
+ + https://muare.vn/locations/change-location/4
+ + https://muare.vn/mua-quang-cao
+ + http://muare.vn
+ + https://muare.vn/page/term
+ + https://muare.vn/page/policy
+ + https://muare.vn/huong-dan-su-dung
+ + https://muare.vn
+**** Craw link for: http://vietbao.vn
+ + http://vietbao.vn
+ + http://tim.vietbao.vn/Vladimir_Putin
+ + http://tim.vietbao.vn/H%C6%B0%C6%A1ng_Giang_idol
+ + http://tim.vietbao.vn/T%E1%BB%B1_truy%E1%BB%87n_Ho%C3%A0ng_Th%C3%B9y_Linh
+ + http://tim.vietbao.vn/C%C3%B4_gi%C3%A1o_ph%E1%BA%A3i_qu%E1%BB%B3_g%E1%BB%91i
+ + http://tim.vietbao.vn/Ch%C3%A2u_Vi%E1%BB%87t_C%C6%B0%E1%BB%9Dng
+ + http://tim.vietbao.vn/T%C3%ADnh_l%C3%A3i_su%E1%BA%A5t_ki%E1%BB%83u_m%E1%BB%9Bi
+ + http://vietbao.vn/vn/thoitiet/Ha-Noi
+ + http://vietbao.vn/vn/thoitiet/Ha-Noi/Ngay-Mai
+ + http://vietbao.vn/vn/thoitiet/Ha-Noi/Ngay-Kia

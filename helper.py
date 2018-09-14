@@ -47,9 +47,9 @@ def getDomain(url):
 
 def urlToFileName(url):
     if "https" in url:
-        return url[8:].translate({ord(c): "_" for c in "!@#$%^&*()[]{};:,./<>?\|`"})
+        return url[8:].split("?")[0].translate({ord(c): "_" for c in "!@#$%^&*()[]{};:,./<>?\|`"})
     elif "http" in url:
-        return url[7:].translate({ord(c): "_" for c in "!@#$%^&*()[]{};:,./<>?\|`"})
+        return url[7:].split("?")[0].translate({ord(c): "_" for c in "!@#$%^&*()[]{};:,./<>?\|`"})
 
 def sameDomain(url, domain):
     '''
