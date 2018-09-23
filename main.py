@@ -1,3 +1,4 @@
+# coding=utf8
 '''
 1. Gathering teacher data
     1.1. Get traffic accident contents
@@ -38,12 +39,17 @@
     F. Verify
 '''
 import sys
-from spider import MySpider
-from helper import makeLinkFromKeyword, isNoun, urlToFileName
+from spider import MySpider, ParseHTMLManual
+from helper import *
+from modeling import MyModeling
 from underthesea import pos_tag
 import requests
 from collections import Counter
 import csv
+import threading
+import time
+from queue import Queue
+import re
 
 FILE_50_WORD_ACCIDENTS = "traffic_accidents\\50_accidents_words.txt"
 FILE_500_PAGE_ACCIDENTS = "traffic_accidents\\500_page_accidents.txt"
@@ -56,7 +62,19 @@ FILE_ALL_ORDINARY_NOUNS = "ordinary_contents\\all_ordinary_nouns.txt"
 FILE_3000_ORDINARY_NOUNS = "ordinary_contents\\3000_ordinary_nouns.txt"
 
 NUMBER_NOUN_FILTERED = 3000
-NUMBER_LINK_EACH_PAIR = 500
+NUMBER_LINK_EACH_PAIR = 600
+
+NUM_WORKERS = 200 #threading
+listAccidentURL = set()
+listOrdinaryURL = set()
+#listAccidentURL2 = set()
+#listOrdinaryURL2 = set()
+urls = Queue()
+urls2 = Queue()
+urls3 = Queue()
+urlsO = Queue()
+urlsO2 = Queue()
+urlsO3 = Queue()
 
 '''
 Usage:
@@ -69,85 +87,148 @@ def main():
     arr_500_accident_link = []
     arr_500_ordinary_link = []
     args = sys.argv[1:]
-    if args[0] == "--tra":        # 1.1. Get traffic accident contents
-        getTrafficAccidents()
-    elif args[0] == "--ord":      # 1.2. Get ordinary contents
-        getOrdinaryContent()
-    elif args[0] == "--file":     # 1.3. Make teacher data
-        arr_500_accident_link = get500LinksFromFile("accident")
-        arr_500_ordinary_link = get500LinksFromFile("ordinary")
-        create1000File(arr_500_accident_link, arr_500_ordinary_link)
-    elif args[0] == "--mix":      # 1.1 + 1.2 + 1.3. Make teacher data
-        arr_500_accident_link = getTrafficAccidents()
-        arr_500_ordinary_link = getOrdinaryContent()
-        create1000File(arr_500_accident_link, arr_500_ordinary_link)
+    
+    if len(args) == 1 and args[0] == "--link_tra":
+        mode = "accident"
+        getLink(mode, FILE_50_WORD_ACCIDENTS, FILE_500_PAGE_ACCIDENTS)
+    elif len(args) == 1 and args[0] == "--content_tra":
+        start = time.time()
+        mode = "accident"
+        getContent(mode, FILE_50_WORD_ACCIDENTS, FILE_500_PAGE_ACCIDENTS)                     
+        print('1.1. Get traffic accident contents:', time.time() - start)
+    elif len(args) == 1 and args[0] == "--tra":        # 1.1. Get traffic accident contents
+        start = time.time()
+        mode = "accident"
+        getLink(mode, FILE_50_WORD_ACCIDENTS, FILE_500_PAGE_ACCIDENTS)
+        getContent(mode, FILE_50_WORD_ACCIDENTS, FILE_500_PAGE_ACCIDENTS)                     
+        print('1.1. Get traffic accident contents:', time.time() - start)
+    
+    elif len(args) == 1 and args[0] == "--link_ord":
+        mode = "ordinary"
+        getLink(mode, FILE_50_ALEXA_ORDINARY_LINK, FILE_500_PAGE_ORDINARY)
+    elif len(args) == 1 and args[0] == "--content_ord":      # 1.2. Get ordinary contents
+        start = time.time()
+        mode = "ordinary"
+        getContent(mode, FILE_50_ALEXA_ORDINARY_LINK, FILE_500_PAGE_ORDINARY)
+        print('1.2. Get ordinary contents:', time.time() - start)
+    elif len(args) == 1 and args[0] == "--ord":      # 1.2. Get ordinary contents
+        start = time.time()
+        mode = "ordinary"
+        getLink(mode, FILE_50_ALEXA_ORDINARY_LINK, FILE_500_PAGE_ORDINARY)
+        getContent(mode, FILE_50_ALEXA_ORDINARY_LINK, FILE_500_PAGE_ORDINARY)
+        print('1.2. Get ordinary contents:', time.time() - start)
+    
+    elif len(args) == 1 and args[0] == "--file":     # 1.3. Make teacher data
+        start = time.time() 
+        addLinkToQueue(FILE_500_PAGE_ACCIDENTS, "accident")
+        create1000File("accident", listAccidentURL)
+        addLinkToQueue(FILE_500_PAGE_ORDINARY, "ordinary")           
+        create1000File("ordinary", listOrdinaryURL)
+        print('1.3. Make teacher data:', time.time() - start)
+    elif len(args) == 1 and args[0] == "--mix":      # 1.1 + 1.2 + 1.3. Make teacher data
+        start = time.time()
+        getLink("accident", FILE_50_WORD_ACCIDENTS, FILE_500_PAGE_ACCIDENTS)
+        getContent("accident", FILE_50_WORD_ACCIDENTS, FILE_500_PAGE_ACCIDENTS)
+        getLink("ordinary", FILE_50_ALEXA_ORDINARY_LINK, FILE_500_PAGE_ORDINARY)
+        getContent("ordinary", FILE_50_ALEXA_ORDINARY_LINK, FILE_500_PAGE_ORDINARY)
+        create1000File("accident", listAccidentURL)
+        create1000File("ordinary", listOrdinaryURL)
+        print('1.1 + 1.2 + 1.3. Make teacher data:', time.time() - start)
+    
+    elif len(args) == 1 and args[0] == "--model":
+        # 2. Modeling
+        mmd = MyModeling("regressor")
+        mmd.createModel()
+        mmd.testModelRegressor()
+    elif len(args) == 1 and args[0] == "--model2":
+        # 2. Modeling
+        mmd = MyModeling("classifier")
+        mmd.createModel()
+        mmd.testModelClassifier()
+    elif len(args) == 2 and args[0] == "--model" and args[1] != "":
+        # 2. Modeling + 3. Validation
+        link = clean(args[1])
+        createValidationData(link)
+        mmd = MyModeling("regressor")
+        mmd.validateModel(link)
+    elif len(args) == 2 and args[0] == "--model2" and args[1] != "":
+        # 2. Modeling + 3. Validation
+        link = clean(args[1])
+        createValidationData(link)
+        mmd = MyModeling("classifier")
+        mmd.validateModel(link)
+    
     elif args[0] == "--test":
         test()
+    else:
+        print("Wrong syntax, please try again!")
 
 # 1.1. Get traffic accident contents
-def getTrafficAccidents():
+def getContent(mode, wordFile, urlFile):
+    if ("accident" == mode):
+        file = FILE_ALL_ACCIDENTS_NOUNS
+    else: 
+        file = FILE_ALL_ORDINARY_NOUNS
+    
+    print("D. Crawling 500 pages from 500_page_accidents.txt....")
+    
+    addLinkToQueue(urlFile, mode)
+    spider = MySpider()
+    with open(file, "a", encoding="utf-8", errors='ignore') as gd:
+        create_workersGetContent(mode, spider, gd)
+        create_jobs(mode) 
+        create_jobs2(mode) 
+        create_jobs3(mode)
+        gd.close()
+    
+    print("G. Count all the noun words together and align  them desc and pick up 3000 words...")
+    countAndGetCommonNounFromFile(mode)
+    
+def getLink(mode, wordFile, urlFile):
     print("1.1.A. Read 50 VNese word related to traffic accidents from accidents.txt...")
-    tra_words = [line.rstrip('\n') for line in open(FILE_50_WORD_ACCIDENTS, encoding="utf8")]
+    tra_words = [line.rstrip('\n') for line in open(wordFile, encoding="utf8")]
     tra_words = tra_words[1:]    # bypass first row
     
-    print("1.1.B. Google 50 words seperate (using Bing replace)...")
+    print("B. Google 50 words seperate (using Bing replace)...")
     spider = MySpider()
+    print("C. Get 10 URLs each...")
     for w in tra_words:
-        link = makeLinkFromKeyword(w)
-        spider.craw_link(link, "accident")
-        
-    print("1.1.D. Crawling 500 pages from 500_page_accidents.txt....")
-    tra_links = [line.rstrip('\n') for line in open(FILE_500_PAGE_ACCIDENTS, encoding="utf8")]
-    arr_500links = []
-    for l in tra_links:
-        if l[:3] == " + ":
-            if len(arr_500links) >= NUMBER_LINK_EACH_PAIR:
-                break
-            arr_500links.append(l[3:])
-            content = spider.craw_content(l[3:])
-            saveContentEachPage(content, len(arr_500links)-1, "accident")
-    
-    print("1.1.G. Count all the noun words together and align  them desc and pick up 3000 words...")
-    countAndGetCommonNounFromFile("accident")
-    return arr_500links
+        if ("accident" == mode):
+            link = makeLinkFromKeyword(w)
+            file = FILE_ALL_ACCIDENTS_NOUNS
+        elif ("ordinary" == mode):
+            link = w
+            file = FILE_ALL_ORDINARY_NOUNS
+        spider.crawLink(link, mode)
 
-
-# 1.2. Get ordinary contents
-def getOrdinaryContent():
-    print("1.2.A. List up top 50 Vietnamese sites. using similarweb and/or Alexa...")
-    alexa_links = [line.rstrip('\n') for line in open(FILE_50_ALEXA_ORDINARY_LINK, encoding="utf8")]
-    alexa_links = alexa_links[1:]    # bypass first row
-    
-    print("1.2.B. Crawling 10 pages for each site....")
+# Create count noun file for validation file
+def createValidationData(link):
     spider = MySpider()
-    for l in alexa_links:
-        spider.craw_link(l, "ordinary")
-        
-    print("1.2.D. Crawling 500 pages from 500_page_ordinary.txt....")
-    ord_links = [line.rstrip('\n') for line in open(FILE_500_PAGE_ORDINARY, encoding="utf8")]
-    arr_500links = []
-    for l in ord_links:
-        if l[:3] == " + ":
-            if len(arr_500links) >= NUMBER_LINK_EACH_PAIR:
-                break
-            arr_500links.append(l[3:])
-            content = spider.craw_content(l[3:])
-            saveContentEachPage(content, len(arr_500links)-1, "ordinary")
-    
-    print("1.2.G. Count all the noun words together and align  them desc and pick up 3000 words...")
-    countAndGetCommonNounFromFile("ordinary")
-    return arr_500links
+    mode = "validation"
+    content = spider.crawContent(link)
+    saveContentEachPage(content, link, mode)
+    createFileCountNoun("validation", link, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS)
 
-
+def addLinkToQueue(urlFile, mode):
+    tra_links = [line.rstrip('\n') for line in open(urlFile, encoding="utf8", errors='ignore')]
+    for url in tra_links:        
+        #if "**** Craw link for" in str(url):
+        #    continue
+        if url[:3] == " + ":
+            if ("youtube" in str(url[3:])):            
+                tmp = url[3:]
+            else: 
+                tmp = url[3:].split('?')[0]
+            if (mode == "accident"): 
+                listAccidentURL.add(tmp) 
+            elif (mode == "ordinary"):
+                listOrdinaryURL.add(tmp)
+       
 # 1.3. Make teacher data
-def create1000File(arr_500_accident_link, arr_500_ordinary_link):
-    print("1.3.B. Make 1000 files (500 each folder corresponding 500 URLs)...")
-    # For 500 Accident
-    for i in range(NUMBER_LINK_EACH_PAIR):
-        create500FileCountNoun("accident", i, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS, arr_500_accident_link)
-    # For 500 Ordinary
-    for i in range(NUMBER_LINK_EACH_PAIR):
-        create500FileCountNoun("ordinary", i, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS, arr_500_ordinary_link)
+def create1000File(mode, listURLs):
+    print("1.3.B. Make 1000 files (500 each folder corresponding 500 URLs)...")   
+    for url in listURLs:
+        createFileCountNoun(mode, url, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS)
 
 def get500LinksFromFile(mode):
     if mode == "accident":
@@ -165,54 +246,93 @@ def get500LinksFromFile(mode):
     return arr_500links
 
 
-def saveContentEachPage(content, index, mode):
+def saveContentEachPage(content, url, mode):
+    #print("saveContentEachPage start...")
     if mode == "accident":
-        file_content_page = "traffic_accidents\\content_accidents_page_"+str(index)+".txt"
-        file_all_noun = FILE_ALL_ACCIDENTS_NOUNS
+        file_content_page = "traffic_accidents\\content_accidents_page_"+urlToFileName(url)+".txt"
+        #print(urlToFileName(url))
         print("1.1.E. Get all the texts in each page...")
         print("1.1.F. Separate and extract all the noun words using the morphing analysis tool...")
     elif mode == "ordinary":
-        file_content_page = "ordinary_contents\\content_ordinary_page_"+str(index)+".txt"
-        file_all_noun = FILE_ALL_ORDINARY_NOUNS
+        file_content_page = "ordinary_contents\\content_ordinary_page_"+urlToFileName(url)+".txt"
         print("1.2.E. Get all the texts in each page...")
         print("1.2.F. Separate and extract all the noun words using the morphing analysis tool...")
+    elif mode == "validation":
+        file_content_page = "modeling\\validation\\content_"+urlToFileName(url)+".txt"
+        print("3.B. Crawl it...")
 
-    with open(file_content_page, "a", encoding="utf-8", errors='ignore') as gd:
+    with open(file_content_page, "a", encoding="utf-8") as gd:
+        print(urlToFileName(url)+" writting txt... ")
+        #print(content)
         gd.write(content)
-
-    arr_nouns = extractNoun(str(content))
-
-    for n in arr_nouns:
-        with open(file_all_noun, "a", encoding="utf-8", errors='ignore') as gd:
-            gd.write(n+", ")
-
+        gd.close()
+        print(urlToFileName(url)+" write OK")
+        
+def getContentfromTxtfile(content, gd): 
+    if (None != content and len(content) > 0):
+        arr_nouns = ", ".join(extractNoun(str(content)))
+        print(arr_nouns)
+        gd.write(arr_nouns+", ")
+        gd.write("\n")
+    
+'''def getContentfromTxtfile(url, mode, gd):  
+    if mode == "accident":
+        # Read content file each page
+        File = open("traffic_accidents\\content_accidents_page_"+urlToFileName(url)+".txt", encoding="utf-8", errors='ignore')
+        content = File.read()
+        File.close()
+    elif mode == "ordinary":
+        # Read content file each page
+        File = open("ordinary_contents\\content_ordinary_page_"+urlToFileName(url)+".txt", encoding="utf-8", errors='ignore')
+        content = File.read()
+        File.close()  
+    #print(content)
+    arr_nouns = ", ".join(extractNoun(str(content)))
+    print(arr_nouns)
+    gd.write(arr_nouns+", ")
+    gd.write("\n")
+'''
 def extractNoun(content):
     arr_nouns = []
-    for word,pos in pos_tag(content):
-        if (pos == 'N' and isNoun(word)):
-            arr_nouns.append(word)
+    if len(content) > 0:
+        for word,pos in pos_tag(content):
+            if (pos == 'N' and isNoun(word)):
+                arr_nouns.append(word)
     return arr_nouns
 
-def create500FileCountNoun(forwhich, index, filenameAccidentNoun, filenameOrdinaryNoun, arr_500_link):
+def createFileCountNoun(forwhich, url, filenameAccidentNoun, filenameOrdinaryNoun):
     # Read 3000 accident noun from file
     File = open(filenameAccidentNoun, encoding="utf-8", errors='ignore')
     accident_nouns = File.read()
-    arr_accident_noun = accident_nouns.split(", ")
+    arr_accident_noun = re.split(', |\n',accident_nouns)
+    #arr_accident_noun = accident_nouns.split(", ")
+    File.close()
     # Read 3000 ordinary noun from file
     File = open(filenameOrdinaryNoun, encoding="utf-8", errors='ignore')
     ordinary_nouns = File.read()
-    arr_ordinary_noun = ordinary_nouns.split(", ")
-
+    arr_ordinary_noun = re.split(', |\n',ordinary_nouns)
+    #arr_ordinary_noun = ordinary_nouns.split(", ")
+    File.close()
+    
+    fileName = urlToFileName(url)
     if forwhich == "accident":
         # Read content file each page
-        File = open("traffic_accidents\\content_accidents_page_"+str(index)+".txt", encoding="utf-8", errors='ignore')
+        File = open("traffic_accidents\\content_accidents_page_"+fileName+".txt", encoding="utf-8", errors='ignore')
         content = File.read()
-        csv_file_name = open("traffic_accidents//"+urlToFileName(arr_500_link[index])+".csv", 'w', encoding="utf-8", errors='ignore')
+        csv_file_name = open("traffic_accidents//training_data//"+fileName+".csv", 'w', encoding="utf-8", errors='ignore', newline='')
+        File.close()
     elif forwhich == "ordinary":
         # Read content file each page
-        File = open("ordinary_contents\\content_ordinary_page_"+str(index)+".txt", encoding="utf-8", errors='ignore')
+        File = open("ordinary_contents\\content_ordinary_page_"+fileName+".txt", encoding="utf-8", errors='ignore')
         content = File.read()
-        csv_file_name = open("ordinary_contents//"+urlToFileName(arr_500_link[index])+".csv", 'w', encoding="utf-8", errors='ignore')
+        csv_file_name = open("ordinary_contents//training_data//"+fileName+".csv", 'w', encoding="utf-8", errors='ignore', newline='')
+        File.close()
+    elif forwhich == "validation":
+        # Read content file each page
+        File = open("modeling\\validation\\content_"+fileName+".txt", encoding="utf-8", errors='ignore')
+        content = File.read()
+        csv_file_name = open("modeling\\validation\\"+fileName+".csv", 'w', encoding="utf-8", errors='ignore', newline='')
+        File.close()
 
     # Count noun in content
     csv_data = [[], []]
@@ -228,6 +348,8 @@ def create500FileCountNoun(forwhich, index, filenameAccidentNoun, filenameOrdina
     with csv_file_name:
         writer = csv.writer(csv_file_name)
         writer.writerows(csv_data)
+        print(csv_data)
+        csv_file_name.close()
 
 def countAndGetCommonNounFromFile(mode):
     if mode == "accident":
@@ -241,19 +363,101 @@ def countAndGetCommonNounFromFile(mode):
     all_nouns = File.read()
     arr_all_noun = all_nouns.split(", ")
     arr_nouns = Counter(arr_all_noun).most_common(NUMBER_NOUN_FILTERED)
-        
-    for word,num in arr_nouns:
-        with open(file_3000_noun, "a", encoding="utf-8", errors='ignore') as gd:
+    File.close()  
+    with open(file_3000_noun, "a", encoding="utf-8", errors='ignore') as gd:
+        for word,num in arr_nouns:
             gd.write(word+", ")
+        gd.close()
 
-
-
+def do_addContent(mode, spider, gd):
+    while True:
+        if ("accident" == mode):
+            url = urls.get() 
+            content = spider.crawContent(url)
+            saveContentEachPage(content, url, mode)   
+            getContentfromTxtfile(content, gd)
+            urls.task_done()
+        else:
+            url1 = urlsO.get()  
+            content = spider.crawContent(url1)
+            saveContentEachPage(content, url1, mode)   
+            getContentfromTxtfile(content, gd)        
+            urlsO.task_done()
+        
+def do_addContent2(mode, spider, gd): 
+    while True:
+        if ("accident" == mode):
+            url = urls2.get() 
+            content = spider.crawContent(url)
+            saveContentEachPage(content, url, mode)   
+            getContentfromTxtfile(content, gd)
+            urls2.task_done()
+        else:
+            url1 = urlsO2.get()  
+            content = spider.crawContent(url1)
+            saveContentEachPage(content, url1, mode)   
+            getContentfromTxtfile(content, gd)        
+            urlsO2.task_done()
+    print("task done")
+def do_addContent3(mode, spider, gd): 
+    while True:
+        if ("accident" == mode):
+            url = urls3.get() 
+            content = spider.crawContent(url)
+            saveContentEachPage(content, url, mode)   
+            getContentfromTxtfile(content, gd)
+            urls3.task_done()
+        else:
+            url1 = urlsO3.get()  
+            content = spider.crawContent(url1)
+            saveContentEachPage(content, url1, mode)   
+            getContentfromTxtfile(content, gd)        
+            urlsO3.task_done()
+    print("task done")
+    
+def create_workersGetContent(mode, spider, gd):
+    for i in range(NUM_WORKERS):
+        t = threading.Thread(target=do_addContent, args = (mode, spider, gd))
+        t2 = threading.Thread(target=do_addContent2, args = (mode, spider, gd))
+        t3 = threading.Thread(target=do_addContent3, args = (mode, spider, gd))
+        t.daemon = True
+        t2.daemon = True
+        t3.daemon = True
+        t.start()
+        t2.start()
+        t3.start()
+          
+    
+def create_jobs(mode):     
+    if ("accident" == mode):
+        for url in list(listAccidentURL)[:150]:
+            urls.put(url)
+        urls.join()
+    else:
+        for url in list(listOrdinaryURL)[:150]: 
+            urlsO.put(url)
+        urlsO.join()
+def create_jobs2(mode):     
+    if ("accident" == mode):
+        for url in list(listAccidentURL)[150:300]:
+            urls2.put(url)
+        urls2.join()
+    else:
+        for url in list(listOrdinaryURL)[150:300]: 
+            urlsO2.put(url)
+        urlsO2.join()
+def create_jobs3(mode):     
+    if ("accident" == mode):
+        for url in list(listAccidentURL)[300:]:
+            urls3.put(url)
+        urls3.join()
+    else:
+        for url in list(listOrdinaryURL)[300:]: 
+            urlsO3.put(url)
+        urlsO3.join()
 
 def test():
-    File = open("traffic_accidents\\content_accidents_page_12.txt", encoding="utf-8", errors='ignore')
-    c = File.read()
-    print(len(str(c)))
-
+    print("a")
 
         
 if __name__ == "__main__":

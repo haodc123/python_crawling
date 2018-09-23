@@ -2,6 +2,8 @@ from urllib.parse import urlparse   # for domain extraction
 import re                       # for regular expression
 from urllib.parse import quote
 import string
+import os
+import glob
 
 SEARCH_ENGINE = "https://bing.com/search?q="
 EXCEPT_DOMAIN = ["bing.com", "javascript:void(0)", "microsoft.com"]
@@ -109,3 +111,17 @@ def isNoun(w):
     if any(char in invalidChars for char in w):
         isNoun = False
     return isNoun
+
+def getAllFileInPath(ext, path):
+    os.chdir(path)
+    result = [i for i in glob.glob('*.{}'.format(ext))]
+    return result
+
+def goToPath(path):
+    os.chdir(path)
+
+def getCurrentPath():
+    return str(os.getcwd())
+
+def isFileExist(filePath):
+    return os.path.isfile(filePath)

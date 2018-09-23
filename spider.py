@@ -4,6 +4,8 @@ from urllib.request import urlopen         # for GET request
 from helper import clean, checkIsExceptDomain, containStatic, isNoun, getDomain, sameDomain
 from underthesea import pos_tag
 from bs4 import BeautifulSoup, NavigableString, Tag
+import gzip
+import urllib.request
 
 FILE_50_WORD_ACCIDENTS = "traffic_accidents\\50_accidents_words.txt"
 FILE_500_PAGE_ACCIDENTS = "traffic_accidents\\500_page_accidents.txt"
@@ -44,36 +46,29 @@ class MyHTMLParser(HTMLParser):
                 
 
         '''
-        elif self.whatcrawling_mode == "content":         # only run when mode: crawling content
+        elif self.whatcrawling_mode == "title":         # only run when mode: crawling content
             # For check tag to craw right content
-            self.current_tag = tag
-            self.not_content_link = False
-            if tag == "a":
-                for key, val in attrs:
-                    if key == "title" and val != "":      # Not content link (Menu, advertisement,...)
-                        self.not_content_link = True  
-            if tag == "footer":
-                self.inside_footer = True
-        '''
+            self.current_tag = tag'''
+
+        
     '''
     def handle_data(self, data):                          # print content of page
-        if self.whatcrawling_mode == "content":           # only run when mode: crawling content
-            if data.strip() != "" and self.current_tag not in NOT_CONTENT_TAG and self.not_content_link == False and self.inside_footer == False:
-                self.content += " "+data
-    '''
+        if self.whatcrawling_mode == "title":           # only run when mode: crawling content
+            if data.strip() != "" and self.current_tag == "title":
+                self.title = data'''
+    
 
     def run(self, link, whatcrawling_mode, link_mode):
         self.whatcrawling_mode = whatcrawling_mode    # define craw link or craw content,...
         self.link = link                              # save root path
         self.arr_links = []                           # return crawling link list
         self.content = ""                             # return content of page
+        self.title = ""   
         self.current_tag = ""
         self.link_mode = link_mode
         self.domain = getDomain(link)                 # get and save domain
         self.num_link = 0
         self.arr_crawled = []
-        #self.not_content_link = False
-        #self.inside_footer = False
         
         try:
             response = urlopen(link)                # request and get response
@@ -82,14 +77,56 @@ class MyHTMLParser(HTMLParser):
                 self.feed(html)                     # parse the html and parse link
                 return self.arr_links
             elif whatcrawling_mode == "content":
-                self.content = ParseContent.htmlToText(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                self.content = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
                 return self.content
+            elif whatcrawling_mode == "title":
+                #self.title = ParseHTMLManual.getTitle(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                #return self.title
+                self.feed(html)                     # parse the html and parse link
+                return self.title
         except KeyboardInterrupt:                   # deal with Ctrl-C
             exit()
         except:
-            self.content = ""            
-            print("Unexpected failure happens and the spider escapes.")
-            return self.content
+            try:
+                print("1."+link)
+                req = urllib.request.Request(url = link)
+                req.add_header('Accept-encoding', 'gzip')
+                res = urllib.request.urlopen(req)
+                res.info().get('Content-Encoding')
+                gzip_data = gzip.GzipFile(fileobj=res)
+                html = gzip_data.read().decode('utf-8')
+                gzip_data.close()
+                if whatcrawling_mode == "link":
+                    self.feed(html)                     # parse the html and parse link
+                    return self.arr_links
+                elif whatcrawling_mode == "content":
+                    self.content = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                    return self.content
+                elif whatcrawling_mode == "title":
+                    #self.title = ParseHTMLManual.getTitle(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                    #return self.title
+                    self.feed(html)                     # parse the html and parse link
+                    return self.title
+            except:
+                try:
+                    print("2."+link)
+                    req = urllib.request.Request(link, headers={'User-Agent' : "Magic Browser"})
+                    f = urllib.request.urlopen(req)
+                    html = f.read().decode("UTF-8") 
+                    if whatcrawling_mode == "link":
+                        self.feed(html)                     # parse the html and parse link
+                        return self.arr_links
+                    elif whatcrawling_mode == "content":
+                        self.content = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                        return self.content
+                    elif whatcrawling_mode == "title":
+                        #self.title = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                        #return self.title
+                        self.feed(html)                     # parse the html and parse link
+                        return self.title
+                except:
+                    print("Unexpected failure happens and the spider escapes.")
+                    return ""       
 
 
 class MySpider(object):
@@ -97,41 +134,48 @@ class MySpider(object):
         self.parser = MyHTMLParser()
     
     # craw to get link. Input:link, Output:link
-    def craw_link(self, link, mode):
-        target_link = clean(link)
+    def crawLink(self, link, mode):
+        target_link = clean(link)        
         if mode == "accident":
             link_mode = "search_result"
             file_500page = FILE_500_PAGE_ACCIDENTS
-            print("Craw link for: "+target_link)
-            print("1.1.C. Get 10 URLs each...")
+            print("Craw link for: "+target_link)            
         elif mode == "ordinary":
             link_mode = "same_side"
             file_500page = FILE_500_PAGE_ORDINARY
             print("Craw link for: "+target_link)
-            print("1.2.C. Get 10 URLs each...")
 
         with open(file_500page, "a", encoding="utf-8", errors='ignore') as gd:
             gd.write("**** Craw link for: "+target_link+"\n")
+            gd.close()
 
-        links = self.parser.run(target_link, "link", link_mode)
+        links = self.parser.run(target_link, "link", link_mode)        
         
-        for l in links:
-            with open(file_500page, "a", encoding="utf-8", errors='ignore') as gd:
+        with open(file_500page, "a", encoding="utf-8", errors='ignore') as gd:
+            for l in links:
                 gd.write(" + "+l+"\n")
+            gd.close()
 
     
-    def craw_content(self, link):
+    def crawContent(self, link):
         target_link = clean(link)
 
         print("Craw content for: "+target_link)
         content = self.parser.run(target_link, "content", "")
         return content
 
+    def crawTitle(self, link):
+        target_link = clean(link)
+
+        print("Craw title for: "+target_link)
+        title = self.parser.run(target_link, "title", "")
+        return title
+
     
 
 
-class ParseContent():
-    def htmlToText(html):
+class ParseHTMLManual():
+    def getContent(html):
         soup = BeautifulSoup(html, 'html.parser')
         # Ignore anything in head
         body, text = soup.body, []
@@ -162,5 +206,8 @@ class ParseContent():
                         #print(string)
                     text += [string]
         doc = ' '.join(text)
-        return doc    
-        
+        return doc
+
+    def getTitle(html):
+        soup = BeautifulSoup(html, "lxml")
+        return soup.title.string
