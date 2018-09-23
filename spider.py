@@ -80,10 +80,10 @@ class MyHTMLParser(HTMLParser):
                 self.content = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
                 return self.content
             elif whatcrawling_mode == "title":
-                #self.title = ParseHTMLManual.getTitle(str(html))[:MAX_CHARACTER_EACH_PAGE]
-                #return self.title
-                self.feed(html)                     # parse the html and parse link
+                self.title = ParseHTMLManual.getTitle(str(html))[:MAX_CHARACTER_EACH_PAGE]
                 return self.title
+                #self.feed(html)                     # parse the html and parse link
+                #return self.title
         except KeyboardInterrupt:                   # deal with Ctrl-C
             exit()
         except:
@@ -103,10 +103,10 @@ class MyHTMLParser(HTMLParser):
                     self.content = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
                     return self.content
                 elif whatcrawling_mode == "title":
-                    #self.title = ParseHTMLManual.getTitle(str(html))[:MAX_CHARACTER_EACH_PAGE]
-                    #return self.title
-                    self.feed(html)                     # parse the html and parse link
+                    self.title = ParseHTMLManual.getTitle(str(html))[:MAX_CHARACTER_EACH_PAGE]
                     return self.title
+                    #self.feed(html)                     # parse the html and parse link
+                    #return self.title
             except:
                 try:
                     print("2."+link)
@@ -120,10 +120,10 @@ class MyHTMLParser(HTMLParser):
                         self.content = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
                         return self.content
                     elif whatcrawling_mode == "title":
-                        #self.title = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
-                        #return self.title
-                        self.feed(html)                     # parse the html and parse link
+                        self.title = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
                         return self.title
+                        #self.feed(html)                     # parse the html and parse link
+                        #return self.title
                 except:
                     print("Unexpected failure happens and the spider escapes.")
                     return ""       
