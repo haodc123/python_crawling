@@ -63,9 +63,9 @@ FILE_ALL_ORDINARY_NOUNS = "ordinary_contents\\all_ordinary_nouns.txt"
 FILE_3000_ORDINARY_NOUNS = "ordinary_contents\\3000_ordinary_nouns.txt"
 
 NUMBER_NOUN_FILTERED = 3000
-NUMBER_LINK_EACH_PAIR = 530
+NUMBER_LINK_EACH_PAIR = 600
 
-NUM_WORKERS = 200 #threading
+NUM_WORKERS = 20 #threading
 listAccidentURL = set()
 listOrdinaryURL = set()
 #listAccidentURL2 = set()
@@ -204,7 +204,7 @@ def getLink(mode, wordFile, urlFile):
                 link = makeLinkFromKeyword(w)
             elif ("ordinary" == mode):
                 link = w   
-            spider.craw_link(link, mode, file_500_links, gd)
+            spider.crawLink(link, mode, file_500_links, gd)
         gd.close()
 
 # Create count noun file for validation file
@@ -213,7 +213,9 @@ def createValidationData(link):
     mode = "validation"
     content = spider.crawContent(link)
     saveContentEachPage(content, link, mode)
-    createFileCountNoun(mode, link, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS)
+    arr_accident_noun = get3000wordsFromNounFile(FILE_3000_ACCIDENTS_NOUNS)
+    arr_ordinary_noun = get3000wordsFromNounFile(FILE_3000_ORDINARY_NOUNS)
+    createFileCountNoun(mode, link, arr_accident_noun, arr_ordinary_noun)
 
 def addLinkToQueue(urlFile, mode):
     tra_links = [line.rstrip('\n') for line in open(urlFile, encoding="utf8", errors='ignore')]
@@ -229,12 +231,17 @@ def addLinkToQueue(urlFile, mode):
                 listAccidentURL.add(tmp) 
             elif (mode == "ordinary"):
                 listOrdinaryURL.add(tmp)
+        if (len(listAccidentURL) >= NUMBER_LINK_EACH_PAIR or len(listOrdinaryURL) >= NUMBER_LINK_EACH_PAIR):
+            break
        
 # 1.3. Make teacher data
 def create1000File(mode, listURLs):
-    print("1.3.B. Make 1000 files (500 each folder corresponding 500 URLs)...")   
+    print("1.3.B. Make 1000 files (500 each folder corresponding 500 URLs)...") 
+    arr_accident_noun = get3000wordsFromNounFile(FILE_3000_ACCIDENTS_NOUNS)
+    arr_ordinary_noun = get3000wordsFromNounFile(FILE_3000_ORDINARY_NOUNS)
+    #print(len(arr_ordinary_noun))
     for url in listURLs:
-        createFileCountNoun(mode, url, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS)
+        createFileCountNoun(mode, url, arr_accident_noun, arr_ordinary_noun)
 
 def get500LinksFromFile(mode):
     if mode == "accident":
@@ -278,10 +285,11 @@ def getContentfromTxtfile(content, gd):
     if (content is not None and len(content.strip()) > 0):
         tmp = extractNoun(str(content))
         if len(tmp) > 0:
-            arr_nouns = ", ".join(tmp)
-            print(arr_nouns)
-            gd.write(arr_nouns.lower())
-            gd.write("\n")
+            for n in tmp[:-2]:        
+                gd.write(n.lower()+", ")
+                print(n)            
+            #gd.write(arr_nouns.lower())
+            gd.write(tmp[-1].lower()+"\n")
     
 '''def getContentfromTxtfile(url, mode, gd):  
     if mode == "accident":
@@ -307,57 +315,67 @@ def extractNoun(content):
             if (pos == 'N' and isNoun(word)):
                 arr_nouns.append(word)
     return arr_nouns
-
-def createFileCountNoun(forwhich, url, filenameAccidentNoun, filenameOrdinaryNoun):
-    # Read 3000 accident noun from file
-    File = open(filenameAccidentNoun, encoding="utf-8", errors='ignore')
-    accident_nouns = File.read()
-    arr_accident_noun = re.split(', |\n',accident_nouns)
-    #arr_accident_noun = accident_nouns.split(", ")
-    File.close()
-    # Read 3000 ordinary noun from file
-    File = open(filenameOrdinaryNoun, encoding="utf-8", errors='ignore')
-    ordinary_nouns = File.read()
-    arr_ordinary_noun = re.split(', |\n',ordinary_nouns)
-    #arr_ordinary_noun = ordinary_nouns.split(", ")
-    File.close()
     
+# Read 3000 accident noun from file
+def get3000wordsFromNounFile(file):
+    if isFileExist(file):
+        File = open(file, encoding="utf-8", errors='ignore')
+        accident_nouns = File.read().strip()
+        arr_noun = re.split(', |\n',accident_nouns)[:-1]
+        print(len(arr_noun))
+        File.close()
+        return arr_noun
+
+def createFileCountNoun(forwhich, url, arr_accident_noun, arr_ordinary_noun):
+    csv_file_name = None
+    csv_data_accident = [[], []]
+    csv_data_ordinary = [[], []]
+    csv_data = [[], []]
     fileName = urlToFileName(url)
+    content = None
     if forwhich == "accident":
         # Read content file each page
-        File = open("traffic_accidents\\content_accidents_page_"+fileName+".txt", encoding="utf-8", errors='ignore')
-        content = File.read()
-        csv_file_name = open("traffic_accidents//training_data//"+fileName+".csv", 'w', encoding="utf-8", errors='ignore', newline='')
-        File.close()
-    elif forwhich == "ordinary":
+        txtFile = "traffic_accidents\\content_accidents_page_"+fileName+".txt"
+        if isFileExist(txtFile):
+            File = open(txtFile, encoding="utf-8", errors='ignore')
+            content = File.read()
+            csv_file_name = open("traffic_accidents//training_data//"+fileName+".csv", 'w', encoding="utf-8", errors='ignore', newline='')
+            File.close()
+            #csv_data_accident = np.sort(csv_data_accident, axis=1)[:, ::-1]
+    elif forwhich == "ordinary":        
         # Read content file each page
-        File = open("ordinary_contents\\content_ordinary_page_"+fileName+".txt", encoding="utf-8", errors='ignore')
-        content = File.read()
-        csv_file_name = open("ordinary_contents//training_data//"+fileName+".csv", 'w', encoding="utf-8", errors='ignore', newline='')
-        File.close()
+        txtFile = "ordinary_contents\\content_ordinary_page_"+fileName+".txt"
+        if isFileExist(txtFile):
+            File = open(txtFile, encoding="utf-8", errors='ignore')
+            content = File.read()
+            csv_file_name = open("ordinary_contents//training_data//"+fileName+".csv", 'w', encoding="utf-8", errors='ignore', newline='')
+            File.close()
+            #csv_data_ordinary = np.sort(csv_data_ordinary, axis=1)[:, ::-1]
     elif forwhich == "validation":
         # Read content file each page
         File = open("modeling\\validation\\content_"+fileName+".txt", encoding="utf-8", errors='ignore')
         content = File.read()
         csv_file_name = open("modeling\\validation\\"+fileName+".csv", 'w', encoding="utf-8", errors='ignore', newline='')
         File.close()
-
-    # Count noun in content
-    csv_data = [[], []]
-    for noun in arr_accident_noun:
-        count = str(content).count(noun)
-        csv_data[0].append(noun)
-        csv_data[1].append(count)
-    for noun in arr_ordinary_noun:
-        count = str(content).count(noun)
-        csv_data[0].append(noun)
-        csv_data[1].append(count)
-    # write CSV file
-    with csv_file_name:
-        writer = csv.writer(csv_file_name)
-        writer.writerows(csv_data)
-        print(csv_data)
-        csv_file_name.close()
+    
+    #csv_data = np.concatenate((csv_data_accident,csv_data_ordinary),axis=1)
+    if content is not None and len(content.strip()) > 0:
+        for noun in arr_accident_noun:
+            count = str(content).count(noun)
+            csv_data[0].append(noun)
+            csv_data[1].append(count)
+        for noun in arr_ordinary_noun:
+            count = str(content).count(noun)
+            csv_data[0].append(noun)
+            csv_data[1].append(count)
+    # write CSV file    
+    #print(csv_file_name)
+    if csv_file_name is not None:
+        with csv_file_name:
+            writer = csv.writer(csv_file_name)
+            writer.writerows(csv_data)
+            #print(csv_data)
+            csv_file_name.close()
 
 def countAndGetCommonNounFromFile(mode):
     if mode == "accident":
@@ -370,12 +388,18 @@ def countAndGetCommonNounFromFile(mode):
     File = open(file_all_noun, encoding="utf-8", errors='ignore')
     all_nouns = File.read()
     arr_all_noun = re.split(', |\n',all_nouns)
+    print(len(arr_all_noun))
     arr_nouns = Counter(arr_all_noun).most_common(NUMBER_NOUN_FILTERED)
-    File.close()  
+    print(len(arr_nouns))
+    File.close()
     with open(file_3000_noun, "a", encoding="utf-8", errors='ignore') as gd:
-        for word,num in arr_nouns:
+        for word, num in arr_nouns:
             gd.write(word+", ")
         gd.close()
+    File = open(file_3000_noun, encoding="utf-8", errors='ignore')
+    accident_nouns = File.read().strip()
+    arr_noun = re.split(', |\n',accident_nouns)[:-1]
+    print(len(arr_noun))
 
 def do_addContent(mode, spider, gd): 
     while True:
