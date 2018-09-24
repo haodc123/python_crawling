@@ -50,6 +50,7 @@ import threading
 import time
 from queue import Queue
 import re
+import numpy as np
 
 FILE_50_WORD_ACCIDENTS = "traffic_accidents\\50_accidents_words.txt"
 FILE_500_PAGE_ACCIDENTS = "traffic_accidents\\500_page_accidents.txt"
@@ -62,7 +63,7 @@ FILE_ALL_ORDINARY_NOUNS = "ordinary_contents\\all_ordinary_nouns.txt"
 FILE_3000_ORDINARY_NOUNS = "ordinary_contents\\3000_ordinary_nouns.txt"
 
 NUMBER_NOUN_FILTERED = 3000
-NUMBER_LINK_EACH_PAIR = 600
+NUMBER_LINK_EACH_PAIR = 530
 
 NUM_WORKERS = 200 #threading
 listAccidentURL = set()
@@ -192,14 +193,19 @@ def getLink(mode, wordFile, urlFile):
     print("B. Google 50 words seperate (using Bing replace)...")
     spider = MySpider()
     print("C. Get 10 URLs each...")
-    for w in tra_words:
-        if ("accident" == mode):
-            link = makeLinkFromKeyword(w)
-            file = FILE_ALL_ACCIDENTS_NOUNS
-        elif ("ordinary" == mode):
-            link = w
-            file = FILE_ALL_ORDINARY_NOUNS
-        spider.crawLink(link, mode)
+    if mode == "accident":
+        file_500_links = FILE_500_PAGE_ACCIDENTS
+    elif mode == "ordinary":
+        file_500_links = FILE_500_PAGE_ORDINARY   
+        
+    with open(file_500_links, "a", encoding="utf-8", errors='ignore') as gd:
+        for w in tra_words:
+            if ("accident" == mode):
+                link = makeLinkFromKeyword(w)
+            elif ("ordinary" == mode):
+                link = w   
+            spider.craw_link(link, mode, file_500_links, gd)
+        gd.close()
 
 # Create count noun file for validation file
 def createValidationData(link):
@@ -207,7 +213,7 @@ def createValidationData(link):
     mode = "validation"
     content = spider.crawContent(link)
     saveContentEachPage(content, link, mode)
-    createFileCountNoun("validation", link, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS)
+    createFileCountNoun(mode, link, FILE_3000_ACCIDENTS_NOUNS, FILE_3000_ORDINARY_NOUNS)
 
 def addLinkToQueue(urlFile, mode):
     tra_links = [line.rstrip('\n') for line in open(urlFile, encoding="utf8", errors='ignore')]
@@ -247,33 +253,35 @@ def get500LinksFromFile(mode):
 
 
 def saveContentEachPage(content, url, mode):
-    #print("saveContentEachPage start...")
-    if mode == "accident":
-        file_content_page = "traffic_accidents\\content_accidents_page_"+urlToFileName(url)+".txt"
-        #print(urlToFileName(url))
-        print("1.1.E. Get all the texts in each page...")
-        print("1.1.F. Separate and extract all the noun words using the morphing analysis tool...")
-    elif mode == "ordinary":
-        file_content_page = "ordinary_contents\\content_ordinary_page_"+urlToFileName(url)+".txt"
-        print("1.2.E. Get all the texts in each page...")
-        print("1.2.F. Separate and extract all the noun words using the morphing analysis tool...")
-    elif mode == "validation":
-        file_content_page = "modeling\\validation\\content_"+urlToFileName(url)+".txt"
-        print("3.B. Crawl it...")
-
-    with open(file_content_page, "a", encoding="utf-8") as gd:
-        print(urlToFileName(url)+" writting txt... ")
-        #print(content)
-        gd.write(content)
-        gd.close()
-        print(urlToFileName(url)+" write OK")
+    if content is not None and len(content.strip()) > 0:
+        if mode == "accident":
+            file_content_page = "traffic_accidents\\content_accidents_page_"+urlToFileName(url)+".txt"
+            #print(urlToFileName(url))
+            print("1.1.E. Get all the texts in each page...")
+            print("1.1.F. Separate and extract all the noun words using the morphing analysis tool...")
+        elif mode == "ordinary":
+            file_content_page = "ordinary_contents\\content_ordinary_page_"+urlToFileName(url)+".txt"
+            print("1.2.E. Get all the texts in each page...")
+            print("1.2.F. Separate and extract all the noun words using the morphing analysis tool...")
+        elif mode == "validation":
+            file_content_page = "modeling\\validation\\content_"+urlToFileName(url)+".txt"
+            print("3.B. Crawl it...")
+        
+        with open(file_content_page, "a", encoding="utf-8") as gd:
+            print(urlToFileName(url)+" writting txt... ")
+            #print(content)
+            gd.write(content)
+            gd.close()
+            print(urlToFileName(url)+" write OK")
         
 def getContentfromTxtfile(content, gd): 
-    if (None != content and len(content) > 0):
-        arr_nouns = ", ".join(extractNoun(str(content)))
-        print(arr_nouns)
-        gd.write(arr_nouns+", ")
-        gd.write("\n")
+    if (content is not None and len(content.strip()) > 0):
+        tmp = extractNoun(str(content))
+        if len(tmp) > 0:
+            arr_nouns = ", ".join(tmp)
+            print(arr_nouns)
+            gd.write(arr_nouns.lower())
+            gd.write("\n")
     
 '''def getContentfromTxtfile(url, mode, gd):  
     if mode == "accident":
@@ -294,7 +302,7 @@ def getContentfromTxtfile(content, gd):
 '''
 def extractNoun(content):
     arr_nouns = []
-    if len(content) > 0:
+    if (content is not None and len(content.strip()) > 0):
         for word,pos in pos_tag(content):
             if (pos == 'N' and isNoun(word)):
                 arr_nouns.append(word)
@@ -361,7 +369,7 @@ def countAndGetCommonNounFromFile(mode):
 
     File = open(file_all_noun, encoding="utf-8", errors='ignore')
     all_nouns = File.read()
-    arr_all_noun = all_nouns.split(", ")
+    arr_all_noun = re.split(', |\n',all_nouns)
     arr_nouns = Counter(arr_all_noun).most_common(NUMBER_NOUN_FILTERED)
     File.close()  
     with open(file_3000_noun, "a", encoding="utf-8", errors='ignore') as gd:
@@ -369,7 +377,7 @@ def countAndGetCommonNounFromFile(mode):
             gd.write(word+", ")
         gd.close()
 
-def do_addContent(mode, spider, gd):
+def do_addContent(mode, spider, gd): 
     while True:
         if ("accident" == mode):
             url = urls.get() 

@@ -18,7 +18,7 @@ FILE_ALL_ORDINARY_NOUNS = "ordinary_contents\\all_ordinary_nouns.txt"
 FILE_3000_ORDINARY_NOUNS = "ordinary_contents\\3000_ordinary_nouns.txt"
 
 NUMBER_NOUN_FILTERED = 3000
-NUMBER_LINK_EACH_PAIR = 500
+NUMBER_LINK_EACH_PAIR = 530
 NUM_LINK_EACH_PAGE = 10
 MAX_CHARACTER_EACH_PAGE = 20000+1
 NOT_CONTENT_TAG = ["script", "style", "video"]
