@@ -30,7 +30,7 @@ On Windows:
 
 Using Random Forest to learn (from teacher data) and prediction.
 
-'''
+```
 1. Gathering teacher data
     1.1. Get traffic accident contents
         A. List up 50 words which deeply relate to traffic accidents.
@@ -68,13 +68,13 @@ Using Random Forest to learn (from teacher data) and prediction.
     D. Count all the noun words
     E. Make CSV file
     F. Verify
-'''
+```
 
 ## Running the tests
 
 Explain how to run the tests for this program
 
-'''
+```
 Usage:
     type: python main.py --tra
         for 1.1. Get traffic accident contents
@@ -86,4 +86,4 @@ Usage:
         for 3. Validation a link is releated to traffic accident or not (via regressor method)
     type: python main.py --model2 <link>
         for 3. Validation a link is releated to traffic accident or not (via classifier method)
-'''
+```
