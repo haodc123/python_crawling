@@ -76,14 +76,19 @@ Explain how to run the tests for this program
 
 ```
 Usage:
-    type: python main.py --tra
+    1. type: python main.py --tra
         for 1.1. Get traffic accident contents
-    type: python main.py --ord
+    2. type: python main.py --ord
         for 1.2. Get ordinary contents
-    type: python main.py --file
+    3. type: python main.py --file
         for 1.3. Get 1000 file count Noun (csv)
-    type: python main.py --model <link>
+    4. type: python main.py --model <link>
         for 3. Validation a link is releated to traffic accident or not (via regressor method)
-    type: python main.py --model2 <link>
+    5. type: python main.py --model2 <link>
         for 3. Validation a link is releated to traffic accident or not (via classifier method)
 ```
+Note: Step 1,2,3: you DO NOT run anymore, we already run and generate needed-file in<br/>
+- traffic_accident//*
+- ordinary_content//*
+- model//*
+If above directoris have not data-output file, you need to run step 1,2,3 as order
