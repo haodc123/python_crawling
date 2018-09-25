@@ -80,7 +80,7 @@ Usage:
         for 1.1. Get traffic accident contents
     type: python main.py --ord
         for 1.2. Get ordinary contents
-	type: python main.py --file
+    type: python main.py --file
         for 1.3. Get 1000 file count Noun (csv)
     type: python main.py --model <link>
         for 3. Validation a link is releated to traffic accident or not (via regressor method)
