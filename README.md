@@ -77,17 +77,17 @@ Explain how to run the tests for this program
 ```
 Usage:
     2 step:
-	A. Create data-output file:
+    A. Create data-output file:
     - Require file:
         traffic_accidents\\50_accidents_words.txt
         ordinary_contents\\50_alexa_ordinary.txt
     - Create data-output file:
-		1. type: python main.py --tra
-			for 1.1. Get traffic accident contents
-		2. type: python main.py --ord
-			for 1.2. Get ordinary contents
-		3. type: python main.py --file
-			for 1.3. Get 1000 file count Noun (csv)
+	1. type: python main.py --tra
+	    for 1.1. Get traffic accident contents
+	2. type: python main.py --ord
+	    for 1.2. Get ordinary contents
+	3. type: python main.py --file
+	    for 1.3. Get 1000 file count Noun (csv)
     B. Validate link
         4. type: python main.py --model <link>
             for 3. Validation a link is releated to traffic accident or not (via regressor method)
