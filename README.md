@@ -1,6 +1,6 @@
 # Is Traffic Accident ?
 
-Detecting a link is related to traffic accident or not...<br/>
+Detecting a link is related to traffic accident or not (in Vietnamese)<br/>
 Developing for Demostration of Back Khoa Seminar 10/2018
 
 ## Getting Started
