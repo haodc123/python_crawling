@@ -21,9 +21,20 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-On Windows:
-- Download and install Anaconda 5.x (already include python 3)
-- pip install underthesea
+- On Windows:
+ 1. Download and install Anaconda 5.x (already include python 3)
+ 2. pip install underthesea
+ 
+- On Ubuntu:
+ 1. set default python3 on ubuntu
+https://askubuntu.com/questions/320996/how-to-make-python-program-command-execute-python-3
+ 2. install pip3 for python3
+sudo apt-get update
+sudo apt-get -y install python3-pip
+ 3. install anaconda 
+https://www.rosehosting.com/blog/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04/
+ 4. install Underthesea library by pip3
+pip3 install underthesea
 ```
 
 ## How it's work
