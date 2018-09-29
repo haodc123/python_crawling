@@ -374,13 +374,15 @@ def createFileCountNoun(forwhich, url, arr_accident_noun, arr_ordinary_noun):
     #csv_data = np.concatenate((csv_data_accident,csv_data_ordinary),axis=1)
     if content is not None and len(content.strip()) > 0:
         for noun in arr_accident_noun:
-            count = str(content).count(noun)
-            csv_data[0].append(noun)
-            csv_data[1].append(count)
+            if len(noun) > 0:
+                count = str(content).count(noun)
+                csv_data[0].append(noun)
+                csv_data[1].append(count)
         for noun in arr_ordinary_noun:
-            count = str(content).count(noun)
-            csv_data[0].append(noun)
-            csv_data[1].append(count)
+            if len(noun) > 0:
+                count = str(content).count(noun)
+                csv_data[0].append(noun)
+                csv_data[1].append(count)
     # write CSV file    
     #print(csv_file_name)
     if csv_file_name is not None:
