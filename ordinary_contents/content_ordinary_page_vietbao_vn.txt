@@ -1,0 +1,420 @@
+Tìm kiếm 
+Ví dụ: 
+, 
+, 
+, 
+, 
+, Thứ hai, 24/09/2018 | 09:57 GMT +7 33 o C Hôm nay 33 o C 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C 
+Bình minh: 
+Hoàng hôn: Hướng gió: 
+Tây Bắc 
+Tốc độ: 11 Km/h 
+Hướng gió: 311° Trạm khí tượng: 
+Kinh độ: 
+105.85 
+Vĩ độ: 
+21.02 
+Nhiệt độ hóa sương: 
+28 o 
+C 
+Tầm nhìn: 
+Km 
+Độ ẩm: 
+76% 
+Áp suất: 
+1004.3 mb 
+Ngày 
+33 o 
+C 
+Đêm 
+26 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 26 o 
+C đến 33 o 
+C 
+Ngày 
+31 o 
+C 
+Đêm 
+26 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 26 o 
+C đến 31 o 
+C 
+Ngày 
+31 o 
+C 
+Đêm 
+24 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 24 o 
+C đến 31 o 
+C Hôm nay 26 o C Mây Âm U 
+Nhiệt độ từ 24 o 
+C đến 32 o 
+C 
+Bình minh: 05:44 
+Hoàng hôn: 17:45 Hướng gió: 
+Gió thay đổi! 
+Tốc độ: 10 Km/h 
+Hướng gió: 0° Trạm khí tượng: Ho Chi Minh 
+Kinh độ: 
+106.69 
+Vĩ độ: 
+10.78 
+Nhiệt độ hóa sương: 
+25 o 
+C 
+Tầm nhìn: 
+2.5 Km 
+Độ ẩm: 
+94% 
+Áp suất: 
+1011 mb 
+Ngày 
+33 o 
+C 
+Đêm 
+24 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C 
+Ngày 
+33 o 
+C 
+Đêm 
+24 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C 
+Ngày 
+33 o 
+C 
+Đêm 
+24 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C Hôm nay 26 o C Có Mây Rải Rác 
+Nhiệt độ từ 25 o 
+C đến 32 o 
+C 
+Bình minh: 05:44 
+Hoàng hôn: 17:45 Hướng gió: 
+Tốc độ: 11 Km/h 
+Hướng gió: 0° Trạm khí tượng: Phu Lien 
+Kinh độ: 
+106.68 
+Vĩ độ: 
+20.86 
+Nhiệt độ hóa sương: 
+26 o 
+C 
+Tầm nhìn: 
+10.0 Km 
+Độ ẩm: 
+96% 
+Áp suất: 
+1012 mb 
+Ngày 
+32 o 
+C 
+Đêm 
+26 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 26 o 
+C đến 32 o 
+C 
+Ngày 
+31 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 25 o 
+C đến 31 o 
+C 
+Ngày 
+31 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 25 o 
+C đến 31 o 
+C Hôm nay 28 o C Hơi Có Mây 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C 
+Bình minh: 
+Hoàng hôn: Hướng gió: 
+Gió thay đổi! 
+Tốc độ: 11 Km/h 
+Hướng gió: 0° Trạm khí tượng: Can Tho Airfield 
+Kinh độ: 
+105.78 
+Vĩ độ: 
+10.03 
+Nhiệt độ hóa sương: 
+26 o 
+C 
+Tầm nhìn: 
+10.0 Km 
+Độ ẩm: 
+89% 
+Áp suất: 
+1013 mb 
+Ngày 
+32 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 25 o 
+C đến 32 o 
+C 
+Ngày 
+32 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 25 o 
+C đến 32 o 
+C 
+Ngày 
+32 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 25 o 
+C đến 32 o 
+C Hôm nay 28 o C Hơi Có Mây 
+Nhiệt độ từ 16 o 
+C đến 26 o 
+C 
+Bình minh: 05:38 
+Hoàng hôn: 17:39 Hướng gió: 
+Tốc độ: 8 Km/h 
+Hướng gió: 0° Trạm khí tượng: Da Nang 
+Kinh độ: 
+108.21 
+Vĩ độ: 
+16.07 
+Nhiệt độ hóa sương: 
+25 o 
+C 
+Tầm nhìn: 
+20.0 Km 
+Độ ẩm: 
+81% 
+Áp suất: 
+1014 mb 
+Ngày 
+27 o 
+C 
+Đêm 
+17 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 17 o 
+C đến 27 o 
+C 
+Ngày 
+28 o 
+C 
+Đêm 
+17 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 17 o 
+C đến 28 o 
+C 
+Ngày 
+27 o 
+C 
+Đêm 
+17 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 17 o 
+C đến 27 o 
+C Hôm nay 0 o C 
+Nhiệt độ từ 21 o 
+C đến 32 o 
+C 
+Bình minh: 05:41 
+Hoàng hôn: 17:42 Hướng gió: 
+Tốc độ: 6 
+Hướng gió: ° Trạm khí tượng: 
+Kinh độ: 
+107.58 
+Vĩ độ: 
+16.48 
+Nhiệt độ hóa sương: o 
+C 
+Tầm nhìn: 
+Độ ẩm: 
+Áp suất: 
+Ngày 
+33 o 
+C 
+Đêm 
+22 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 22 o 
+C đến 33 o 
+C 
+Ngày 
+33 o 
+C 
+Đêm 
+22 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 22 o 
+C đến 33 o 
+C 
+Ngày 
+33 o 
+C 
+Đêm 
+22 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 22 o 
+C đến 33 o 
+C Hôm nay 28 o C Mây Âm U 
+Nhiệt độ từ 23 o 
+C đến 33 o 
+C 
+Bình minh: 05:34 
+Hoàng hôn: 17:35 Hướng gió: 
+Tây Tây Bắc 
+Tốc độ: 6 Km/h 
+Hướng gió: 297° Trạm khí tượng: Nha Trang 
+Kinh độ: 
+109.19 
+Vĩ độ: 
+12.25 
+Nhiệt độ hóa sương: 
+25 o 
+C 
+Tầm nhìn: 
+20.0 Km 
+Độ ẩm: 
+85% 
+Áp suất: 
+1007 mb 
+Ngày 
+33 o 
+C 
+Đêm 
+23 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 23 o 
+C đến 33 o 
+C 
+Ngày 
+35 o 
+C 
+Đêm 
+23 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 23 o 
+C đến 35 o 
+C 
+Ngày 
+35 o 
+C 
+Đêm 
+23 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 23 o 
+C đến 35 o 
+C Thông tin cần biết Mua Bán Vàng SJC 36.5 36.67 Vàng nữ trang 24 K 33.88 34.68 VND EUR Euro 27.526,03 JPY Yên Nhật 209,86 USD Đô Mỹ 23.370,00 
+Ngày: kỷ mùi, Hắc Đạo 
+Tốt cho các việc làm nhà, động thổ, làm chuồng gia súc, giá thú, đào giếng. 
+Tuổi xung: Ðinh Sửu, Ất Sửu Khác 
+Trong lúc cúng siêu thoát cho 1 cháu bé đuối nước, thầy cúng trượt chân ngã xuống sông và mất tích. Sau gần 2 ngày tìm kiếm, lực lượng chức năng đã đưa được thi thể thầy cúng xấu số lên bờ. 
+Giải thích lý do tiếp tục bãi nhiệm bà Lê Hoàng Diệp Thảo là vì mục đích của vợ "vua cafe Việt" muốn chiếm trọn Tập đoàn Trung Nguyên, muốn ông Đặng Lê Nguyên Vũ bắt buộc phải là người tâm thần, người mất năng lực hành vi dân sự. Trung Nguyên cũng “tố” bà Thảo chỉ chủ trương kinh doanh theo tư duy “con buôn”, kiếm lợi nhuận ngắn hạn. 
+Sau phóng sự chấn động của báo chí về hoạt động bảo kê diễn ra tại chợ Long Biên (quận Ba Đình, Hà Nội) được đăng tải, nhóm PV VTC News đã vào cuộc tìm hiểu và có cuộc gặp gỡ chóng vánh với ông trùm Hưng "Kính" tại nhà riêng. 
+Từ kết quả khám nghiệm hiện trường, cơ quan chức năng sơ bộ nhận định, nguyên nhân cháy hàng loạt ngôi nhà ở gần Bệnh viện Nhi Trung ương (Hà Nội) là do chập điện. Điểm cháy xuất phát tại nhà ông Nguyễn Thế Hiệp (tức Hiệp "khùng"). 
+Mới đây, một sản phụ Hưng Yên nhập viện trong tình trạng nguy kịch vì sinh con thuận tự nhiên đã gióng lên hồi chuông cảnh tỉnh về phương pháp sinh con chưa được kiểm chứng này. 
+Liên quan vụ 7 người chết khi tham gia lễ hội âm nhạc ở Hồ Tây, Công an ra lệnh Giữ người trong trường hợp khẩn cấp, song Viện kiểm sát Nhân dân TP. Hà Nội không phê chuẩn lệnh bắt giữ với ông Sơn. 
+Pique mắc lỗi ở cả 2 bàn thua nhưng in dấu giày ở cả 2 bàn thắng của Barca trong trận đấu Gã khổng lồ xứ Catalan phải chơi thiếu người .. 
+- Trong tập 8 Giọng Ca Bí Ẩn, Mạc Văn Khoa không ngần ngại đối đầu cùng chị đại Tuyền Mập trong phần trao đổi thí sinh cực kỳ gay .. 
+Tin tức thời sự 24h mới nhất ngày 23/9/2018. Cập nhật tin tức thời sự 24h mới nhất ngày 23/9/2018 trên trang Đời sống & Pháp luật. 
+Việc chuyển đổi mã mạng nhằm điều chỉnh quy hoạch kho số để đáp ứng xu thế phát triển lâu dài cho thị trường viễn thông, yêu cầu .. 
+Nếu bạn đang gặp rắc rối vì tình trạng gàu, khiến bạn thiếu tự tin thì hãy áp dụng ngay mẹo đơn giản giúp sạch gàu dưới đây. 
+Việc Phạm Băng Băng tiếp tục "biến mất" khiến tin đồn xung quanh tình cảnh hiện tại của nữ diễn viên ngày càng nhiều. Tuy nhiên mới 
+Cùng trình diễn ở show Dolce & Gabbana, hai mỹ nhân Trung - Hàn là Địch Lệ Nhiệt Ba, Jessica Jung và Mai Davika thu hút mọi ống kính. 
+Với vũ khí chủ lực là SLBM Bulava và tên lửa siêu thanh Zircon, tàu ngầm BoreiA của Nga sẽ tung ra những cú đòn khiến Mỹ không thể .. 
+Giá vàng trong nước mở cửa ngày đầu tuần mới chưa có thay đổi nào đáng kể. Trong khi đó, giá vàng thế giới tuần này được dự báo sẽ 
+BMW i3 đầu tiên và duy nhất tại Việt Nam thuộc sở hữu của ông chủ hãng taxi Mai Linh. / / / 
+Trong lúc cúng siêu thoát cho 1 cháu bé đuối nước, thầy cúng trượt chân ngã xuống sông và mất tích. Sau gần 2 ngày tìm kiếm, lực lượng chức năng đã đưa được thi thể thầy cúng xấu số / / / 
+Bạn đọc hỏi: Tôi có em trai gần 30 tuổi, mặc dù biết bản thân mình bị nhiễm HIV nhưng vẫn thường xuyên quan hệ tình dục với bạn khác giới mà không sử dụng biện pháp an toàn. Hành vi này của em tôi có / / / 
+Đan Mạch dự định tấn công vào thị trường năng lượng Đức bằng cách trung chuyển khí hóa lỏng. / / / 
+– Khởi động phiên đầu tuần sáng nay (24/9), giá vàng trong nước tiếp tục được các doanh nghiệp điều chỉnh giảm 20 nghìn đồng/lượng. Hiện giá SJC bán ra đang niêm yết ở mức dưới Khu vực Mua Bán Hà Nội 36,490 36,660 Đà Nẵng 36,490 36,660 Nha Trang 36,480 36,660 Bình Phước 36,460 36,670 Cà Mau 36,490 36,660 cập nhật lúc 09:55 - 24/09/2018 Giá Vàng Thế Giới Ngoại tệ VNĐ USD Đô Mỹ 23.370,00 EUR Euro 27.526,03 AUD Đô Úc 17.070,75 CAD Đô Canada 18.161,09 CHF Thụy Sĩ 24.479,80 GBP Bảng Anh 30.659,74 JPY Yên Nhật 209,86 cập nhật ngày 24/09/2018 Xăng RON 95-IV 21,920 22,350 Xăng RON 95-II, III 17,720 18,070 Xăng RON 95-III 21,770 22,200 DO 0,001S-V 18,220 18,580 DO 0,05S-II 18,120 18,480 Xăng RON 92-II 18,580 18,950 Xăng RON 95-II 18,290 18,650 E5 RON 92-II 20,230 20,630 DO 0,05S 15,160 15,460 Dầu hoả 16,680 17,010 VN USA EU ASIA VNINDEX 0.6% 6.20 1009.17 HASTC -0.2% -0.20 115.59 UPCOM 0.0% 0.01 53.50 VN30 0.9% 9.11 983.54 LARGECAP 0.6% 5.54 865.44 MIDCAP 0.1% 0.61 655.76 SMALLCAP 0.0% 0.19 413.96 DJI 21753.31 21753.31 GSPC 2575.21 2575.21 IXIC 6629.05 6629.05 NYA 12430.52 12430.52 AEX 544.63 544.63 ATX 3383.15 3383.15 BFX 4082.98 4082.98 FCHI 5372.38 5372.38 FTSE 7523.23 7523.23 GDAXI 12991.28 12991.28 MIBTEL 15743.00 15743.00 OMXSPI 593.32 593.32 OSEAX 874.23 874.23 SMSI 763.18 763.18 SSMI 9237.13 9237.13 00001.SS 3374.73 3374.73 BSESN 27808.14 27808.14 HSI 28322.17 28322.17 JKSE 5957.27 5957.27 KLSE 1744.84 1744.84 KS11 2486.81 2486.81 N225 21658.25 21658.25 NZ50 8129.55 8129.55 STI 3349.12 3349.12 TWII 10760.43 10760.43 | | | 
+Tai biến mạch máu não, hay phổ biến hơn là đột quỵ, là tình trạng xảy ra khi lưu lượng máu nuôi não đột ngột giảm mạnh. 
+Dập vùi trong bão tố, An Nguy không hề bị lụi tàn mà đẹp lên rất nhiều, liệu đó có phải là sức mạnh vi diệu của tình yêu 
+Nếu bạn đang đau đầu với việc chia tách không gian phòng ngủ trong căn hộ nhỏ của mình, tường ngăn bằng kính chính là giải pháp tốt nhất. 
+Không chỉ sở hữu giọng hát ngọt ngào, em gái Đắk Lắk còn sở hữu nhan sắc cực dễ thương với gương mặt "bánh bao" và đôi mắt to tròn khiến dân mạng tỏ ra rất thích thú. 
+Mua lại những khu đất bị ô nhiễm bởi công nghiệp và tái tạo lại nó 25 năm sau cặp vợ chồng Pamela Gale và Anil Malhotra đã khiến tất cả mọi ngưởi phải ngưỡng mộ với thành quả tuyệt vời của mình 
+Khi cơn buồn ngủ bất ngờ ập tới người lớn còn khó có thể cưỡng lại được, nói gì đến trẻ con lúc đang ăn. 
+Á hậu Bùi Phương Nga xinh đẹp, học giỏi, nói tiếng Anh trôi chảy. Ngoài ra, người đẹp sinh năm 1998 còn tài năng. Trước khi đoạt danh hiệu Á hậu 1 cuộc thi Hoa hậu Việt Nam 2018, Phương Nga không ít lần trổ tài nhảy múa. 
+Kể cả khi pháo 75mm trên các xe tăng của quân Đồng minh là hoàn toàn vô dụng trước xe tăng hạng nặng của Đức, tuy nhiên Mỹ vẫn quyết định vượt biển sang châu Âu với hàng vạn xe tăng sử dụng pháo loại này. 
+"Quỳnh Búp Bê" hiện đang một trong những bộ phim gây sốt nhất trên sóng truyền hình và bản sao của Quỳnh Búp Bê hiện cũng đang làm mưa làm gió trên mạng xã hội. 
+Ra đời từ năm 2002, khẩu pháo lựu tự hành do Singapore tự phát triển đã biến quốc gia này thành một trong số ít nước ở Đông Nam Á có thể tự sản xuất được loại pháo siêu cơ động này. 
+Tiếp nối sự ra mắt của các "siêu phẩm" GT 53, GT 63, và GT 63 S vào đầu năm nay, thương hiệu Mercedes-AMG của hãng xe sang Đức sẽ tung ra sản phẩm coupe 4 cửa mới Mercedes-AMG GT 43. Thông tin cần biết | | | 
+4 mỹ nhân đình đám châu Á Mai Davika, Jessica Jung, Địch Lệ Nhiệt Ba, Ayaka Miyoshi có dịp đọ sắc trong một khung hình và ngay lập tức khiến dân tình náo loạn. 
+Nữ ca sĩ 26 tuổi trông khỏe mạnh và vui vẻ khi đi bộ tập thể dục bên ngoài trại cai nghiện hôm 23/9. 
+Vốn là cặp đôi kín tiếng nên khối tài sản “không phải dạng vừa” của Trường Giang và Nhã Phương sau khi kết hôn sẽ khiến nhiều người không khỏi bất ngờ. 
+Dàn cast "Diên Hi Công Lược" gồm "Ngụy Anh Lạc" Ngô Cẩn Ngôn cùng Hứa Khải, Tô Thanh, Xa Thi Mạn, Tần Lam sẽ có buổi fan meeting tại Hong Kong. | | | 
+Dù chẳng còn xuất hiện trong cuộc sống hiện đại, nhưng những chiếc chạn bát cổ truyền đã gắn liền với thế hệ 8X, 9X mang đầy những kỉ niệm thân thương 
+Mới đây, các nhà khoa học tại Đại học Geneva (Thụy Sĩ) và các trường: Đại học Freiburg, Đại học Munich, Đại học Bayreuth (Đức) đã kết hợp với Công ty AMSilk (Đức) chế tạo ra những vi nang từ tơ nhện có khả năng cung cấp vaccine trực tiếp cho cùng trung tâm của các tế bào miễn dịch. Công nghệ này có thể áp dụng cho vaccine phòng ngừa, chống lại các bệnh truyền nhiễm, ung thư và các bệnh nhiễm trùng nặng. 
+Tôi với chồng đều xuất thân từ vùng nông thôn. Mặc dù khi cưới nhau, 2 vợ chồng chưa có gì trong tay nhưng tôi vẫn rất hạnh phúc vì tôi có một người chồng tốt bụng và thương yêu vợ. 
+Từng nổi tiếng chỉ bằng 1 bức ảnh cách đây 3 năm, cuộc sống của hot girl rửa bát ngày nào nay đã thay đổi | | | 
+Trong trận đấu giữa CLB Rennes và Paris Saint-Germain thuộc vòng 6 Ligue 1 2018/19, Neymar thực hiện cử chỉ rất đẹp trên sân. 
+Với số điểm trung bình sau hai lượt nhảy đạt 14,750, Lê Thanh Tùng giành HCB tại Cup thể dục dụng cụ thế giới diễn ra ở Hungary. 
+Đánh bại Everton với tỷ số 2-0 nhưng HLV Emery không được hưởng niềm vui trọn vẹn bởi chấn thương của trung vệ Sokratis. 
+Theo Marca, Juventus xác nhận rằng Cris Ronaldo sẽ không dự gala The Best của FIFA vào đêm nay. 
+Nam ca sĩ trẻ sẽ trình diễn bản hit quốc dân "Ánh nắng của anh" trong đám cưới Trường Giang - Nhã Phương vào ngày 25/9 tới đây. 
+Dù sao việc cũng xảy ra rồi hãy nên nghĩ thoáng và đừng gò ép mình vào những suy nghĩ tiêu cực. 
+Dám sống thật với chính mình là những từ ngữ để mô tả Đào Bá Lộc. Anh không ngại công khai sở thích chơi búp bê, đam mê với son phấn, đặc biệt nhất là tiết lộ đường tình gập ghềnh với 
+Hãng hàng không Vietjet vừa khai trương đường bay mới Nha Trang - Đà Nẵng, kết nối hai thành phố biển du lịch nổi tiếng miền Trung. 
+Sự thật vụ phát hiện bộ xương khô trong ngôi nhà hoang; Nghi án dùng “nước hoa kích dục” hiếp dâm nữ sinh viên là những tin đáng chú ý nhất tuần qua. 
+Trung úy công an bị giáng 2 cấp vì quan hệ bất chính; Nam thanh niên bị lũ cuốn mất tích ở Đà Lạt; Ngư dân Quảng Bình bắt được cá nghi là sủ vàng nặng 3kg; Tai nạn ở công trình, 2 công nhân tử vong; Kinh hoàng xe bán tải đâm văng taxi, xe máy, nhiều người bị thương; Bị 10 người vây đánh, rút súng bắn trả trước bến xe Mỹ Đình 
+Mẹ chết thảm vì vướng vào dây điện bẫy chuột của con trai; Nghi vấn cụ bà 84 tuổi nhảy lầu 6 bệnh viện tự tử lúc nửa đêm; Đà Nẵng: Kinh hoàng đám cháy phát ra từ quán bar cũ; Nam thanh niên nghi ngáo đá xông vào nhà đâm cụ già trọng thương 
+Sau trường hợp hiến giác mạc của bé Hải An gây xúc động mạnh với dư luận, rất nhiều người đã đến Trung tâm điều phối ghép tạng Quốc gia để đăng ký hiện tạng. 
+Hình ảnh 2 thanh niên được cho là người Việt Nam ngồi chung một ghế trên chuyến tàu Tết đông đúc để nhường ghế còn lại cho 2 em bé người Đài Loan (Trung Quốc) đang khiến cộng đồng mạng nước này xúc động. 
+Sáng 8/2, tại trường Đại học GTVT (Hà Nội) những sinh viên có hoàn cảnh khó khăn đã bắt đầu hành trình về quê sum họp trên những chuyến xe miễn phí. 
+Nếu ngay cả vấn đề hạt nhân Triều Tiên hay quan hệ với EU cũng không làm ông Trump mất thế thượng phong thì với cuộc điều tra Nga can thiệp bầu cử Mỹ năm 2016, tuần nay chứng kiến sự lên tiếng đầy bất lực từ vị Tổng thống thứ 45 của Hoa Kỳ. 
+Ngay sau trận chung kết ở Moscow kết thúc với cúp vàng dành cho đội tuyển Pháp, 1 "trận đấu" gay cấn khác lại diễn ra ở Helsiki, là cuộc gặp thượng đỉnh Nga-Mỹ với nhiều toan tính từ cả 2 nước và cũng đầy lo ngại theo phía Phương Tây. 
+Một tuần sau cuộc gặp với Kim Jong Un, trong khi phía Bình Nhưỡng chưa có bất cứ động thái gì rõ rệt thì Donald Trump lại đang tỏ ra "nhiệt thành" quá mức với Triều Tiên, bất chấp thái độ dè chừng từ phía đồng minh. Và trong trạng thái "ngủ quên trên chiến thắng" ấy, ông Trump bất ngờ bị dư luận Mỹ "đánh úp" buộc phải "đầu hàng" trong vấn đề nhập cư. 
+Tin nhanh Việt Nam ra thế giới Vietbao.vn 
+Trung tâm Báo chí và Hợp tác truyền thông Quốc tế (CPI) - Bộ thông tin và truyền thông 
+Center for Press and International Communication Cooperation - Ministry of Information and Communication, Viet Nam 
+Giấy phép số: 08/GP-TTĐT, cấp ngày 11/02/2015

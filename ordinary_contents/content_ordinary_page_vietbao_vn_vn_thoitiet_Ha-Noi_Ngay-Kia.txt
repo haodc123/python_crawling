@@ -1,0 +1,374 @@
+Tìm kiếm 
+Ví dụ: 
+, 
+, 
+, 
+, 
+, Thứ hai, 24/09/2018 | 09:54 GMT +7 33 o C Hôm nay 33 o C 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C 
+Bình minh: 
+Hoàng hôn: Hướng gió: 
+Tây Bắc 
+Tốc độ: 11 Km/h 
+Hướng gió: 311° Trạm khí tượng: 
+Kinh độ: 
+105.85 
+Vĩ độ: 
+21.02 
+Nhiệt độ hóa sương: 
+28 o 
+C 
+Tầm nhìn: 
+Km 
+Độ ẩm: 
+76% 
+Áp suất: 
+1004.3 mb 
+Ngày 
+33 o 
+C 
+Đêm 
+26 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 26 o 
+C đến 33 o 
+C 
+Ngày 
+31 o 
+C 
+Đêm 
+26 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 26 o 
+C đến 31 o 
+C 
+Ngày 
+31 o 
+C 
+Đêm 
+24 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 24 o 
+C đến 31 o 
+C Hôm nay 26 o C Mây Âm U 
+Nhiệt độ từ 24 o 
+C đến 32 o 
+C 
+Bình minh: 05:44 
+Hoàng hôn: 17:45 Hướng gió: 
+Gió thay đổi! 
+Tốc độ: 10 Km/h 
+Hướng gió: 0° Trạm khí tượng: Ho Chi Minh 
+Kinh độ: 
+106.69 
+Vĩ độ: 
+10.78 
+Nhiệt độ hóa sương: 
+25 o 
+C 
+Tầm nhìn: 
+2.5 Km 
+Độ ẩm: 
+94% 
+Áp suất: 
+1011 mb 
+Ngày 
+33 o 
+C 
+Đêm 
+24 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C 
+Ngày 
+33 o 
+C 
+Đêm 
+24 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C 
+Ngày 
+33 o 
+C 
+Đêm 
+24 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C Hôm nay 26 o C Có Mây Rải Rác 
+Nhiệt độ từ 25 o 
+C đến 32 o 
+C 
+Bình minh: 05:44 
+Hoàng hôn: 17:45 Hướng gió: 
+Tốc độ: 11 Km/h 
+Hướng gió: 0° Trạm khí tượng: Phu Lien 
+Kinh độ: 
+106.68 
+Vĩ độ: 
+20.86 
+Nhiệt độ hóa sương: 
+26 o 
+C 
+Tầm nhìn: 
+10.0 Km 
+Độ ẩm: 
+96% 
+Áp suất: 
+1012 mb 
+Ngày 
+32 o 
+C 
+Đêm 
+26 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 26 o 
+C đến 32 o 
+C 
+Ngày 
+31 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 25 o 
+C đến 31 o 
+C 
+Ngày 
+31 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 25 o 
+C đến 31 o 
+C Hôm nay 28 o C Hơi Có Mây 
+Nhiệt độ từ 24 o 
+C đến 33 o 
+C 
+Bình minh: 
+Hoàng hôn: Hướng gió: 
+Gió thay đổi! 
+Tốc độ: 11 Km/h 
+Hướng gió: 0° Trạm khí tượng: Can Tho Airfield 
+Kinh độ: 
+105.78 
+Vĩ độ: 
+10.03 
+Nhiệt độ hóa sương: 
+26 o 
+C 
+Tầm nhìn: 
+10.0 Km 
+Độ ẩm: 
+89% 
+Áp suất: 
+1013 mb 
+Ngày 
+32 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 25 o 
+C đến 32 o 
+C 
+Ngày 
+32 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 25 o 
+C đến 32 o 
+C 
+Ngày 
+32 o 
+C 
+Đêm 
+25 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 25 o 
+C đến 32 o 
+C Hôm nay 28 o C Hơi Có Mây 
+Nhiệt độ từ 16 o 
+C đến 26 o 
+C 
+Bình minh: 05:38 
+Hoàng hôn: 17:39 Hướng gió: 
+Tốc độ: 8 Km/h 
+Hướng gió: 0° Trạm khí tượng: Da Nang 
+Kinh độ: 
+108.21 
+Vĩ độ: 
+16.07 
+Nhiệt độ hóa sương: 
+25 o 
+C 
+Tầm nhìn: 
+20.0 Km 
+Độ ẩm: 
+81% 
+Áp suất: 
+1014 mb 
+Ngày 
+27 o 
+C 
+Đêm 
+17 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 17 o 
+C đến 27 o 
+C 
+Ngày 
+28 o 
+C 
+Đêm 
+17 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 17 o 
+C đến 28 o 
+C 
+Ngày 
+27 o 
+C 
+Đêm 
+17 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 17 o 
+C đến 27 o 
+C Hôm nay 0 o C 
+Nhiệt độ từ 21 o 
+C đến 32 o 
+C 
+Bình minh: 05:41 
+Hoàng hôn: 17:42 Hướng gió: 
+Tốc độ: 6 
+Hướng gió: ° Trạm khí tượng: 
+Kinh độ: 
+107.58 
+Vĩ độ: 
+16.48 
+Nhiệt độ hóa sương: o 
+C 
+Tầm nhìn: 
+Độ ẩm: 
+Áp suất: 
+Ngày 
+33 o 
+C 
+Đêm 
+22 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 22 o 
+C đến 33 o 
+C 
+Ngày 
+33 o 
+C 
+Đêm 
+22 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 22 o 
+C đến 33 o 
+C 
+Ngày 
+33 o 
+C 
+Đêm 
+22 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 22 o 
+C đến 33 o 
+C Hôm nay 28 o C Mây Âm U 
+Nhiệt độ từ 23 o 
+C đến 33 o 
+C 
+Bình minh: 05:34 
+Hoàng hôn: 17:35 Hướng gió: 
+Tây Tây Bắc 
+Tốc độ: 6 Km/h 
+Hướng gió: 297° Trạm khí tượng: Nha Trang 
+Kinh độ: 
+109.19 
+Vĩ độ: 
+12.25 
+Nhiệt độ hóa sương: 
+25 o 
+C 
+Tầm nhìn: 
+20.0 Km 
+Độ ẩm: 
+85% 
+Áp suất: 
+1007 mb 
+Ngày 
+33 o 
+C 
+Đêm 
+23 o 
+C 12oC 
+Có Dông 
+Nhiệt độ từ 23 o 
+C đến 33 o 
+C 
+Ngày 
+35 o 
+C 
+Đêm 
+23 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 23 o 
+C đến 35 o 
+C 
+Ngày 
+35 o 
+C 
+Đêm 
+23 o 
+C 12oC 
+Có Thể Có Dông 
+Nhiệt độ từ 23 o 
+C đến 35 o 
+C Thông tin cần biết Mua Bán Vàng SJC 36.5 36.67 Vàng nữ trang 24 K 33.88 34.68 VND EUR Euro 27.526,03 JPY Yên Nhật 209,86 USD Đô Mỹ 23.370,00 
+Ngày: kỷ mùi, Hắc Đạo 
+Tốt cho các việc làm nhà, động thổ, làm chuồng gia súc, giá thú, đào giếng. 
+Tuổi xung: Ðinh Sửu, Ất Sửu Khác Dự Báo Thời Tiết Thủ đô Hà Nội ngày kia Trong nước Thế giới 26-31 °C Mặt trời mọc: 05:48 Mặt trời lặn: 17:47 Hướng gió: ĐN Độ ẩm: 77% Ban Ngày Khả năng có mưa: 80% Buổi tối Khả năng có mưa: 80% Dự báo thời tiết những ngày tiếp theo 24-31 °C Có Dông 24-31 °C Có Dông 23-31 °C Hơi Có Mây 21-31 °C Hơi Có Mây 21-31 °C Hơi Có Mây 22-31 °C Hơi Có Mây 21-30 °C Hơi Có Mây vietbao.vn - Thông tin dự báo cung cấp bởi: Bạn cần cập nhật thường xuyên tình hình nhưng lại ngại những bản tin dài ngoằng với chữ và các con số. Tiện ích này giúp bạn dễ dàng hình dung tình hình thời tiết đang diễn ra ngay bên ngoài cửa sổ nhà bạn hay ở nơi bạn cần (Chèn tên) bằng các hình ảnh động mô phỏng các hiện tượng thời tiết rất trực quan như: Mây, mưa, gió, nắng hay trạng thái ngày, đêm,... Một bảng dự báo thời tiết hôm nay, ngày mai, 3 ngày sắp tới, 1 tuần thậm chí là 10 ngày với các thông số khá đầy đủ, hình ảnh trực quan sinh động biểu thị cho các cơn địa chấn, sức gió, nhiệt độ , chắc chắn sẽ là tiện ích đáng để bạn lưu tâm. Nhờ kho dữ liệu khá phong phú, cập nhật liên tục, bạn có thể nắm được tình hình thời tiết tại địa phương mình, hay ở nơi bạn cần giúp bạn luôn làm chủ được công việc Tiện ích được thiết kế đơn giản, gọn gang, ưa nhìn dễ truy cập, tra cứu các thông tin chính xác nhất và bất cứ vấn đề nào về dự báo thời tiết, dự báo thời tiết hôm nay, dự báo thời tiết ngày mai, dự báo thời tiết 3 ngày tới, dự báo thời tiết 10 ngày tới… Không chỉ dự đoán thời tiết trong ngày, nhiều ngày, tiện ích còn giúp bạn nắm được thông tin dự báo cụ thể cũng như thông tin tông quan về địa điểm mà bạn quan tâm, để bạn dễ dàng hơn cho việc lên lộ trình cũng như thực hiện các dự định của mình ở nới đó. - © 2006-2007 by Việt Báo 
+Các Thành Phố Việt Nam Bản đồ thời tiết Thời tiết một số khu vực 33°C 26°C 28°C 29°C 33°C 27°C 33°C 29°C 28°C 28°C 28°C 30°C 29°C 32°C 26°C 28°C 27°C 22°C 28°C 28°C 25°C 27°C 27°C 23°C 29°C (01/11/2017 10:34) (31/10/2017 09:45) (30/10/2017 09:53) (28/10/2017 11:15) (27/10/2017 09:09) (24/10/2017 08:30) (23/10/2017 08:46) (21/10/2017 09:12) 
+Sự thật vụ phát hiện bộ xương khô trong ngôi nhà hoang; Nghi án dùng “nước hoa kích dục” hiếp dâm nữ sinh viên là những tin đáng chú ý nhất tuần qua. 
+Trung úy công an bị giáng 2 cấp vì quan hệ bất chính; Nam thanh niên bị lũ cuốn mất tích ở Đà Lạt; Ngư dân Quảng Bình bắt được cá nghi là sủ vàng nặng 3kg; Tai nạn ở công trình, 2 công nhân tử vong; Kinh hoàng xe bán tải đâm văng taxi, xe máy, nhiều người bị thương; Bị 10 người vây đánh, rút súng bắn trả trước bến xe Mỹ Đình 
+Mẹ chết thảm vì vướng vào dây điện bẫy chuột của con trai; Nghi vấn cụ bà 84 tuổi nhảy lầu 6 bệnh viện tự tử lúc nửa đêm; Đà Nẵng: Kinh hoàng đám cháy phát ra từ quán bar cũ; Nam thanh niên nghi ngáo đá xông vào nhà đâm cụ già trọng thương 
+Sau trường hợp hiến giác mạc của bé Hải An gây xúc động mạnh với dư luận, rất nhiều người đã đến Trung tâm điều phối ghép tạng Quốc gia để đăng ký hiện tạng. 
+Hình ảnh 2 thanh niên được cho là người Việt Nam ngồi chung một ghế trên chuyến tàu Tết đông đúc để nhường ghế còn lại cho 2 em bé người Đài Loan (Trung Quốc) đang khiến cộng đồng mạng nước này xúc động. 
+Sáng 8/2, tại trường Đại học GTVT (Hà Nội) những sinh viên có hoàn cảnh khó khăn đã bắt đầu hành trình về quê sum họp trên những chuyến xe miễn phí. 
+Nếu ngay cả vấn đề hạt nhân Triều Tiên hay quan hệ với EU cũng không làm ông Trump mất thế thượng phong thì với cuộc điều tra Nga can thiệp bầu cử Mỹ năm 2016, tuần nay chứng kiến sự lên tiếng đầy bất lực từ vị Tổng thống thứ 45 của Hoa Kỳ. 
+Ngay sau trận chung kết ở Moscow kết thúc với cúp vàng dành cho đội tuyển Pháp, 1 "trận đấu" gay cấn khác lại diễn ra ở Helsiki, là cuộc gặp thượng đỉnh Nga-Mỹ với nhiều toan tính từ cả 2 nước và cũng đầy lo ngại theo phía Phương Tây. 
+Một tuần sau cuộc gặp với Kim Jong Un, trong khi phía Bình Nhưỡng chưa có bất cứ động thái gì rõ rệt thì Donald Trump lại đang tỏ ra "nhiệt thành" quá mức với Triều Tiên, bất chấp thái độ dè chừng từ phía đồng minh. Và trong trạng thái "ngủ quên trên chiến thắng" ấy, ông Trump bất ngờ bị dư luận Mỹ "đánh úp" buộc phải "đầu hàng" trong vấn đề nhập cư. 
+Tin nhanh Việt Nam ra thế giới Vietbao.vn 
+Trung tâm Báo chí và Hợp tác truyền thông Quốc tế (CPI) - Bộ thông tin và truyền thông 
+Center for Press and International Communication Cooperation - Ministry of Information and Communication, Viet Nam 
+Giấy phép số: 08/GP-TTĐT, cấp ngày 11/02/2015

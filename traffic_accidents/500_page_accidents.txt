@@ -1,11 +1,11 @@
 **** Craw link for: https://bing.com/search?q=t%C3%B4ng%20c%E1%BA%A3nh%20s%C3%A1t%20giao%20th%C3%B4ng
  + https://ngoisao.net/tin-tuc/choi-blog/quai-xe-tong-canh-sat-giao-thong-nga-lon-vong-o-ha-noi-3777391.html
- + https://news.zing.vn/thieu-nu-vi-pham-giao-thong-tong-gay-chan-canh-sat-co-dong-post868339.html
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/xe-tai-tong-nat-xe-canh-sat-giao-thong-o-hai-phong-441157.html
  + https://vnexpress.net/tin-tuc/phap-luat/an-chung-than-cho-nguoi-vi-pham-tong-chet-trung-ta-canh-sat-tren-cao-toc-3789121.html
  + https://news.zing.vn/thanh-nien-29-tuoi-an-va-sau-khi-tong-canh-sat-giao-thong-post824645.html
  + https://www.tienphong.vn/xa-hoi/tai-xe-xe-tai-tong-canh-sat-giao-thong-roi-bo-chay-1288962.tpo
  + https://vnexpress.net/tin-tuc/thoi-su/thieu-ta-csgt-bi-nguoi-di-xe-may-tong-tu-vong-tren-cao-toc-3678186.html
+ + https://news.zing.vn/video-canh-sat-kham-nghiem-hien-truong-vu-oto-bmw-tong-chet-co-gai-post863270.html
  + http://vietnamnet.vn/vn/thoi-su/clip-nong/canh-sat-giao-thong-quat-nga-lai-xe-taxi-truoc-cong-benh-vien-bach-mai-445630.html
  + https://www.tienphong.vn/phap-luat/vi-pham-giao-thong-thieu-nu-ha-noi-tang-ga-tong-guc-2-canh-sat-1312372.tpo
  + https://nld.com.vn/phap-luat/hotgirl-thong-chot-141-tong-gay-chan-dai-uy-canh-sat-co-dong-20180813110924265.htm
@@ -15,33 +15,33 @@
  + http://vietnamnet.vn/vn/the-gioi/the-gioi-do-day/kinh-hoang-canh-ho-tu-than-nuot-chung-xe-hoi-giua-duong-466821.html
  + https://vnexpress.net/ho-tu-than/tag-24148-1.html
  + https://baomoi.com/ho-tu-than-khong-lo-bong-dung-nuot-chung-xe-tren-duong/c/27257208.epi
- + https://vtc.vn/ho-tu-than-trong-cong-trinh-nuot-tron-xe-tai-cho-dat-d427722.html
  + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/ho-tu-than-nuot-oto-tren-pho-3783249.html
+ + https://vtc.vn/ho-tu-than-trong-cong-trinh-nuot-tron-xe-tai-cho-dat-d427722.html
  + https://dantri.com.vn/the-gioi/giai-ma-hang-loat-ho-tu-than-xuat-hien-o-mien-bac-nga-20180402113317828.htm
  + https://vnexpress.net/tin-tuc/the-gioi/cuoc-song-do-day/ho-tu-than-nuot-chung-hai-xe-hoi-o-my-3543566.html
  + http://docbao.vn/the-gioi/khach-an-co-cuoi-bi-ho-tu-than-nuot-chung-tintuc554957
 **** Craw link for: https://bing.com/search?q=xe%20d%E1%BA%ADp%20n%C3%A1t
  + https://vnexpress.net/tin-tuc/oto-xe-may/cabin-dap-nat-tai-xe-van-tinh-bo-lai-xe-3762852.html
  + https://vnexpress.net/tin-tuc/oto-xe-may/tai-xe-ket-trong-cabin-dap-nat-tu-huong-dan-cuu-ho-3795627.html
- + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/xe-tai-roi-xuong-cau-2-nguoi-chet-va-bi-thuong-458736.html
  + https://baomoi.com/xe-tai-roi-xuong-cau-phu-xe-thiet-mang-tai-xe-dap-nat-2-chan/c/26634747.epi
- + http://vietnamnet.vn/vn/thoi-su/tin-anh/xe-hut-be-phot-dap-tat-o-to-dang-chay-ngun-ngut-o-sa-pa-468104.html
- + https://news.zing.vn/oto-7-cho-dap-nat-khi-dau-dau-xe-cuu-ho-7-nguoi-thuong-vong-post824648.html
- + https://nld.com.vn/thoi-su/xe-7-cho-dap-nat-khi-dau-dau-xe-cuu-ho-7-nguoi-thuong-vong-20180308175745006.htm
+ + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/xe-tai-roi-xuong-cau-2-nguoi-chet-va-bi-thuong-458736.html
+ + http://vietnamnet.vn/vn/chuyen-trang/oto-xemay/video-o-to-dap-nat-toan-than-no-lop-van-phong-tren-duong-350326.html
  + https://video.vnexpress.net/tin-tuc/600s-thoi-su/hai-xe-dap-nat-sau-vu-tai-nan-khien-13-nguoi-chet-tai-lai-chau-3809769.html
  + https://nld.com.vn/thoi-su/dung-xe-cuu-nguoi-bi-tai-nan-nhom-nguoi-bi-xe-tai-tong-truc-dien-20180826103239761.htm
+ + https://news.zing.vn/oto-7-cho-dap-nat-khi-dau-dau-xe-cuu-ho-7-nguoi-thuong-vong-post824648.html
+ + https://www.youtube.com/watch?v=7eFSe3Y8_6Y
  + https://news.zing.vn/video-ngu-quen-khien-xe-lao-xuong-vuc-tai-xe-bi-xe-tai-de-dap-nat-hai-chan-post854500.html
 **** Craw link for: https://bing.com/search?q=t%C3%B4ng%20t%E1%BB%AB%20ph%C3%ADa%20sau
  + https://m.thanhnien.vn/thoi-su/bi-xe-khach-16-cho-tong-tu-phia-sau-nam-thanh-nien-tu-vong-tai-cho-988613.html
+ + https://news.zing.vn/2-can-bo-cong-an-binh-thuan-tu-vong-khi-xe-camry-bi-tong-tu-phia-sau-post766449.html
+ + https://news.zing.vn/bi-xe-tai-tong-tu-phia-sau-me-chong-tu-vong-con-dau-nhap-vien-post824602.html
  + https://m.thanhnien.vn/thoi-su/bi-tong-tu-phia-sau-giam-doc-trung-tam-bao-tro-tre-kho-khan-khuyet-tat-tu-nan-964400.html
  + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/xe-tai-vang-xuong-ruong-sau-cu-tong-tu-phia-sau-3775102.html
- + https://news.zing.vn/2-can-bo-cong-an-binh-thuan-tu-vong-khi-xe-camry-bi-tong-tu-phia-sau-post766449.html
  + https://dantri.com.vn/xa-hoi/bi-tong-manh-tu-phia-sau-o-to-lao-len-can-2-nguoi-thuong-vong-20180626145308483.htm
  + http://www.thongtindalat24h.com/2018/07/lam-dong-bi-xe-khach-tong-tu-phia-sau-nam-thanh-nien-tu-vong-tai-cho.html
- + https://news.zing.vn/bi-xe-tai-tong-tu-phia-sau-me-chong-tu-vong-con-dau-nhap-vien-post824602.html
  + https://baomoi.com/xe-khach-tong-phia-sau-nguoi-dan-ong-di-xe-may-tu-vong-tai-cho/c/27224642.epi
- + https://baomoi.com/khoi-to-tai-xe-xe-tai-bo-tron-sau-khi-tong-chet-2-me-con-tren-cau-can-tho/c/26869750.epi
- + https://www.24h.com.vn/tin-tuc-trong-ngay/bi-xe-tai-tong-tu-phia-sau-me-tu-vong-con-nguy-kich-c46a824778.html
+ + https://baomoi.com/xe-container-tong-xe-may-tu-phia-sau-2-nguoi-chet-1-nguoi-bi-thuong-nang/c/26679770.epi
+ + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/tong-vao-duoi-xe-container-phu-xe-chet-bep-trong-cabin-456604.html
 **** Craw link for: https://bing.com/search?q=t%C3%B4ng%20tr%C3%BAng
  + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/oto-di-vao-duong-cam-lui-trung-nhieu-xe-may-roi-bo-chay-3787639.html
  + https://news.zing.vn/oto-bi-tau-hoa-tong-4-nguoi-thuong-vong-post871621.html
@@ -65,16 +65,16 @@
  + http://www.baodongnai.com.vn/tintuc/201808/xe-may-va-cham-voi-xe-dau-keo-mot-nguoi-tu-vong-2907634
  + http://www.atgt.vn/va-cham-voi-xe-dau-keo-1-nguoi-tu-vong-tai-cho-d269583.html
 **** Craw link for: https://bing.com/search?q=%C4%91%C3%A2m%20v%C3%A0o%20nh%C3%A0%20d%C3%A2n
- + http://www.atgt.vn/xe-container-dam-vao-nha-dan-khien-be-gai-5-tuoi-tu-vong-d264482.html
- + http://kenh14.vn/nu-tai-xe-dam-xe-thang-vao-nha-dan-1-nguoi-chet-1-bi-thuong-20180726105311241.chn
- + https://m.thanhnien.vn/thoi-su/xe-container-dam-vao-nha-dan-be-gai-5-tuoi-tu-vong-tai-cho-983738.html
  + https://www.vietnamplus.vn/xe-container-dam-vao-nha-dan-lam-1-chau-be-chet-5-nguoi-bi-thuong/513892.vnp
+ + https://m.thanhnien.vn/thoi-su/xe-container-dam-vao-nha-dan-be-gai-5-tuoi-tu-vong-tai-cho-983738.html
  + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/xe-tai-dam-vao-ba-nha-dan-luc-rang-sang-3760606.html
- + https://news.zing.vn/xe-thanh-buoi-dam-vao-nha-dan-hai-nguoi-tu-vong-post731763.html
- + https://baomoi.com/xe-container-dam-vao-nha-dan-6-nguoi-thuong-vong/c/26917346.epi
+ + http://www.atgt.vn/xe-container-dam-vao-nha-dan-khien-be-gai-5-tuoi-tu-vong-d264482.html
+ + https://autopro.com.vn/khoanh-khac-kinh-hoang-xe-container-dam-vao-2-xe-may-roi-lao-vao-nha-dan-20180717084248264.chn
+ + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/xe-cap-cuu-huc-do-tuong-nha-dan-3765342.html
  + https://dantri.com.vn/xa-hoi/xe-cho-heo-mat-lai-dam-vao-nha-dan-lam-cu-ba-80-tuoi-bi-thuong-20180610104009421.htm
- + https://baotintuc.vn/an-ninh-trat-tu/xe-container-dam-vao-nha-dan-lam-1-nguoi-chet-5-nguoi-bi-thuong-20180716174621680.htm
- + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/xe-tai-mat-lai-dam-bep-dum-oto-4-cho-roi-lao-vao-nha-dan-3720102.html
+ + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/chong-trom-may-bay-dam-vao-nha-de-giet-vo-sau-cai-va-3792176.html
+ + https://news.zing.vn/xe-thanh-buoi-dam-vao-nha-dan-hai-nguoi-tu-vong-post731763.html
+ + https://www.tienphong.vn/dia-oc/den-dui-khi-mua-nha-co-duong-dam-thang-vao-1306684.tpo
 **** Craw link for: https://bing.com/search?q=xe%20lao%20xu%E1%BB%91ng%20v%E1%BB%B1c
  + https://nld.com.vn/thoi-su/tai-nan-tham-khoc-khi-xe-khach-lao-xuong-vuc-21-nguoi-thuong-vong-20180616073550926.htm
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/xe-khach-lao-xuong-vuc-deo-lo-xo-3-nguoi-chet-hang-chuc-nguoi-bi-thuong-457171.html
@@ -87,19 +87,19 @@
  + https://vtc.vn/xe-khach-giuong-nam-lao-xuong-vuc-o-cao-bang-danh-tinh-20-nan-nhan-d414964.html
  + http://dantri.com.vn/xa-hoi/xe-khach-lao-xuong-vuc-3-nguoi-tu-vong-20180722090343351.htm
 **** Craw link for: https://bing.com/search?q=%C3%B4%20t%C3%B4%20phanh%20g%E1%BA%A5p
- + http://www.atgt.vn/phanh-gap-tranh-co-gai-bi-nga-3-o-to-dam-nhau-lien-hoan-d267748.html
- + http://kenh14.vn/xe-container-phanh-gap-gay-tai-nan-lien-hoan-cao-toc-tp-hcm-long-thanh-dau-giay-ket-xe-tu-sang-den-trua-20180801123249383.chn
  + http://vietnamnet.vn/vn/chuyen-trang/oto-xemay/dap-nguc-vao-vo-lang-sau-cu-phanh-gap-tai-xe-vo-tim-464208.html
- + https://www.tin247.com/phanh_gap_nam_thanh_nien_cung_xe_may_vang_vao_gam_o_to-1-24833760.html
- + http://www.baogiaothong.vn/video-o-to-phanh-chay-lop-tranh-xe-may-vuot-den-do-cat-mat-d257886.html
- + http://dantri.com.vn/xa-hoi/mot-xe-phanh-gap-3-xe-tong-nhau-lien-hoan-tren-quoc-lo-2017031315562928.htm
- + https://autopro.com.vn/ha-noi-bop-phanh-gap-ca-nguoi-lan-xe-may-lao-thang-vao-dau-o-to-20161107160446519.chn
+ + http://www.atgt.vn/phanh-gap-tranh-co-gai-bi-nga-3-o-to-dam-nhau-lien-hoan-d267748.html
  + http://vietnamnet.vn/vn/chuyen-trang/oto-xemay/phanh-gap-tay-biker-an-qua-dang-bam-dap-tren-xa-lo-376177.html
- + https://xe.thanhnien.vn/clip/phanh-gap-xe-tay-ga-lat-ngua-giua-xa-lo-10218.html
- + http://soha.vn/xa-hoi/mot-o-to-phanh-dot-ngot-roi-di-thang-3-xe-phia-sau-chiu-tran-20150511145631025.htm
+ + http://kenh14.vn/xe-container-phanh-gap-gay-tai-nan-lien-hoan-cao-toc-tp-hcm-long-thanh-dau-giay-ket-xe-tu-sang-den-trua-20180801123249383.chn
+ + https://www.nguoiduatin.vn/tranh-cai-quanh-chuyen-o-to-bong-dung-phanh-gap-giua-duong-a378437.html
+ + https://autopro.com.vn/ha-noi-bop-phanh-gap-ca-nguoi-lan-xe-may-lao-thang-vao-dau-o-to-20161107160446519.chn
+ + http://docbao.vn/xa-hoi/lai-xuat-hien-clip-be-trai-chay-ra-ngoi-choi-giua-duong-2-o-to-cung-nhieu-xe-may-hot-hoang-phanh-gap-tintuc544391
+ + http://dantri.com.vn/xa-hoi/mot-xe-phanh-gap-3-xe-tong-nhau-lien-hoan-tren-quoc-lo-2017031315562928.htm
+ + https://www.tin247.com/phanh_gap_nam_thanh_nien_cung_xe_may_vang_vao_gam_o_to-1-24833760.html
+ + https://www.24h.com.vn/tin-tuc-trong-ngay/tai-xe-hoang-hon-phanh-gap-tranh-be-1-tuoi-bo-tren-ql7-c46a960070.html
 **** Craw link for: https://bing.com/search?q=xe%20b%E1%BB%8B%20%C4%91%C3%A2m%20bi%E1%BA%BFn%20d%E1%BA%A1ng
  + https://vnexpress.net/photo/thoi-su/xe-7-cho-di-le-ram-bi-tau-dam-bien-dang-3798066.html
- + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/oto-bi-tau-hoa-dam-bien-dang-khi-vuot-qua-duong-sat-3731003.html
+ + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/xe-khach-16-cho-dang-chay-bi-da-de-bien-dang-3787385.html
  + https://news.zing.vn/xe-may-dam-bien-dang-oto-honda-civic-post715062.html
  + https://news.zing.vn/do-sat-duong-ray-xe-tai-bi-tau-dam-bien-dang-post795177.html
  + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/xe-7-cho-bi-vo-nat-sau-cu-dam-cua-tau-hoa-2-nguoi-thiet-mang-3798042.html
@@ -142,16 +142,16 @@
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/lat-xe-cho-khach-ve-que-an-tet-2-nguoi-thiet-mang-430005.html
  + https://www.tienphong.vn/the-gioi/cuba-xac-nhan-110-nguoi-thiet-mang-trong-vu-roi-may-bay-1275081.tpo
 **** Craw link for: https://bing.com/search?q=r%C6%A1i%20m%C3%A1y%20bay
- + https://vi.m.wikipedia.org/wiki/Danh_s%C3%A1ch_c%C3%A1c_v%E1%BB%A5_r%C6%A1i_m%C3%A1y_bay_t%E1%BA%A1i_Vi%E1%BB%87t_Nam
+ + https://dulich.vnexpress.net/tin-tuc/quoc-te/roi-khoi-may-bay-cho-song-sot-sau-6-ngay-lac-tren-sa-mac-3780406.html
  + http://kenh14.vn/may-bay-roi.html
  + https://vnexpress.net/tin-tuc/thoi-su/may-bay-su-22-roi-o-nghe-an-hai-phi-cong-hy-sinh-3783433.html
+ + https://www.24h.com.vn/tin-tuc-trong-ngay/roi-may-bay-quan-su-tai-nghe-an-c46a978006.html
+ + https://www.24h.com.vn/tin-tuc-trong-ngay/roi-may-bay-su-22u-2-chien-si-hy-sinh-la-phi-cong-gioi-c46a978102.html
+ + https://news.zing.vn/may-bay-cho-101-nguoi-roi-tai-mexico-post865070.html
  + https://news.zing.vn/may-bay-su-22-roi-o-nghe-an-2-phi-cong-hy-sinh-post863019.html
- + https://dulich.vnexpress.net/tin-tuc/quoc-te/roi-khoi-may-bay-cho-song-sot-sau-6-ngay-lac-tren-sa-mac-3780406.html
- + https://nld.com.vn/roi-may-bay.html
  + http://dantri.com.vn/the-gioi/roi-may-bay-cho-101-nguoi-o-mexico-20180801061830847.htm
- + http://vietnamnet.vn/vn/thoi-su/tin-anh/hien-truong-may-bay-quan-su-su-22-roi-o-nghe-an-466492.html
- + https://vnexpress.net/tin-tuc/thoi-su/may-bay-quan-su-roi-o-phu-yen-phi-cong-tu-vong-3458624.html
  + https://dantri.com.vn/xa-hoi/may-bay-quan-su-roi-tai-nghe-an-20180726134826253.htm
+ + http://vietnamnet.vn/vn/thoi-su/tin-anh/may-bay-roi-vo-nat-tai-nghia-dan-nghe-an-466371.html
 **** Craw link for: https://bing.com/search?q=t%C3%A0u%20h%E1%BB%8Fa%20t%C3%B4ng
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/tau-hoa-tong-xe-tai-vang-xa-o-ninh-thuan-duong-sat-te-liet-468722.html
  + https://news.zing.vn/oto-bi-tau-hoa-tong-4-nguoi-thuong-vong-post871621.html
@@ -177,14 +177,14 @@
 **** Craw link for: https://bing.com/search?q=t%C3%B4ng%20v%C3%A0o%20c%E1%BB%99t%20%C4%91i%E1%BB%87n
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/tong-xe-vao-cot-dien-2-thanh-nien-tu-vong-tai-cho-457733.html
  + https://news.zing.vn/xe-may-tong-cot-dien-nguoi-dan-ong-tu-vong-tai-cho-post864354.html
- + https://vtc.vn/nguoi-dan-ong-di-xe-may-tong-vao-cot-dien-chet-tai-cho-o-tphcm-d416582.html
  + https://dantri.com.vn/xa-hoi/nam-thanh-nien-tong-vao-cot-den-dien-cau-vuot-nga-tu-so-tu-vong-tai-cho-20180423085052849.htm
  + https://news.zing.vn/tong-vao-tru-dien-2-thanh-nien-tu-vong-post852770.html
- + https://www.tienphong.vn/xa-hoi/tong-vao-cot-dien-2-nam-thanh-nien-tu-vong-tai-cho-1287485.tpo
  + https://dantri.com.vn/xa-hoi/tong-xe-vao-cot-dien-2-thanh-nien-tu-vong-tai-cho-20171117074855023.htm
+ + https://vtc.vn/nguoi-dan-ong-di-xe-may-tong-vao-cot-dien-chet-tai-cho-o-tphcm-d416582.html
+ + https://www.tienphong.vn/xa-hoi/tong-vao-cot-dien-2-nam-thanh-nien-tu-vong-tai-cho-1287485.tpo
  + https://www.24h.com.vn/tin-tuc-trong-ngay/ha-noi-2-thanh-nien-tong-cot-dien-tu-vong-trong-dem-c46a971219.html
- + https://vtc.vn/2-thanh-nien-chay-xe-may-tong-vao-cot-dien-thiet-mang-d407607.html
- + http://soha.vn/tong-cot-dien-nguoi-chet-xe-may-gay-doi-20180412113403523.htm
+ + http://nghean24h.vn/danh-tinh-2-nan-nhan-tong-cot-dien-tu-vong-trong-dem-a531787.html
+ + http://vietnamnet.vn/vn/phap-luat/ho-so-vu-an/truy-duoi-cuop-giat-tui-xach-co-gai-tong-vao-cot-dien-gay-chan-387997.html
 **** Craw link for: https://bing.com/search?q=oto%20n%C3%A1t%20b%C3%A9t
  + https://vnexpress.net/tin-tuc/oto-xe-may/oto-nat-bet-khi-gap-nan-tren-cao-toc-3267701.html
  + http://www.otoxemay.vn/xe-doi-song/oto-nat-bet-vi-tai-nan-van-vi-vu-o-van-toc-145km-h
@@ -241,82 +241,82 @@
  + https://vnexpress.net/tin-tuc/cong-dong/video/xe-dien-nguoc-chieu-gay-tai-nan-tai-xe-bi-danh-nhap-vien-3389504.html
  + https://www.24h.com.vn/tin-tuc-trong-ngay/he-lo-nguyen-nhan-tai-xe-xe-dien-dam-hang-loat-phuong-tien-roi-bo-chay-c46a980453.html
 **** Craw link for: https://bing.com/search?q=cu%E1%BB%91n%20v%C3%A0o%20g%E1%BA%A7m%20xe
- + https://news.zing.vn/nam-thanh-nien-18-tuoi-bi-xe-dau-keo-cuon-vao-gam-post862627.html
- + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/nguoi-dan-ong-bi-cuon-vao-gam-xe-dau-keo-3784435.html
- + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/ba-nguoi-tren-xe-may-bi-cuon-vao-gam-oto-tai-3757075.html
  + https://www.24h.com.vn/tin-tuc-trong-ngay/xe-cuu-ho-cuon-hang-loat-xe-may-vao-gam-be-trai-6-tuoi-tu-vong-c46a979842.html
- + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/lai-xe-grapbike-bi-xe-container-cuon-vao-gam-chet-tham-o-ha-noi-468679.html
+ + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/nguoi-dan-ong-bi-cuon-vao-gam-xe-dau-keo-3784435.html
  + https://www.tienphong.vn/xa-hoi/xe-cuu-ho-cuon-hang-loat-xe-may-vao-gam-be-trai-6-tuoi-tu-vong-1308514.tpo
+ + https://news.zing.vn/nam-thanh-nien-18-tuoi-bi-xe-dau-keo-cuon-vao-gam-post862627.html
  + https://vnexpress.net/cuon-vao-gam/tag-141205-1.html
  + http://vietnamnet.vn/vn/chuyen-trang/oto-xemay/xe-may-bi-cuon-vao-gam-xe-tai-diem-mu-va-tinh-huong-gay-nhieu-tranh-cai-452396.html
- + https://news.zing.vn/oto-cho-dat-cuon-co-gai-18-tuoi-cung-xe-may-vao-gam-post862446.html
+ + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/lai-xe-grapbike-bi-xe-container-cuon-vao-gam-chet-tham-o-ha-noi-468679.html
+ + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/ba-nguoi-tren-xe-may-bi-cuon-vao-gam-oto-tai-3757075.html
  + https://www.24h.com.vn/tin-tuc-trong-ngay/o-to-dien-lui-cuon-3-xe-may-vao-gam-nhieu-nguoi-bi-thuong-c46a981064.html
+ + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/xe-dap-bi-cuon-vao-gam-container-mot-nguoi-tu-vong-3795098.html
 **** Craw link for: https://bing.com/search?q=xe%20ng%C3%A3%20l%C4%83n%20ra%20%C4%91%C6%B0%E1%BB%9Dng
  + https://vnexpress.net/tin-tuc/oto-xe-may/dien-dan/oto-huc-xe-may-cho-3-nguoi-nga-lan-ra-duong-3765279.html
  + https://dantri.com.vn/o-to-xe-may/kinh-hoang-xe-may-co-vuot-giua-hai-xe-oto-roi-nga-lan-ra-duong-20180702083851135.htm
  + https://vnexpress.net/tin-tuc/cong-dong/video/3-nguoi-gap-nan-vi-xe-may-chuyen-lan-khong-quan-sat-3218461-p2.html
+ + https://news.zing.vn/video-nhan-vien-nha-xe-danh-nguoi-di-xe-may-cho-tre-nho-nga-lan-ra-duong-post868669.html
  + https://baomoi.com/oto-huc-xe-may-cho-3-nguoi-nga-lan-ra-duong/c/26571956.epi
  + https://ngoisao.net/tin-tuc/choi-blog/nguoi-dan-ong-bi-oto-tong-bay-nguoi-vi-dat-xe-may-ngang-cao-toc-3787169.html
  + https://video.vietnamnet.vn/bi-csgt-dung-xe-nguoi-dan-ong-lan-ra-duong-an-va-a-66061.html
  + https://news.zing.vn/video-xe-ban-tai-chay-au-ep-xe-may-nga-lan-ra-duong-post847957.html
  + https://dantri.com.vn/o-to-xe-may/luon-lach-giua-hai-o-to-de-vuot-xe-may-nga-cam-dau-vao-banh-xe-tai-20180821094815213.htm
  + https://vtc.vn/clip-dam-vao-xe-khac-nga-sap-mat-co-gai-nam-luon-giua-duong-nhan-tin-dien-thoai-d413722.html
- + https://news.zing.vn/video-nhan-vien-nha-xe-danh-nguoi-di-xe-may-cho-tre-nho-nga-lan-ra-duong-post868669.html
 **** Craw link for: https://bing.com/search?q=lao%20l%C3%AAn%20l%E1%BB%81
  + https://www.voatiengviet.com/a/canada-xe-tai-lao-len-le-9-nguoi-chet-/4361533.html
  + https://www.nguoi-viet.com/little-saigon/Little-Saigon-Xe-lao-len-le-tong-2-vo-chong-nguoi-Viet-1-chet-4600
  + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/oto-lao-len-le-duong-nhieu-nguoi-nhap-vien-3211194.html
  + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/xe-dien-lao-len-le-duong-3-nguoi-thuong-vong-3346267.html
  + https://nld.com.vn/dia-phuong/lai-xe-taxi-lao-xe-len-via-he-de-dam-nguoi-20140416114649027.htm
- + http://congan.com.vn/giao-thong-24h/khong-lam-chu-tay-lai-thanh-nien-lao-mo-to-len-le-duong-tu-nan_50853.html
  + http://www.yan.vn/o-to-lao-len-le-duong-6-nguoi-thuong-vong-177825.html
- + https://baomoi.com/xe-cuu-hoa-huc-o-to-4-cho-lao-len-le-duong-4-nguoi-thoat-chet/c/25938082.epi
- + https://baotintuc.vn/xa-hoi/xe-cuu-hoa-huc-o-to-4-cho-lao-len-le-duong-4-nguoi-thoat-chet-20180507110200009.htm
+ + http://congan.com.vn/giao-thong-24h/khong-lam-chu-tay-lai-thanh-nien-lao-mo-to-len-le-duong-tu-nan_50853.html
  + https://news.zing.vn/xe-container-lao-len-le-duong-dam-sap-cua-hang-post669324.html
+ + https://www.tienphong.vn/xa-hoi/lao-len-le-duong-o-to-tong-sap-dan-den-trang-tri-797262.tpo
+ + https://www.laodong.vn/tan-man/nen-con-them-xe-may-leo-le-575034.ldo
 **** Craw link for: https://bing.com/search?q=t%C3%B4ng%20v%C3%A0o%20d%E1%BA%A3i%20ph%C3%A2n%20c%C3%A1ch
  + https://vtc.vn/xe-khach-tong-vao-dai-phan-cach-9-nguoi-thuong-vong-d414523.html
  + https://vtc.vn/tong-vao-dai-phan-cach-3-nguoi-mac-ket-tren-chiec-o-to-lat-nghieng-giua-quoc-lo-d417706.html
- + http://soha.vn/xe-khach-giuong-nam-tong-vao-dai-phan-cach-lat-nghieng-2-nguoi-tu-vong-20180720083105627.htm
  + http://dantri.com.vn/xa-hoi/xe-ben-can-nguoi-roi-lao-dai-phan-cach-ca-nat-bon-hoa-tong-thang-tru-den-2018072520484978.htm
  + https://news.zing.vn/chanh-van-phong-huyen-tu-vong-khi-dam-xe-vao-dai-phan-cach-post859893.html
  + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/oto-giuong-nam-nat-dau-sau-cu-tong-dai-phan-cach-2-nguoi-chet-3780679.html
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/tay-dua-mo-to-sai-gon-tong-xe-vao-dai-phan-cach-thiet-mang-443702.html
  + https://www.tienphong.vn/xa-hoi/xe-ben-tong-chet-nguoi-cay-nat-dai-phan-cach-1305307.tpo
+ + https://www.tin247.com/tong_vao_dai_phan_cach_xe_o_to_cho_thai_phu_lat_tren_cao_toc_da_nang_quang_ngai-1-24862148.html
  + https://vov.vn/xa-hoi/tong-vao-dai-phan-cach-xe-hop-mazda-cx9-lat-nhu-phim-773891.vov
- + http://congan.com.vn/giao-thong-24h/xe-tai-tong-vao-dai-phan-cach-hu-hong-nang_36691.html
+ + http://congan.com.vn/doi-song/tong-vao-dai-phan-cach-nam-thanh-nien-dut-lia-duong-vat_32933.html
 **** Craw link for: https://bing.com/search?q=t%C3%A0i%20x%E1%BA%BF%20say%20r%C6%B0%E1%BB%A3u%20t%C3%B4ng
  + https://vnexpress.net/tin-tuc/phap-luat/tai-xe-oto-say-ruou-tong-chet-hai-nu-sinh-bi-bat-3779565.html
  + http://vietnamnet.vn/vn/thoi-su/clip-nong/xe-hop-tong-thang-tram-thu-phi-bot-lat-ngua-o-cao-toc-noi-bai-lao-cai-454199.html
  + https://vtc.vn/o-to-tong-xe-may-roi-bo-chay-tai-xe-say-ruou-bi-nguoi-dan-vay-danh-d418097.html
  + http://kenhvideo.com/tai-xe-say-ruou-lai-xe-tong-chet-nguoi-o-nga-tu_102630.html
  + https://ngoisao.net/tin-tuc/choi-blog/tai-xe-oto-danh-vong-nhu-nguoi-say-ruou-giua-ha-noi-3782597.html
- + https://www.tienphong.vn/phap-luat/tai-xe-oto-tong-chet-hai-nu-sinh-trong-tinh-trang-say-ruou-1302496.tpo
  + https://vnexpress.net/tin-tuc/cong-dong/video/tai-xe-oto-say-ruou-bi-nan-nhan-bat-goi-nguoi-nha-den-cho-ve-3759452.html
+ + https://vn.sputniknews.com/vietnam/201801254697997-say-ruou-tai-xe-tong-hang-loat-phuong-tien-tren-pho-khien-6-nguoi-bi-thuong-nang
+ + https://vtc.vn/say-ruou-tai-xe-tong-hang-loat-phuong-tien-tren-pho-khien-6-nguoi-bi-thuong-nang-d377511.html
+ + https://www.tienphong.vn/phap-luat/tai-xe-oto-tong-chet-hai-nu-sinh-trong-tinh-trang-say-ruou-1302496.tpo
  + https://www.vietgiaitri.com/phap-luat/201805/tai-xe-o-to-nghi-say-ruou-tong-hang-loat-xe-may-4-nguoi-nhap-vien-3198349
- + https://vtc.vn/clip-tai-xe-mazda-cx-5-danh-vong-tren-pho-nhu-say-ruou-va-cai-ket-nhu-phim-hanh-dong-d415428.html
- + https://ngoisao.net/tin-tuc/choi-blog/tai-xe-oto-say-ruou-bi-chan-dau-bat-goi-nguoi-nha-den-dua-ve-3759010.html
 **** Craw link for: https://bing.com/search?q=%C4%91%C3%A2m%20li%C3%AAn%20ho%C3%A0n
- + http://soha.vn/nu-tai-xe-dieu-khien-xe-bmw-dam-lien-hoan-tren-pho-ha-noi-mot-nguoi-bi-thuong-2018082119274325.htm
- + http://soha.vn/vu-bmw-dam-lien-hoan-truoc-cong-royal-city-nu-tai-xe-khai-do-vuong-quai-giay-cao-got-20180822200900758.htm
- + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/bon-xe-dam-lien-hoan-khien-mot-nguoi-chet-3748169.html
- + https://news.zing.vn/tranh-bo-qua-quoc-lo-3-xe-tai-dam-lien-hoan-post866808.html
  + https://www.tienphong.vn/xa-hoi/nu-tai-xe-lai-bmw-tong-lien-hoan-tren-duong-nguyen-trai-1315518.tpo
- + https://www.tienphong.vn/xa-hoi/ba-oto-khach-dam-lien-hoan-tren-quoc-lo-1a-hai-nguoi-tu-vong-1301943.tpo
+ + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/bon-xe-dam-lien-hoan-khien-mot-nguoi-chet-3748169.html
  + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/nu-tai-xe-bmw-dam-lien-hoan-khien-hai-chau-be-nhap-vien-3796064.html
- + https://news.zing.vn/6-oto-dam-lien-hoan-cau-thanh-tri-tac-gan-hai-gio-post648054.html
+ + http://soha.vn/vu-bmw-dam-lien-hoan-truoc-cong-royal-city-nu-tai-xe-khai-do-vuong-quai-giay-cao-got-20180822200900758.htm
+ + http://soha.vn/nu-tai-xe-dieu-khien-xe-bmw-dam-lien-hoan-tren-pho-ha-noi-mot-nguoi-bi-thuong-2018082119274325.htm
+ + https://news.zing.vn/tranh-bo-qua-quoc-lo-3-xe-tai-dam-lien-hoan-post866808.html
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/xe-tron-be-tong-dam-lien-hoan-2-nguoi-tu-vong-toan-dao-cat-ba-mat-dien-454126.html
+ + https://news.zing.vn/6-oto-dam-lien-hoan-cau-thanh-tri-tac-gan-hai-gio-post648054.html
+ + https://www.tienphong.vn/xa-hoi/ba-oto-khach-dam-lien-hoan-tren-quoc-lo-1a-hai-nguoi-tu-vong-1301943.tpo
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/o-to-dam-lien-hoan-o-tram-bot-nhan-vien-thu-phi-chay-tan-loan-443938.html
 **** Craw link for: https://bing.com/search?q=t%C3%B4ng%20v%C3%A0o%20ch%C3%B3
  + https://vnexpress.net/tin-tuc/the-gioi/cuoc-song-do-day/cho-tong-vao-sieu-xe-o-trung-quoc-chu-phai-boi-thuong-6-000-do-3783721.html
+ + http://plo.vn/the-gioi/muon-mat/cho-tong-vao-sieu-xe-chu-phai-boi-thuong-6600-do-784805.html
+ + https://vnexpress.net/tin-tuc/cong-dong/y-kien-cua-toi/tai-xe-oto-tong-hai-ten-trom-cho-chay-xe-may-3748357.html
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/tong-vao-cho-cap-vo-chong-chet-tham-tren-quoc-lo-370386.html
  + https://news.zing.vn/tong-vao-duoi-xe-keo-tu-che-nam-thanh-nien-tu-vong-tren-duong-di-lam-post865462.html
- + https://vnexpress.net/tin-tuc/cong-dong/y-kien-cua-toi/tai-xe-oto-tong-hai-ten-trom-cho-chay-xe-may-3748357.html
- + http://plo.vn/the-gioi/muon-mat/cho-tong-vao-sieu-xe-chu-phai-boi-thuong-6600-do-784805.html
- + http://www.doisongphapluat.com/tin-tuc/tin-trong-nuoc/tong-vao-cho-chay-ngang-duong-hai-vo-chong-bi-xe-tai-can-tu-vong-a188720.html
  + https://dantri.com.vn/xa-hoi/tong-vao-cho-chay-ngang-duong-vo-chong-te-nga-bi-xe-tai-can-tu-vong-20170429154144236.htm
  + https://news.zing.vn/tong-thang-xe-may-vao-ke-trom-cho-giua-trua-post779365.html
+ + http://www.doisongphapluat.com/tin-tuc/tin-trong-nuoc/tong-vao-cho-chay-ngang-duong-hai-vo-chong-bi-xe-tai-can-tu-vong-a188720.html
  + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/cho-bi-xe-lamborghini-dam-chu-phai-den-6-600-usd-3784278.html
- + http://congan.com.vn/giao-thong-24h/tong-con-cho-nga-ra-duong-hai-vo-chong-bi-xe-tai-can-tu-vong_37965.html
+ + https://nld.com.vn/thoi-su/trom-xong-4-con-cho-2-ten-trom-gap-tai-nan-bat-tinh-20180120110605644.htm
 **** Craw link for: https://bing.com/search?q=v%C6%B0%E1%BB%A3t%20%C4%91%C3%A8n%20%C4%91%E1%BB%8F%20t%C3%B4ng%20csgt
  + https://news.zing.vn/csgt-bi-xe-may-vuot-den-do-tong-trung-hat-vang-post859775.html
  + https://baomoi.com/csgt-bi-xe-may-vuot-den-do-tong-trung-hat-vang/c/26860387.epi
@@ -337,8 +337,8 @@
  + https://vnexpress.net/tin-tuc/thoi-su/chui-xuong-gam-xe-bon-be-gai-16-thang-tuoi-bi-can-tu-vong-3796397.html
  + https://dantri.com.vn/xa-hoi/ha-noi-nguoi-dan-ong-di-xe-may-bi-xe-buyt-can-tu-vong-20180310171339629.htm
  + http://congan.com.vn/giao-thong-24h/xe-may-va-cham-xe-tai-khien-mot-nu-sinh-tu-vong-thuong-tam_59625.html
- + https://baomoi.com/tai-nan-hy-huu-tai-xe-bi-chinh-xe-cua-minh-can-tu-vong/c/27079331.epi
  + https://baomoi.com/xe-cho-rac-can-tu-vong-nguoi-phu-nu-di-xe-dap/c/26703612.epi
+ + http://congan.com.vn/giao-thong-24h/tai-nan-hy-huu-tai-xe-bi-chinh-xe-cua-minh-can-tu-vong_59560.html
 **** Craw link for: https://bing.com/search?q=t%C3%A0i%20x%E1%BA%BF%20ng%E1%BB%A7%20g%E1%BA%ADt%20t%C3%B4ng
  + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/tai-xe-taxi-ngu-gat-tong-xe-vao-barrier-ben-duong-3785818.html
  + https://vnexpress.net/tin-tuc/cong-dong/video/taxi-chay-nhu-ngu-gat-bi-oto-tai-tong-vo-dau-3750147.html
@@ -355,10 +355,10 @@
  + https://tintaynguyen.com/2-xe-khach-1-lui-1-tien-huc-nhau-trong-dem-2-nguoi-chet/632042
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/2-xe-tong-nhau-cuc-manh-be-trai-tu-vong-nhieu-nguoi-trong-thuong-456019.html
  + https://news.zing.vn/3-xe-ban-tai-huc-nat-duoi-nhau-khi-dung-den-do-post859194.html
+ + https://nongnghiep.vn/2-xe-khach-huc-nhau-trong-dem-2-nguoi-chet-2-nguoi-bi-thuong-post222796.html
  + http://www.tinmoi.vn/hai-xe-khach-huc-nhau-trong-dem-2-nguoi-chet-2-nguoi-trong-thuong-011490888.html
  + http://benxemydinh.com/phu-tho-2-xe-tai-huc-dau-nhau-tai-xe-chet-ngay-tai-cho.html
  + http://congan.com.vn/giao-thong-24h/o-to-va-xe-may-huc-nhau-2-nguoi-chet_59552.html
- + https://nongnghiep.vn/2-xe-khach-huc-nhau-trong-dem-2-nguoi-chet-2-nguoi-bi-thuong-post222796.html
  + http://vietbao.vn/Xa-hoi/2-xe-khach-huc-nhau-trong-dem-2-nguoi-chet-2-nguoi-bi-thuong/610222796/157
  + http://vietbao.vn/Xa-hoi/Hai-Phong-2-xe-container-tong-nhau-no-tung-it-nhat-2-nguoi-tu-vong/177228994/157
 **** Craw link for: https://bing.com/search?q=t%C3%B4ng%20ch%E1%BA%BFt%20ng%C6%B0%E1%BB%9Di%20b%E1%BB%8F%20ch%E1%BA%A1y
@@ -386,21 +386,21 @@
 **** Craw link for: https://bing.com/search?q=b%C4%83ng%20qua%20%C4%91%C6%B0%E1%BB%9Dng%20ray%20t%E1%BB%AD%20vong
  + https://news.zing.vn/hai-nguoi-bi-tau-hoa-tong-tu-vong-khi-bang-qua-duong-ray-post851813.html
  + https://news.zing.vn/hai-vo-chong-bi-tau-hoa-tong-tu-vong-post864353.html
- + https://www.24h.com.vn/tin-tuc-trong-ngay/co-bang-qua-duong-ray-khi-tau-dang-lao-toi-doi-nam-nu-tu-vong-c46a967656.html
  + https://tintaynguyen.com/bang-qua-duong-ray-doi-nam-nu-bi-tau-hoa-tong-tu-vong/601266
+ + https://www.24h.com.vn/tin-tuc-trong-ngay/co-bang-qua-duong-ray-khi-tau-dang-lao-toi-doi-nam-nu-tu-vong-c46a967656.html
  + https://saostar.vn/xa-hoi/bang-qua-duong-ray-cap-vo-chong-bi-tau-hoa-keo-le-30m-tu-vong-thuong-tam-3335221.html
- + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/co-bang-qua-duong-sat-xe-hop-bi-tong-bep-dum-tai-xe-tu-vong-469215.html
  + http://congan.com.vn/giao-thong-24h/bang-qua-duong-ray-bi-tau-hoa-tong-tu-vong_7866.html
+ + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/co-bang-qua-duong-sat-xe-hop-bi-tong-bep-dum-tai-xe-tu-vong-469215.html
  + http://congan.com.vn/giao-thong-24h/bang-duong-ray-mua-thuoc-la-bi-tau-hoa-tong-tu-vong_17142.html
- + https://www.24h.com.vn/tin-tuc-trong-ngay/cam-can-cau-bang-qua-duong-ray-thanh-nien-bi-tau-tong-tu-vong-c46a832436.html
  + http://www.doisongphapluat.com/tin-tuc/bang-qua-duong-sat-doi-nam-nu-bi-tau-hoa-tong-tu-vong-a233097.html
+ + https://www.24h.com.vn/tin-tuc-trong-ngay/cam-can-cau-bang-qua-duong-ray-thanh-nien-bi-tau-tong-tu-vong-c46a832436.html
 **** Craw link for: https://bing.com/search?q=l%E1%BA%ADt%20xe
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/lat-xe-hoa-giai-cuu-co-dau-nhu-phim-hanh-dong-421378.html
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/lat-xe-tai-cho-cong-nhan-o-lao-2-nguoi-viet-thiet-mang-458389.html
+ + https://news.zing.vn/lat-xe-giuong-nam-2-nguoi-bi-de-chet-tai-cho-post855181.html
  + https://news.zing.vn/xe-dao-cu-lat-hon-10-nguoi-trong-doan-phim-tq-bi-thuong-nang-post865435.html
  + https://vnexpress.net/tin-tuc/oto-xe-may/xe-canh-sat-lat-ngua-khi-truy-duoi-oto-chay-qua-toc-do-3798321.html
  + https://vnexpress.net/tin-tuc/thoi-su/lat-xe-lu-tai-xe-tu-vong-3770387.html
- + https://news.zing.vn/xe-canh-sat-lat-nhao-khi-duoi-bat-toi-pham-nhu-phim-hanh-dong-post871856.html
  + http://dantri.com.vn/lat-xe.tag
  + http://dantri.com.vn/xa-hoi/lat-xe-giuong-nam-4-nguoi-bi-thuong-20180527113900477.htm
  + https://www.24h.com.vn/tin-tuc-trong-ngay/duong-pho-tam-bia-sau-vu-lat-xe-tai-khong-ai-dam-di-qua-c46a974300.html
@@ -431,24 +431,24 @@
  + https://ngoisao.net/photo/24h/xe-ruoc-dau-quay-180-do-sau-cu-tong-truc-dien-container-3784981.html
  + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/xe-don-dau-tong-truc-dien-container-13-nguoi-chet-3784973.html
  + https://vtc.vn/tong-truc-dien-vao-o-to-nam-thanh-nien-bi-hat-vang-chet-tai-cho-d414221.html
+ + https://news.zing.vn/tong-truc-dien-xe-dau-keo-container-nguoi-chay-xe-may-chet-tai-cho-post846285.html
  + http://congan.com.vn/giao-thong-24h/tong-truc-dien-vao-dau-keo-container-nguoi-dieu-khien-xe-may-chet-tai-cho_58738.html
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/hai-tau-tong-nhau-truc-dien-nhieu-toa-lat-nghieng-o-quang-nam-453324.html
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/nhieu-nguoi-nhap-vien-sau-cu-dam-truc-dien-cua-hai-xe-khach-461966.html
  + https://www.24h.com.vn/tin-tuc-trong-ngay/sau-cu-tong-truc-dien-nguoi-phu-nu-bay-qua-o-to-roi-xuong-duong-tu-vong-c46a977681.html
  + https://vtc.vn/hai-container-tong-truc-dien-3-nguoi-thuong-vong-mac-ket-trong-cabin-d418887.html
  + https://www.24h.com.vn/tin-tuc-trong-ngay/dung-xe-cuu-nguoi-bi-tai-nan-nhom-nguoi-bi-xe-tai-tong-truc-dien-c46a985662.html
- + https://news.zing.vn/video-oto-queo-au-tong-truc-dien-xe-may-khien-hai-nguoi-nga-xuong-duong-post855275.html
 **** Craw link for: https://bing.com/search?q=ch%C3%ACm%20t%C3%A0u%20m%E1%BA%A5t%20t%C3%ADch
- + https://vnexpress.net/tin-tuc/the-gioi/41-nguoi-chet-trong-vu-chim-tau-o-thai-lan-15-hanh-khach-van-mat-tich-3774464.html
- + https://news.zing.vn/tau-ca-chim-tren-bien-3-ngu-dan-mat-tich-post860725.html
- + https://dulich.vnexpress.net/tin-tuc/quoc-te/56-nguoi-mat-tich-trong-vu-chim-tau-ngoai-khoi-phuket-3773857.html
- + https://www.24h.com.vn/tin-tuc-trong-ngay/tau-chim-5-ngu-dan-mat-tich-sau-khi-dam-va-voi-tau-la-c46a965924.html
- + https://vnexpress.net/tin-tuc/khoa-hoc/thu-pham-khien-tau-be-mat-tich-o-tam-giac-quy-bermuda-3786334.html
- + https://dulich.vnexpress.net/tin-tuc/dau-chan/chuyen-di-dinh-menh-cua-nguoi-mat-ca-gia-dinh-trong-vu-chim-tau-phuket-3775527.html
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/chim-tau-tren-bien-2-nguoi-mat-tich-463144.html
+ + https://vnexpress.net/tin-tuc/the-gioi/41-nguoi-chet-trong-vu-chim-tau-o-thai-lan-15-hanh-khach-van-mat-tich-3774464.html
+ + https://dulich.vnexpress.net/tin-tuc/dau-chan/chuyen-di-dinh-menh-cua-nguoi-mat-ca-gia-dinh-trong-vu-chim-tau-phuket-3775527.html
+ + https://news.zing.vn/xe-thit-tau-du-lich-tim-5-thuyen-vien-mat-tich-o-bien-quy-nhon-post848213.html
  + https://news.zing.vn/chim-sa-lan-tren-song-3-nguoi-mat-tich-post843667.html
- + https://www.rfa.org/vietnamese/news/vietnamnews/fishing-boat-sinks-off-quang-ninh-coast-07162018083712.html
- + http://www.sggp.org.vn/thai-lan-hai-tau-du-lich-bi-lat-hon-50-du-khach-trung-quoc-mat-tich-530976.html
+ + https://vnexpress.net/tin-tuc/thoi-su/ba-ngu-dan-mat-tich-tren-bien-quang-ninh-3778283.html
+ + https://dulich.vnexpress.net/tin-tuc/quoc-te/56-nguoi-mat-tich-trong-vu-chim-tau-ngoai-khoi-phuket-3773857.html
+ + http://vietnamnet.vn/vn/thoi-su/song-danh-chim-tau-2-nguoi-chet-va-mat-tich-408054.html
+ + https://dantri.com.vn/the-gioi/giai-ma-tam-giac-rong-noi-nhieu-con-tau-ngang-qua-mai-mai-khong-ve-20180628221139663.htm
+ + https://vtc.vn/tau-dam-chim-sa-lan-o-song-sai-gon-tim-thay-thi-the-thuyen-truong-va-thuyen-vien-d411484.html
 **** Craw link for: https://bing.com/search?q=%C4%91%C3%A2m%20xe%20kinh%20ho%C3%A0ng
  + http://vietnamnet.vn/vn/phap-luat/ky-su-phap-dinh/tai-nan-giao-thong-kinh-hoang-va-man-the-nguoi-chiu-toi-bat-thanh-455270.html
  + https://autopro.com.vn/khoanh-khac-kinh-hoang-xe-container-dam-vao-2-xe-may-roi-lao-vao-nha-dan-20180717084248264.chn
@@ -507,14 +507,14 @@
 **** Craw link for: https://bing.com/search?q=l%E1%BA%ADt%20t%C3%A0u
  + https://vnexpress.net/lat-tau/tag-166732-1.html
  + https://vnexpress.net/tin-tuc/thoi-su/giao-thong/tau-cho-400-khach-bi-lat-sau-khi-tong-vao-xe-ben-hai-nguoi-chet-3753766.html
- + https://news.zing.vn/tham-kich-lat-tau-o-indonesia-lai-tau-bi-bat-193-nguoi-mat-tich-post853499.html
  + https://news.zing.vn/lat-tau-hoa-o-tho-nhi-ky-10-nguoi-chet-73-nguoi-bi-thuong-post858569.html
- + https://dantri.com.vn/xa-hoi/tau-hoa-tong-xe-ho-vo-8-toa-lat-ngang-it-nhat-2-nguoi-tu-vong-20180524064209529.htm
- + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/hai-tau-tong-nhau-truc-dien-nhieu-toa-lat-nghieng-o-quang-nam-453324.html
- + https://dantri.com.vn/xa-hoi/tai-nan-lat-tau-o-thanh-hoa-dinh-chi-cong-tac-mot-cung-truong-20180529144600616.htm
- + https://suckhoe.vnexpress.net/tin-tuc/suc-khoe/tai-xe-xe-ben-trong-tai-nan-lat-tau-hoa-dang-nguy-kich-3754142.html
+ + https://news.zing.vn/tham-kich-lat-tau-o-indonesia-lai-tau-bi-bat-193-nguoi-mat-tich-post853499.html
  + https://www.bbc.com/vietnamese/world-44739753
+ + https://dulich.vnexpress.net/tin-tuc/quoc-te/hai-tau-cho-hon-100-khach-lat-up-ngoai-khoi-dao-phuket-3773634.html
  + https://www.msn.com/vi-vn/news/other/l%E1%BA%ADt-8-toa-t%C3%A0u-h%E1%BB%8Fa-g%E1%BA%A7n-10-ng%C6%B0%E1%BB%9Di-th%C6%B0%C6%A1ng-vong/ar-AAxIz6Z
+ + https://suckhoe.vnexpress.net/tin-tuc/suc-khoe/tai-xe-xe-ben-trong-tai-nan-lat-tau-hoa-dang-nguy-kich-3754142.html
+ + https://dantri.com.vn/xa-hoi/tau-hoa-tong-xe-ho-vo-8-toa-lat-ngang-it-nhat-2-nguoi-tu-vong-20180524064209529.htm
+ + https://www.24h.com.vn/tin-tuc-trong-ngay/nong-lat-tau-hoa-o-thanh-hoa-2-nguoi-chet-8-nguoi-bi-thuong-c46a962024.html
 **** Craw link for: https://bing.com/search?q=l%E1%BA%ADt%20thuy%E1%BB%81n
  + https://vnexpress.net/lat-thuyen/tag-152648-1.html
  + https://www.24h.com.vn/tin-tuc-trong-ngay/lat-thuyen-cho-10-nguoi-o-lai-chau-nan-nhan-la-ho-hang-c46a975215.html
@@ -543,8 +543,8 @@
  + https://vnexpress.net/tin-tuc/oto-xe-may/gan-chuc-chiec-xe-the-thao-dam-nhau-nat-dau-vi-don-toa-3724132.html
  + http://danviet.vn/tin-tuc/hai-o-to-dam-nhau-nat-dau-hang-tram-con-lon-vang-xuong-ruong-894951.html
  + http://dantri.com.vn/video/3-xe-dam-nhau-nat-dau-3-nguoi-thuong-vong-82899.htm
- + https://m.vietgiaitri.com/xa-hoi/su-kien-nong/201807/3-xe-dam-nhau-nat-dau-3-nguoi-thuong-vong-3253557
  + http://vinhplus.vn/chinh-tri-xa-hoi/11/07/2018/nghe-an-3-xe-dam-nhau-nat-dau-3-nguoi-thuong-vong.html
+ + https://m.vietgiaitri.com/xa-hoi/su-kien-nong/201807/3-xe-dam-nhau-nat-dau-3-nguoi-thuong-vong-3253557
  + http://vietnamnet.vn/vn/thoi-su/an-toan-giao-thong/xe-tai-chet-may-tren-duong-ngang-bi-tau-hoa-dam-vang-nat-dau-o-nghe-an-462055.html
  + https://vnexpress.net/dam-nhau/tag-138611-1.html
  + http://tintucnghean.vn/nghe-3-xe-dam-nhau-nat-dau-3-nguoi-thuong-vong.html
@@ -558,7 +558,7 @@
  + https://vnexpress.net/tin-tuc/thoi-su/nhan-chung-oto-ruoc-dau-dot-ngot-danh-lai-tong-vao-xe-container-3784833.html
  + https://thanhnien.vn/thoi-su/xe-container-tong-nat-hai-cot-moc-duong-tong-xe-tai-dang-dau-roi-lat-duoi-ruong-987510.html
  + https://dantri.com.vn/xe-container.tag
- + https://video.vnexpress.net/tin-tuc/600s-thoi-su/xe-container-tong-sap-nha-dan-ba-nguoi-bi-thuong-3768638.html
+ + https://ngoisao.net/tin-tuc/thoi-cuoc/24h/tong-duoi-xe-tai-xe-container-lat-xuong-ruong-3784190.html
 **** Craw link for: https://bing.com/search?q=xe%20ben%20c%C3%A1n%20ch%E1%BA%BFt%20ng%C6%B0%E1%BB%9Di
  + https://vtc.vn/xe-ben-can-chet-nguoi-roi-lay-son-che-bien-so-gay-phan-no-d421813.html
  + https://nld.com.vn/xe-ben-can-chet-nguoi.html
@@ -580,7 +580,7 @@
  + https://vtc.vn/loi-ke-rung-minh-cua-nhan-chung-2-xe-khach-tong-nhau-tren-duong-ho-chi-minh-d414099.html
  + https://baomoi.com/xe-khach-tong-nhau-trong-dem-tieng-la-khoc-xe-troi/c/26957575.epi
  + https://nld.com.vn/thoi-su/hai-xe-tong-nhau-boc-chay-tren-cao-toc-2-nguoi-chet-20180721092855957.htm
- + http://congan.com.vn/giao-thong-24h/hai-xe-khach-cho-hon-70-nguoi-tong-nhau-roi-lao-xuong-muong_58439.html
+ + https://www.24h.com.vn/tin-tuc-trong-ngay/hai-xe-khach-tong-nhau-2-nguoi-tu-vong-o-lam-dong-c46a863383.html
 **** Craw link for: https://bing.com/search?q=container%20v%C6%B0%E1%BB%A3t%20%E1%BA%A9u%20g%C3%A2y%20tai%20n%E1%BA%A1n
  + https://ngoisao.net/tin-tuc/choi-blog/xe-container-vuot-au-tai-xe-xe-con-phai-lao-xuong-muong-3791365.html
  + http://khoahocphattrien.vn/suc-khoe/clip-vuot-au-xe-container-suyt-gay-tai-nan-thuong-tam-cho-xe-may/2017080108034227p1c784.htm
@@ -606,19 +606,19 @@
 **** Craw link for: https://bing.com/search?q=xe%20m%C3%A1y%20chui%20v%C3%A0o%20g%E1%BA%A7m%20oto
  + https://vnexpress.net/tin-tuc/oto-xe-may/xe-may-tu-chui-vao-gam-oto-2846441.html
  + https://vnexpress.net/tin-tuc/oto-xe-may/dien-dan/xe-may-lu-luot-chui-qua-gam-xe-tai-chan-ngang-duong-3788362.html
- + https://news.zing.vn/bi-giu-xe-may-thanh-nien-chui-vao-gam-oto-csgt-an-va-post749076.html
  + https://ngoisao.net/tin-tuc/choi-blog/xe-may-chui-vao-gam-oto-vi-vuot-den-do-sang-duong-au-3744459.html
+ + https://news.zing.vn/bi-giu-xe-may-thanh-nien-chui-vao-gam-oto-csgt-an-va-post749076.html
  + https://news.zing.vn/oto-dau-keo-mac-ket-ngang-duong-dan-chui-qua-gam-de-di-chuyen-post866609.html
+ + http://dantri.com.vn/video/vua-toc-do-chui-gam-oto-69729.htm
  + http://dantri.com.vn/o-to-xe-may/vua-toc-do-chui-gam-oto-20170918063439716.htm
- + https://dantri.com.vn/o-to-xe-may/vua-toc-do-chui-gam-oto-20170918063439716.htm
- + https://vtc.vn/container-chan-ngang-quoc-lo-dan-dat-xe-may-chui-qua-gam-d418388.html
  + http://www.tapchigiaothong.vn/bi-giu-xe-may-thanh-nien-chui-vao-gam-oto-csgt-an-va-av43794.html
- + http://soha.vn/bi-tam-giu-xe-do-vi-pham-giao-thong-nam-thanh-nien-chui-vao-gam-xe-oto-csgt-an-va-20170524110907086.htm
+ + https://ngoisao.net/tin-tuc/choi-blog/oto-dien-lao-vao-dong-nguoi-di-xe-may-3746456.html
+ + https://baomoi.com/xe-may-chui-xuong-gam-xe-tai-2-vo-chong-thuong-vong/c/26630395.epi
 **** Craw link for: https://bing.com/search?q=xe%20container%20l%E1%BA%A5n%20l%C3%A0n%20t%C3%B4ng%20oto
  + https://news.zing.vn/video-xe-container-lan-lan-va-cham-oto-roi-chay-thang-post846890.html
  + https://news.zing.vn/video-hai-xe-container-lan-lan-khien-tai-xe-oto-xanh-mat-post843859.html
  + https://vnexpress.net/tin-tuc/cong-dong/video/chay-xe-may-lan-lan-bi-oto-hat-tung-len-troi-3602773.html
- + https://vnexpress.net/lan-lan/tag-132733-1.html
+ + https://vnexpress.net/tin-tuc/cong-dong/video/oto-tai-lan-lan-tong-xe-may-tren-deo-bao-loc-3620029.html
  + https://ngoisao.net/tin-tuc/choi-blog/xe-container-lan-lan-tren-deo-hep-tai-xe-oto-con-thot-len-oi-chet-roi-3706449.html
  + http://www.baogiaothong.vn/xe-container-hung-ho-lan-duong-tai-xe-o-to-kinh-hai-be-lai-d261626.html
  + http://soha.vn/ket-luan-nguyen-nhan-vu-tai-nan-giao-thong-lam-13-nguoi-chet-o-quang-nam-20180806203208134.htm

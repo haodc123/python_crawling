@@ -73,7 +73,6 @@ class MyHTMLParser(HTMLParser):
         try:
             response = urlopen(link)                # request and get response
             html = response.read().decode("utf-8")  # read and encode response; NOTE: decode is necessary for unicode
-            response.close()
             if whatcrawling_mode == "link":
                 self.feed(html)                     # parse the html and parse link
                 return self.arr_links
@@ -114,23 +113,20 @@ class MyHTMLParser(HTMLParser):
                     req = urllib.request.Request(link, headers={'User-Agent' : "Magic Browser"})
                     f = urllib.request.urlopen(req)
                     html = f.read().decode("UTF-8") 
-                    f.close()
                     if whatcrawling_mode == "link":
                         self.feed(html)                     # parse the html and parse link
                         return self.arr_links
                     elif whatcrawling_mode == "content":
-                        parse_content = ParseHTMLManual()
-                        self.content = parse_content.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                        self.content = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
                         return self.content
                     elif whatcrawling_mode == "title":
-                        parse_content = ParseHTMLManual()
-                        self.title = parse_content.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                        self.title = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
                         return self.title
                         #self.feed(html)                     # parse the html and parse link
                         #return self.title
                 except:
                     print("Unexpected failure happens and the spider escapes.")
-                    return None      
+                    return ""       
 
 
 class MySpider(object):
@@ -138,22 +134,27 @@ class MySpider(object):
         self.parser = MyHTMLParser()
     
     # craw to get link. Input:link, Output:link
-    def crawLink(self, link, mode, outputFile, gd):
+    def crawLink(self, link, mode):
         target_link = clean(link)        
         if mode == "accident":
-            link_mode = "search_result"       
+            link_mode = "search_result"
+            file_500page = FILE_500_PAGE_ACCIDENTS
+            print("Craw link for: "+target_link)            
         elif mode == "ordinary":
             link_mode = "same_side"
-            
-        print("Craw link for: "+target_link)
-        
-        gd.write("**** Craw link for: "+target_link+"\n")
+            file_500page = FILE_500_PAGE_ORDINARY
+            print("Craw link for: "+target_link)
 
-        links = self.parser.run(target_link, "link", link_mode)    
-        #print("craw_link "+''.join(links))
-        if links is not None:
+        with open(file_500page, "a", encoding="utf-8", errors='ignore') as gd:
+            gd.write("**** Craw link for: "+target_link+"\n")
+            gd.close()
+
+        links = self.parser.run(target_link, "link", link_mode)        
+        
+        with open(file_500page, "a", encoding="utf-8", errors='ignore') as gd:
             for l in links:
-                if l is not None: gd.write(" + "+l+"\n")
+                gd.write(" + "+l+"\n")
+            gd.close()
 
     
     def crawContent(self, link):
@@ -173,60 +174,40 @@ class MySpider(object):
     
 
 
-class ParseHTMLManual(object):
-    def getContent(self, html):
-        try:
-            soup = BeautifulSoup(html, 'html.parser')
-            # Ignore anything in head
-            body, text = soup.body, []
-            print(text)
-            for element in body.descendants:
-                if type(element) == NavigableString:
-                    parent_tags = (t for t in element.parents if type(t) == Tag)
-                    hidden = False
-                    for parent_tag in parent_tags:
-                        classes_tag = parent_tag.get('class')
-                        footer = self.checkExistClass('footer', classes_tag)
-                        video = self.checkExistClass('video', classes_tag)
-                        time = self.checkExistClass('time', classes_tag)
-                        hide = self.checkExistClass('hide', classes_tag) 
-                        idTag = parent_tag.get('id')
-                        comment = self.checkExistClass('comment', idTag)
-                        footer_id = self.checkExistClass('footer', idTag)
-                        feedback = self.checkExistClass('feedback', idTag)                     
-                        # Ignore any text inside a non-displayed tag
-                        if (parent_tag.name in ('em', 'input', 'button', 'area', 'base', 'basefont', 'datalist', 'head', 'link',
-                                                'meta', 'noembed', 'noframes', 'param', 'rp', 'script',
-                                                'source', 'style', 'template', 'track', 'title', 'noscript', 'header',
-                                                'footer', 'a', 'select', 'video','videolist','videoitem', 'ul', 'nav') or
-                            parent_tag.has_attr('hidden') or
-                            (footer or video or time or hide) or
-                            (parent_tag.name == 'input' and parent_tag.get('type') == 'hidden') or
-                            (comment or footer_id or feedback)):
-                            hidden = True
-                            break
-                    if hidden:
-                        continue
+class ParseHTMLManual():
+    def getContent(html):
+        soup = BeautifulSoup(html, 'html.parser')
+        # Ignore anything in head
+        body, text = soup.body, []
+        print(text)
+        for element in body.descendants:
+            if type(element) == NavigableString:
+                parent_tags = (t for t in element.parents if type(t) == Tag)
+                hidden = False
+                for parent_tag in parent_tags:
+                    # Ignore any text inside a non-displayed tag
+                    if (parent_tag.name in ('em', 'input', 'button', 'area', 'base', 'basefont', 'datalist', 'head', 'link',
+                                            'meta', 'noembed', 'noframes', 'param', 'rp', 'script',
+                                            'source', 'style', 'template', 'track', 'title', 'noscript', 
+                                            'footer', 'a', 'select') or
+                        parent_tag.has_attr('hidden') or
+                        (parent_tag.name == 'input' and parent_tag.get('type') == 'hidden')):
+                        hidden = True
+                        break
+                if hidden:
+                    continue
 
-                    # remove any multiple and whitespace
-                    string = ' '.join(element.string.split())
-                    if string:
-                        if element.parent.name == 'p':
-                            # Add extra paragraph formatting newline
-                            string = '\n' + string
-                            #print(string)
-                        text += [string]
-            doc = soup.title.string+' '.join(text)
-            return doc
-        except:
-            return None
-    def checkExistClass(self, class_checking, classes):
-        if classes is None: return False
-        for class_name in classes:
-            if class_checking in class_name.lower():
-                return True
-        return False
+                # remove any multiple and whitespace
+                string = ' '.join(element.string.split())
+                if string:
+                    if element.parent.name == 'p':
+                        # Add extra paragraph formatting newline
+                        string = '\n' + string
+                        #print(string)
+                    text += [string]
+        doc = ' '.join(text)
+        return doc
 
-    def getTitle(self, html):
+    def getTitle(html):
         soup = BeautifulSoup(html, "lxml")
         return soup.title.string
