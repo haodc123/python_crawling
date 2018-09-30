@@ -56,11 +56,13 @@ FILE_50_WORD_ACCIDENTS = "traffic_accidents\\50_accidents_words.txt"
 FILE_500_PAGE_ACCIDENTS = "traffic_accidents\\500_page_accidents.txt"
 FILE_ALL_ACCIDENTS_NOUNS = "traffic_accidents\\all_accident_nouns.txt"
 FILE_3000_ACCIDENTS_NOUNS = "traffic_accidents\\3000_accident_nouns.txt"
+FILE_FILTERED_ACCIDENTS_NOUNS = "traffic_accidents\\filtered_accident_nouns.txt"
 
 FILE_50_ALEXA_ORDINARY_LINK = "ordinary_contents\\50_alexa_ordinary.txt"
 FILE_500_PAGE_ORDINARY = "ordinary_contents\\500_page_ordinary.txt"
 FILE_ALL_ORDINARY_NOUNS = "ordinary_contents\\all_ordinary_nouns.txt"
 FILE_3000_ORDINARY_NOUNS = "ordinary_contents\\3000_ordinary_nouns.txt"
+FILE_FILTERED_ORDINARY_NOUNS = "ordinary_contents\\filtered_ordinary_nouns.txt"
 
 NUMBER_NOUN_FILTERED = 3000
 NUMBER_LINK_EACH_PAIR = 600
@@ -174,6 +176,10 @@ def main():
     
     elif args[0] == "--test":
         test()
+    elif args[0] == "--manual":
+        # For improve correctly, need to shorten FILE_3000_ACCIDENTS_NOUNS (get only traffic accident) by manual
+        # Below steps are split and need to manual handle
+        manual()
     else:
         print("Wrong syntax, please try again!")
 
@@ -506,6 +512,66 @@ def create_jobs3(mode):
 def test():
     print("a")
 
+def manual():
+    manual_split()                  # step 1
+    # manual filter accident noun   # step 2
+    manual_join()                   # step 3
+    manual_shortenOrdinaryFile()    # step 4
+    # replace file from FILE_FILTERED_ACCIDENTS_NOUNS -> FILE_3000_ACCIDENTS_NOUNS, similar with ORDINARY   # step 5
+
+def manual_split():
+    arr_accident_noun = get3000wordsFromNounFile(FILE_3000_ACCIDENTS_NOUNS)
+    #arr_accident_noun = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"]
+    file_accident_noun1 = "traffic_accidents\\manual_filter\\1.txt"
+    file_accident_noun2 = "traffic_accidents\\manual_filter\\2.txt"
+    file_accident_noun3 = "traffic_accidents\\manual_filter\\3.txt"
+    file_accident_noun4 = "traffic_accidents\\manual_filter\\4.txt"
+    step = int(len(arr_accident_noun)/4)
+    with open(file_accident_noun1, "a", encoding="utf-8", errors='ignore') as gd:
+        for w in arr_accident_noun[:step]:
+            gd.write(str(w)+", ")
+        gd.close()
+    with open(file_accident_noun2, "a", encoding="utf-8", errors='ignore') as gd:
+        for w in arr_accident_noun[step:step*2]:
+            gd.write(str(w)+", ")
+        gd.close()
+    with open(file_accident_noun3, "a", encoding="utf-8", errors='ignore') as gd:
+        for w in arr_accident_noun[step*2:step*3]:
+            gd.write(str(w)+", ")
+        gd.close()
+    with open(file_accident_noun4, "a", encoding="utf-8", errors='ignore') as gd:
+        for w in arr_accident_noun[step*3:]:
+            gd.write(str(w)+", ")
+        gd.close()
+
+def manual_join():
+    file_accident_noun1 = "traffic_accidents\\manual_filter\\1.txt"
+    file_accident_noun2 = "traffic_accidents\\manual_filter\\2.txt"
+    file_accident_noun3 = "traffic_accidents\\manual_filter\\3.txt"
+    file_accident_noun4 = "traffic_accidents\\manual_filter\\4.txt"
+    file_all_accident_noun = "traffic_accidents\\manual_filter\\all.txt"
+    arr_accident_noun1 = get3000wordsFromNounFile(file_accident_noun1)
+    arr_accident_noun2 = get3000wordsFromNounFile(file_accident_noun2)
+    arr_accident_noun3 = get3000wordsFromNounFile(file_accident_noun3)
+    arr_accident_noun4 = get3000wordsFromNounFile(file_accident_noun4)
+    
+    with open(file_all_accident_noun, "a", encoding="utf-8", errors='ignore') as gd:
+        for w in arr_accident_noun1:
+            gd.write(str(w)+", ")
+        for w in arr_accident_noun2:
+            gd.write(str(w)+", ")
+        for w in arr_accident_noun3:
+            gd.write(str(w)+", ")
+        for w in arr_accident_noun4:
+            gd.write(str(w)+", ")
+        gd.close()
+
+def manual_shortenOrdinaryFile():
+    arr_ordinary_noun = get3000wordsFromNounFile(FILE_3000_ORDINARY_NOUNS)
+    with open(FILE_FILTERED_ORDINARY_NOUNS, "a", encoding="utf-8", errors='ignore') as gd:
+        for w in arr_ordinary_noun[:621]:
+            gd.write(str(w)+", ")
+        gd.close()
         
 if __name__ == "__main__":
     main()
