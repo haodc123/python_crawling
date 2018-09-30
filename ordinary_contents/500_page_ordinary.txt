@@ -1,4 +1,3 @@
-**** Craw link for: http:/
 **** Craw link for: http://coccoc.com
  + http://coccoc.com
  + http://coccoc.com/en
@@ -311,7 +310,17 @@
  + https://www.phunukieuviet.com/tin-trong-nuoc.html
  + https://www.phunukieuviet.com/tin-quoc-te.html
  + https://www.phunukieuviet.com/an-ninh-xa-hoi.html
-**** Craw link for: http://htpp://bong99.com
+**** Craw link for: http://bong99.com
+ + https://www.bong99.com
+ + https://www.bong99.com/bong99.html
+ + http://bong99.com
+ + https://www.bong99.com/signup-bong88.html
+ + https://ww2.bong99.com
+ + https://www.bong99.com/ty-le-ca-cuoc-bong-da.html
+ + https://www.bong99.com/casino.html
+ + https://www.bong99.com/help.html
+ + https://www.bong99.com/about.html
+ + https://www.bong99.com/policy.html
 **** Craw link for: http://ngoisao.net
  + https://ngoisao.net
  + https://ngoisao.net/tin-tuc/hau-truong
@@ -341,10 +350,10 @@
  + http://liveboard.cafef.vn
  + http://s.cafef.vn/danh-muc-dau-tu.chn
  + http://cafef.vn/doc-nhanh.chn
- + http://cafef.vn/du-an-khuat-tat-cho-siet-cho-buong-20180924085526822.chn
- + http://cafef.vn/nguyen-chanh-van-phong-thanh-uy-da-nang-vua-bi-bat-lien-quan-sai-pham-gi-20180924091807775.chn
- + http://cafef.vn/chi-can-nhin-dau-hieu-nay-o-mat-tai-va-ngon-tay-ban-se-biet-minh-bi-benh-tim-20180924082919681.chn
- + http://cafef.vn/diem-danh-nhung-doanh-nghiep-tra-co-tuc-bang-tien-co-phieu-va-co-phieu-thuong-tuan-nay-20180923163409806.chn
+ + http://cafef.vn/su-giau-co-khong-quyet-dinh-hanh-phuc-nhung-nghien-cuu-chung-minh-co-cang-nhieu-tien-ban-cang-co-nhieu-co-hoi-hanh-phuc-hon-20180920160638336.chn
+ + http://cafef.vn/o-an-co-loai-banh-truyen-thong-rat-la-cu-gap-lua-la-phong-len-nhu-bong-bong-20180923191842525.chn
+ + http://cafef.vn/chuyen-ve-nhung-nguoi-di-nhat-ve-chai-de-xay-nen-ngoi-chua-kham-mieng-lon-nhat-da-lat-20180923145121758.chn
+ + http://cafef.vn/neu-vu-chay-canh-vien-nhi-trung-uong-la-su-co-chap-dien-ong-hiep-khung-se-bi-xu-phat-nhu-nao-20180923192239056.chn
 **** Craw link for: http://batdongsan.com.vn
 **** Craw link for: http://ngoisao.vn
  + https://ngoisao.vn
@@ -414,13 +423,23 @@
  + http://thanhnien.com.vn/toi-viet
  + http://thanhnien.com.vn/toi-viet/blog-phong-vien
 **** Craw link for: http://tuoitre.vn
-**** Craw link for: http://htpp://vietcombank.com.vn
+**** Craw link for: http://vietcombank.com.vn
+ + http://vietcombank.com.vn
+ + http://vietcombank.com.vn/Personal
+ + http://vietcombank.com.vn/Corp
+ + http://vietcombank.com.vn/FI
+ + http://vietcombank.com.vn/Careers
+ + http://vietcombank.com.vn/Investors
+ + http://vietcombank.com.vn/About
+ + http://vietcombank.com.vn/default.aspx?&lang=en
+ + https://www.vietcombank.com.vn/News/Vcb_News.aspx?ID=5074
+ + http://vietcombank.com.vn/Personal/Account
 **** Craw link for: http://phimmoi.net
  + http://www.phimmoi.net
  + http://phimmoi.net
  + http://phimmoi.net/tai-khoan/ho-so.html
  + http://phimmoi.net/tai-khoan/doi-mat-khau.html
- + http://phimmoi.net/logout/?_fxToken=1537755304-786df42c0be38c32ad06c8a6c5b24250&_fxRef=http%3A%2F%2Fwww.phimmoi.net%2F
+ + http://phimmoi.net/logout/?_fxToken=1537709872-ea0d05e5c49f85688f33a011a33e530f&_fxRef=http%3A%2F%2Fwww.phimmoi.net%2F
  + http://phimmoi.net/tu-phim
  + http://phimmoi.net/staff
  + http://phimmoi.net/register/?_fxRef=http%3A%2F%2Fwww.phimmoi.net%2F
@@ -437,7 +456,17 @@
  + https://vov.vn/RadioPlayer.vov?c=vovgt
  + http://vov2.vov.vn
  + http://vov4.vov.vn
-**** Craw link for: http://htpp://timviecnhanh.com
+**** Craw link for: http://timviecnhanh.com
+ + https://www.timviecnhanh.com
+ + https://m.timviecnhanh.com
+ + https://m.timviecnhanh.com/amp
+ + http://timviecnhanh.com/tel:02873098888
+ + https://www.timviecnhanh.com/nhatuyendung
+ + https://www.timviecnhanh.com/goc-nghe-nghiep?utm_source=timviecnhanh.com&utm_medium=referral&utm_campaign=site-timviecnhanh.com&utm_content=menu-header
+ + https://www.timviecnhanh.com/viec-lam-kinh-doanh-c32.html
+ + https://www.timviecnhanh.com/viec-lam-ban-hang-c10.html
+ + https://www.timviecnhanh.com/viec-lam-lao-dong-pho-thong-c33.html
+ + https://www.timviecnhanh.com/viec-lam-tai-chinh-ke-toan-kiem-toan-c47.html
 **** Craw link for: http://tinhte.vn
  + https://tinhte.vn/rss
  + https://tinhte.vn
@@ -448,7 +477,7 @@
  + https://tinhte.vn/ios
  + https://tinhte.vn/windows
  + https://tinhte.vn/macos
- + https://tinhte.vn/threads/amazon-echo-plus-2018-thiet-ke-moi-trang-bi-cam-bien-nhiet-do-gia-150.2852798
+ + https://tinhte.vn/threads/tren-tay-lot-chuot-smartpad-sac-nhanh-chuan-qi-bluetooth-le-4-0-co-den-rgb-chat-luong.2852727
 **** Craw link for: http://afamily.vn
  + http://afamily.vn
  + http://m.afamily.vn
@@ -474,14 +503,14 @@
 **** Craw link for: http://eva.vn
  + https://eva.vn
  + https://cdn.eva.vn
- + https://eva.vn/tin-tuc/con-trai-hai-vo-chong-chet-chay-trong-xom-tro-ong-hiep-khung-bo-me-se-ve-voi-chung-con-c73a367401.html
- + https://eva.vn/lang-sao/ke-hoang-hau-xa-thi-man-thay-gi-tu-hanh-trinh-com-bo-gach-da-den-nhat-ty-tvb-c20a365961.html
- + https://eva.vn/chan-dung-nghe-si-p2729c20.html
- + https://eva.vn/ba-bau/bi-chi-trich-vi-dinh-mang-thai-khi-gan-50-ba-me-tat-thang-mat-khan-gia-tren-truyen-hinh-c85a367398.html
+ + https://eva.vn/tin-tuc/tin-tuc-24h-hinh-anh-moi-cua-con-trai-thieu-uy-dau-thi-huyen-tram-sau-2-nam-me-mat-c73a367396.html
+ + https://eva.vn/lang-sao/hai-co-gai-nay-sinh-tinh-cam-trong-show-kiem-chong-viet-kieu-e-kip-noi-gi-c20a367378.html
+ + https://eva.vn/show-truyen-hinh-p1253c20.html
+ + https://eva.vn/ba-bau/tinh-day-sau-tai-nan-me-soc-khi-biet-minh-mang-thai-nhung-khong-biet-ai-la-bo-em-be-c85a367382.html
  + https://eva.vn/tin-tuc-me-bau-p3230c85.html
- + https://eva.vn/lam-me/3-be-gai-xuat-sac-duoc-vinh-danh-hoa-hau-nhi-noi-nhat-thoi-gian-qua-c10a366950.html
- + https://eva.vn/nguoi-mau-nhi-p2786c10.html
- + https://eva.vn/thoi-trang/chau-gai-cong-nuong-diana-bi-che-loi-thoi-doi-thuong-nhung-len-do-la-thanh-ngay-nu-hoang-c36a367134.html
+ + https://eva.vn/lam-me/nhung-nhoc-ty-den-dui-khong-xinh-bang-bo-me-bi-nguoi-ham-mo-che-ta-toi-c10a366939.html
+ + https://eva.vn/kim-hee-sun-p1043c20.html
+ + https://eva.vn/thoi-trang/lam-tam-nhu-be-bang-khi-tung-lam-mau-noi-y-tao-dang-khieu-khich-thuo-moi-vao-nghe-c36a367335.html
 **** Craw link for: http://bongdaplus.vn
  + http://bongdaplus.vn
  + http://bongdaplus.vn/bong-da-viet-nam.html
@@ -496,14 +525,14 @@
 **** Craw link for: http://360game.vn
  + http://360game.vn
  + http://360game.vn/ho-tro-khach-hang
- + https://360game.vn/web-game/nghich-thuy-han_24818?_src=360-search&utm_source=360Game&utm_medium=sug_tag
- + https://360game.vn/web-game/ba-dao-chi-ton_24820?_src=360-search&utm_source=360Game&utm_medium=sug_tag
- + https://360game.vn/web-game/hiep-khach-h5_24817?_src=360-search&utm_source=360Game&utm_medium=sug_tag
- + https://360game.vn/web-game/thai-cuc-kiem_24812?_src=360-search&utm_source=360Game&utm_medium=sug_tag
  + http://360game.vn/web-game?_src=360-menu&utm_source=360Game&utm_medium=menu_game
  + http://360game.vn/360game-plus?_src=360-menu&utm_source=360Game&utm_medium=menu_game
  + https://h5.360game.vn/?_src=360-menu&utm_source=360Game&utm_medium=menu_game
  + http://360game.vn/user/game-da-choi?_src=360-menu&utm_source=360Game&utm_medium=menu_profile
+ + http://360game.vn/kho-code-vip?_src=360-menu&utm_source=360Game&utm_medium=menu_gift
+ + http://360game.vn/plus?_src=360game_menu
+ + http://360game.vn/kho-code-vip?_src=360-box-login&utm_source=360-box-login
+ + http://360game.vn/lich-mo-server/?_src=360-bleft
 **** Craw link for: http://blogtamsu.vn
  + http://blogtamsu.vn
  + http://blogtamsu.vn/tv-show-video-2
@@ -538,8 +567,18 @@
  + https://vieclam.nld.com.vn
  + http://nld.com.vn/thoi-su.htm
  + http://nld.com.vn/thoi-su-quoc-te.htm
-**** Craw link for: http://htpp://thuocbietduoc.com
-**** Craw link for: http://htpp://thegioididong.com
+**** Craw link for: http://thuocbietduoc.com
+**** Craw link for: http://thegioididong.com
+ + https://www.thegioididong.com/dtdd/vivo-v11i
+ + https://www.thegioididong.com/dtdd/samsung-galaxy-j4-plus
+ + https://www.thegioididong.com/dtdd/samsung-galaxy-j4
+ + https://www.thegioididong.com/khuyen-mai-soc/nova3
+ + https://www.thegioididong.com/dtdd/oppo-f9-6gb
+ + https://www.thegioididong.com/phu-kien-gia-soc
+ + https://www.thegioididong.com/dtdd/samsung-galaxy-j6
+ + http://thegioididong.com/tin-tuc
+ + https://www.thegioididong.com/sim-so-dep
+ + http://thegioididong.com/tin-tuc/cong-nghe-dien-tam-do-ecg-tren-apple-watch-series-4-la-gi-1119605
 **** Craw link for: http://sinhvienit.net
  + http://sinhvienit.net
 **** Craw link for: http://phim3s.net
@@ -551,10 +590,10 @@
  + http://xaluan.com
  + http://xaluan.com/rss.php
  + http://xaluan.com/includes/amlich/month.html
- + http://xaluan.com/modules.php?name=News&file=article&sid=2336258
- + http://xaluan.com/modules.php?name=News&file=article&sid=2335813
- + http://xaluan.com/modules.php?name=News&file=article&sid=2335814
- + http://xaluan.com/modules.php?name=News&file=article&sid=2335815
+ + http://xaluan.com/modules.php?name=News&file=article&sid=2335917
+ + http://xaluan.com/modules.php?name=News&file=article&sid=2335691
+ + http://xaluan.com/modules.php?name=News&file=article&sid=2335692
+ + http://xaluan.com/modules.php?name=News&file=article&sid=2335693
 **** Craw link for: http://genk.vn
  + http://genk.vn
  + http://m.genk.vn
@@ -618,10 +657,10 @@
  + http://vitalk.vn/forums/song.5
  + http://vitalk.vn/forums/dinh.17
  + http://vitalk.vn/forums/hai.8
- + http://vitalk.vn/video/co-gai-tay-khong-leo-len-dinh-bai-do-xe-8-tang-nhu-nguoi-nhen-khien-ai-cung-kinh-ngac.153775080047444001
- + http://vitalk.vn/members/pe-tit-88.4149
- + http://vitalk.vn/video/ca-sieu-thi-ngo-ngang-nhin-canh-doi-nam-nu-dat-4-dua-tre-di-vao-than-nhien-lay-kem-an-va-giau-vo-vao-gam-tu.153775488610558001
- + http://vitalk.vn/members/mod-dung-ban-em.4570
+ + http://vitalk.vn/video/dan-ban-gai-thu-cam-giac-manh-tren-toa-nha-nhung-khong-ngo-co-thu-dang-so-hon-ca-do-cao.153770819409646001
+ + http://vitalk.vn/members/thu-nguyen.153084294501212003
+ + http://vitalk.vn/video/nu-tai-xe-chay-mo-to-nhat-rac-nem-tra-lai-cho-nguoi-tren-oto.153769094145016001
+ + http://vitalk.vn/members/xabong.121666
 **** Craw link for: http://tubecup.com
  + http://tubecup.com/images/newicons/safari-pinned-tab.svg
  + http://tubecup.com

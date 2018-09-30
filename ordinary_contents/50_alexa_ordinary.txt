@@ -1,5 +1,4 @@
 50 Vietnamese sites in Alexa:
-
 coccoc.com
 vozforums.com
 daikynguyenvn.com
@@ -32,7 +31,7 @@ clip.vn
 nhaccuatui.com
 5giay.vn
 phunukieuviet.com
-htpp://bong99.com
+bong99.com
 ngoisao.net
 soha.vn
 cafef.vn
@@ -45,10 +44,10 @@ phununet.com
 wordpress.com
 thanhnien.com.vn
 tuoitre.vn
-htpp://vietcombank.com.vn
+vietcombank.com.vn
 phimmoi.net
 vov.vn
-htpp://timviecnhanh.com
+timviecnhanh.com
 tinhte.vn
 afamily.vn
 bongda.com.vn
@@ -59,8 +58,8 @@ blogtamsu.vn
 laban.vn
 muaban.net
 nld.com.vn
-htpp://thuocbietduoc.com
-htpp://thegioididong.com
+thuocbietduoc.com
+thegioididong.com
 sinhvienit.net
 phim3s.net
 xaluan.com
