@@ -1,4 +1,4 @@
-Tổng hợp những câu hỏi thường gặp của khách hàngCâu hỏi thường gặp 
+Hỗ trợ qua Câu hỏi thường gặp 
 Nhằm hợp pháp việc đặt cược nên bạn sẽ chơi cá cược bằng điểm, không dùng tiền VND. 
 Mỗi điểm được quy định với nhiều mức giá khác nhau từ 30.000vnd , 50.000vnd , 100.000vnd 1 điểm cược tương ứng với các chương trình khuyến mãi khác nhau. Và dĩ nhiên điểm càng cao thì khuyến mãi càng nhiều. Giá /Điểm 100k/điểm 50k/điểm Thấp hơn 
 Chương trình tri ân 
@@ -85,8 +85,8 @@ kèo đá phản lưới nhà. 21. Offside:
 Lỗi Việt Vị. 22. (R): 
 ký hiệu (R) sau tên đội bóng thì đây là trận đấu giữa 2 đội sử dụng đội hình Đội hình dự bị hoặc Đội hình 2. II. Giao di ện trang cá cược 
 1. Các bạn có thể chỉnh “Tiếng việt” khi vào tài khoản cá cược 
-2. Chọn dòng kép (cho dễ nhìn) 
-3. Chọn kèo MALAY cho người mới chơi lần đầu III. Các loại kèo cá cược cơ bản 1. FT. HDP: 
+2. Chọn dòng kép (cho dễ nhìn) Một Dòng Dòng Kép Toàn Thời Gian Hiệp 1 
+3. Chọn kèo MALAY cho người mới chơi lần đầu Hong Kong Odds Decimal Odds Malay Odds III. Các loại kèo cá cược cơ bản 1. FT. HDP: 
 Full Time Handicap – Kèo cả trận 
 Trước tiên, đây là kèo châu á, bắt đội thắng, đội thua và có chấp toàn trận đấu. Nghĩa là sao? Khi bạn bắt kèo này, cho dù tỷ số hiện tại giữa 2 đội đang đấu là bao nhiêu đi chăng nữa vẫn quay về tỷ số là 0 – 0 và dựa vào số trái đang chấp được ghi trên kèo mà tính kết quả từ lúc bạn bắt kèo (lúc bạn bắt kèo tỷ số là 0 – 0) cho đến hết trận đấu 2. FT. O/U: 
 Full Time Over/Under– Kèo tài xỉu 
@@ -253,4 +253,4 @@ Khi đăng ký tài khoản tại website (
 - Link 1: -Link 2: 
 Ở đường link trên, khách có 2 lựa chọn, 1 là tài khoản dùng thử do Mibet cung cấp để đăng nhập vào (chỉ có công dụng xem giao diện, xem kèo cược,...không thể cược, 
 ), 2 là tài khoản khách hàng vừa đăng ký và đã nạp tiền, lúc đó khách mới có thể tiến hành đặt cược 
-Trong quá trình tham gia đặt cược, khách hàng không được sử dụng trực tiếp bằng VND, mà phải dùng điểm để tiến hành giao dịch
+Trong quá trình tham gia đặt cược, khách hàng không được sử dụng trực tiếp bằng VND

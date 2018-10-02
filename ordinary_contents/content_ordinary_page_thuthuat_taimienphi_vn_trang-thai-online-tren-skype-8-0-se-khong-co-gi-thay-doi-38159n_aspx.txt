@@ -1,5 +1,3 @@
-
-	Trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi
 Trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi Hôm nay Microsoft vừa công bố một số thay đổi mới cho 8.0. Các thay đổi mới chủ yếu xoay quanh các tùy chọn hiển thị trạng thái người dùng. Theo đó trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi nhiều. Bài viết liên quan 
 Microsoft đã gặp phải sự phản đối dữ dội của người dùng sau khi công bố khai tử các phiên bản Skype cũ và khuyến khích người dùng sử dụng phiên bản 
 8.0 được thiết kế lại mới hoàn toàn hồi đầu tháng này, ngay sau đó hãng đã phải thông báo kế hoạch mới, mở rộng việc hỗ trợ Skype 7.0 trong một thời gian nữa. 
@@ -23,4 +21,11 @@ Cuối cùng là một số thay đổi nhỏ trên các ứng dụng Skype cho 
 Việc gõ tiếng Việt có dấu trên Skype bằng các phần mềm hỗ trợ như Unikey, Vietkey đã quá quen thuộc với người dùng, nhưng với một số lượng người dùng mới thì chưa nắm rõ cách thực hiện thế nào, bạn tham khảo cách 
 tại đây http://thuthuat.taimienphi.vn/trang-thai-online-tren-skype-8-0-se-khong-co-gi-thay-doi-38159n.aspx 
 Để đảm bảo tính bảo mật cũng như an toàn cho người dùng internet, cơ quan an ninh yêu cầu các website phải triển khai hệ thống xác thực tên miền. Tuy nhiên website của Nhà Trắng vẫn chưa thực hiện dẫn đến 
-làm giả mạo email dễ dàng hơn. Tác giả: ( 4.0 ★- 3 đánh giá) ĐG của bạn? Bài viết liên quan Từ khoá liên quan: Trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi , Skype 8.0, thay đổi trên Skype 8.0, SOFT LIÊN QUAN ĐỌC NHIỀU Tin Mới
+làm giả mạo email dễ dàng hơn. Tác giả: ( 4.0 ★- 3 đánh giá) ĐG của bạn? Bài viết liên quan Từ khoá liên quan: Trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi , Skype 8.0, thay đổi trên Skype 8.0, SOFT LIÊN QUAN AthTek Skype Recorder tập trung vào việc cung cấp các dịch vụ ghi âm cuộc gọi chất lượng tốt nhất. Nó hoạt động trên Windows XP, Vista, Win7, Win8 và Windows 10. AthTek Skype Recorder có thể được sử dụng như một máy trả lời tự động hoặc một công cụ kiểm soát của cha mẹ với con cái nhờ các thiết lập tiên tiến nhất. Xóa quảng cáo, banner trên giao diện Skype Đăng nhập đồng thời nhiều tài khoản Skype Gọi điện từ ứng dụng Skype tới điện thoại Ứng dụng ghi âm cuộc gọi trên Skype Phiên bản Skype giao diện cổ điển ĐỌC NHIỀU Tin Mới 
+Hôm nay Microsoft vừa công bố một số thay đổi mới cho 
+8.0. Các thay đổi mới chủ yếu xoay quanh các tùy chọn hiển thị trạng thái người dùng. Theo đó trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi nhiều. 
+Policy DMARC cho Whitehouse.gov làm giả mạo email dễ dàng hơn. Theo đó các cơ quan và chi nhánh điều hành Liên Bang phải triển khai cấu hình hệ thống xác thực tên miền dựa trên policy được cấu hình với các cài đặt bảo 
+Hôm nay Adobe vừa phát hành bản vá bảo mật quan trọng cho 
+và Acrobat, bản vá lỗi bảo mật nghiêm trọng mà hãng đã bỏ sót trong bản cập nhật Patch Tuesday tháng 9/2018 được phát hành tuần trước gồm 6 bản cập nhật vá lỗi Adobe Reader và Acrobat. 
+Có một số thay đổi mà người dùng cần phải biết khi sử dụng Skype phiên bản mới. Chẳng hạn như vấn để 
+mới hay đổi trạng thái trên Skype mới cũng gây ra sự bỡ ngỡ lần đầu sử dụng khi người dùng vô tình cập nhật phiên bản Skype 8.25 hay mới hơn nữa là Skype 8.27 như hiện nay. Danh mục

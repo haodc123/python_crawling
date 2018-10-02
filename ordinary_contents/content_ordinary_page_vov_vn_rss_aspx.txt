@@ -1,5 +1,3 @@
-
-	Các kênh tin RSS | VOV - ĐÀI TIẾNG NÓI VIỆT NAM
 VOV.VN và chuẩn RSS RSS là gì ? 
 RSS (Really Simple Syndication) là một chuẩn tựa XML được rút gọn dành cho việc phân tán và khai thác nội dung thông tin Web (ví dụ như các tiêu đề tin tức). Sử dụng RSS, các nhà cung cấp nội dung Web có thể dễ dàng tạo và phổ biến các nguồn dữ liệu ví dụ như các liên kết tin tức, tiêu đề, ảnh và tóm tắt vov.vn cung cấp những nội dung nào qua RSS? 
 vov.vn hiện tại cung cấp các kênh dữ liệu dưới đây theo định dạng chuẩn mới nhất RSS 2.0. Các nguồn kênh tin này là miễn phí cho việc sử dụng dưới mục đích cá nhân và phi lợi nhuận. Các thuộc tính đi kèm các nguồn tin này là bắt buộc Sử dụng RSS như thế nào 
