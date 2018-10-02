@@ -1,0 +1,16 @@
+
+	Các kênh tin RSS | VOV - ĐÀI TIẾNG NÓI VIỆT NAM
+VOV.VN và chuẩn RSS RSS là gì ? 
+RSS (Really Simple Syndication) là một chuẩn tựa XML được rút gọn dành cho việc phân tán và khai thác nội dung thông tin Web (ví dụ như các tiêu đề tin tức). Sử dụng RSS, các nhà cung cấp nội dung Web có thể dễ dàng tạo và phổ biến các nguồn dữ liệu ví dụ như các liên kết tin tức, tiêu đề, ảnh và tóm tắt vov.vn cung cấp những nội dung nào qua RSS? 
+vov.vn hiện tại cung cấp các kênh dữ liệu dưới đây theo định dạng chuẩn mới nhất RSS 2.0. Các nguồn kênh tin này là miễn phí cho việc sử dụng dưới mục đích cá nhân và phi lợi nhuận. Các thuộc tính đi kèm các nguồn tin này là bắt buộc Sử dụng RSS như thế nào 
+Các ứng dụng phổ biến về việc cung cấp và sử dụng RSS bao gồm: 
+Sử dụng một chương trình Khai Thác Thông Tin (News Aggregator,News Spider) để thu thập, cập nhật và hiển thị các nguồn kênh tin dạng RSS 
+Kết hợp nguồn kênh tin RSS vào một nhật trình Web (weblogs) 
+News Aggregators (hay trình Khai Thác Thông Tin) sẽ tải xuống và hiển thị các nguồn kênh tin RSS cho bạn. Có một số các chương trình dạng này cho phép bạn download miễn phí để cài đặt trên máy cá nhân hoặc sử dụng trực tiếp thông qua trình duyệt. Các chương trình đọc RSS Windows 
+: 
+| 
+| Mac OS X: | Web: | | Browser: | 
+Một cách sử dụng nguồn kênh tin RSS khác được nhiều người ưa thích là kết hợp nội dung vào các nhật trình Web (weblogs, hay "blogs"). Blogs là những trang web mang tính các nhân và bao gồm các mẩu tin và liên kết ngắn, thường xuyên cập nhật. Các giới hạn sử dụng 
+Các nguồn kênh tin được cung cấp miễn phí cho các cá nhân và các tổ chức phi lợi nhuận. Chúng tôi yêu cầu bạn cung cấp rõ các thông tin cần thiết khi bạn sử dụng các nguồn kênh tin này từ vov.vn 
+Nếu bạn định ghi dưới dạng văn bản, hãy ghi: "vov.vn”. Nếu bạn định ghi dưới dạng đồ họa, hãy sử dụng biểu tượng của vov.vn đi kèm trong mỗi nguồn tin 
+vov.vn hoàn toàn có quyền yêu cầu bạn ngừng cung cấp và phân tán thông tin dưới dạng này ở bất kỳ thời điểm nào và với bất kỳ lý do nào. VOV_AllPage VOV-left-160x600 VOV_BalloonAds x

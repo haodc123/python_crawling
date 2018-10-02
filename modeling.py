@@ -102,7 +102,7 @@ class MyModeling(object):
         dirAccidentFiles = os.listdir(dirAccident)
         dirOrdinaryFiles = os.listdir(dirOrdinary) 
         line = 0
-        with open(FILE_STANDARD_DATA, 'w', encoding="utf-8", newline='') as gd:
+        with open(FILE_STANDARD_DATA, 'w', encoding="utf-8-sig", newline='') as gd:
             writer = csv.writer(gd, quoting=csv.QUOTE_NONE, delimiter='|', quotechar='|',escapechar='\\')
             for file in dirAccidentFiles:
                 if ('.csv' in file):
@@ -119,6 +119,7 @@ class MyModeling(object):
             for i,x in enumerate(spamreader):                            
                 if (0 == line):                    
                     tmp.append([''.join(x)+',is_traffic_accident'])
+                    print(len(tmp))
                     #writer.writerows(''.join(x))
                     line += 1
                 elif (0 != line and i > 0):
@@ -134,11 +135,11 @@ class MyModeling(object):
 
     '''def createStandarDataFile(self, filenameAccidentNoun, filenameOrdinaryNoun):
         # Read 3000 accident noun from file
-        File = open(filenameAccidentNoun, encoding="utf-8", errors='ignore')
+        File = open(filenameAccidentNoun, encoding="utf-8-sig", errors='ignore')
         accident_nouns = File.read()
         arr_header_file = accident_nouns.split(", ")
         # Read 3000 ordinary noun from file
-        File = open(filenameOrdinaryNoun, encoding="utf-8", errors='ignore')
+        File = open(filenameOrdinaryNoun, encoding="utf-8-sig", errors='ignore')
         ordinary_nouns = File.read()
         arr_header_file.append(ordinary_nouns.split(", "))
         arr_header_file.append("is_traffic_accident")
@@ -152,7 +153,7 @@ class MyModeling(object):
         goToPath(home_path)
         num_row = len(arr_accident_csv) + len(arr_ordinary_csv) + 1
 
-        csv_file_name = open(FILE_STANDARD_DATA, 'w', encoding="utf-8", errors='ignore')
+        csv_file_name = open(FILE_STANDARD_DATA, 'w', encoding="utf-8-sig", errors='ignore')
         
         csv_data = [[0] * num_column] * num_row
         csv_data[0] = arr_header_file

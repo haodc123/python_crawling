@@ -19,8 +19,8 @@ FILE_3000_ORDINARY_NOUNS = "ordinary_contents\\3000_ordinary_nouns.txt"
 
 NUMBER_NOUN_FILTERED = 3000
 NUMBER_LINK_EACH_PAIR = 530
-NUM_LINK_EACH_PAGE = 10
-MAX_CHARACTER_EACH_PAGE = 20000+1
+NUM_LINK_EACH_PAGE = 20
+MAX_CHARACTER_EACH_PAGE = 5000
 NOT_CONTENT_TAG = ["script", "style", "video"]
 
 class MyHTMLParser(HTMLParser):
@@ -110,27 +110,30 @@ class MyHTMLParser(HTMLParser):
                     #return self.title
             except:
                 try:
-                    print("2."+link)
                     req = urllib.request.Request(link, headers={'User-Agent' : "Magic Browser"})
                     f = urllib.request.urlopen(req)
                     html = f.read().decode("UTF-8") 
                     f.close()
+                    print("2."+link)
                     if whatcrawling_mode == "link":
                         self.feed(html)                     # parse the html and parse link
                         return self.arr_links
                     elif whatcrawling_mode == "content":
-                        parse_content = ParseHTMLManual()
-                        self.content = parse_content.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                        #parse_content = ParseHTMLManual()
+                        self.content = ParseHTMLManual.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                        #print(self.content)
                         return self.content
                     elif whatcrawling_mode == "title":
-                        parse_content = ParseHTMLManual()
-                        self.title = parse_content.getContent(str(html))[:MAX_CHARACTER_EACH_PAGE]
+                        #parse_content = ParseHTMLManual()
+                        self.title = ParseHTMLManual.getTitle(str(html))[:MAX_CHARACTER_EACH_PAGE]
                         return self.title
                         #self.feed(html)                     # parse the html and parse link
                         #return self.title
                 except:
+                    print(link)
+                    self.content = None
                     print("Unexpected failure happens and the spider escapes.")
-                    return None      
+                    return None     
 
 
 class MySpider(object):
@@ -158,23 +161,19 @@ class MySpider(object):
     
     def crawContent(self, link):
         target_link = clean(link)
-
         print("Craw content for: "+target_link)
         content = self.parser.run(target_link, "content", "")
         return content
 
     def crawTitle(self, link):
         target_link = clean(link)
-
         print("Craw title for: "+target_link)
         title = self.parser.run(target_link, "title", "")
         return title
 
-    
-
-
-class ParseHTMLManual(object):
-    def getContent(self, html):
+class ParseHTMLManual:
+    @staticmethod
+    def getContent(html):
         try:
             soup = BeautifulSoup(html, 'html.parser')
             # Ignore anything in head
@@ -186,14 +185,14 @@ class ParseHTMLManual(object):
                     hidden = False
                     for parent_tag in parent_tags:
                         classes_tag = parent_tag.get('class')
-                        footer = self.checkExistClass('footer', classes_tag)
-                        video = self.checkExistClass('video', classes_tag)
-                        time = self.checkExistClass('time', classes_tag)
-                        hide = self.checkExistClass('hide', classes_tag) 
+                        footer = ParseHTMLManual.checkExistClass('footer', classes_tag)
+                        video = ParseHTMLManual.checkExistClass('video', classes_tag)
+                        time = ParseHTMLManual.checkExistClass('time', classes_tag)
+                        hide = ParseHTMLManual.checkExistClass('hide', classes_tag) 
                         idTag = parent_tag.get('id')
-                        comment = self.checkExistClass('comment', idTag)
-                        footer_id = self.checkExistClass('footer', idTag)
-                        feedback = self.checkExistClass('feedback', idTag)                     
+                        comment = ParseHTMLManual.checkExistClass('comment', idTag)
+                        footer_id = ParseHTMLManual.checkExistClass('footer', idTag)
+                        feedback = ParseHTMLManual.checkExistClass('feedback', idTag)                     
                         # Ignore any text inside a non-displayed tag
                         if (parent_tag.name in ('em', 'input', 'button', 'area', 'base', 'basefont', 'datalist', 'head', 'link',
                                                 'meta', 'noembed', 'noframes', 'param', 'rp', 'script',
@@ -216,17 +215,24 @@ class ParseHTMLManual(object):
                             string = '\n' + string
                             #print(string)
                         text += [string]
-            doc = soup.title.string+' '.join(text)
+            if soup.title.string is not None:
+                doc = soup.title.string+' '.join(text)
+            else:
+                doc = ' '.join(text)
+            #print(doc)
             return doc
         except:
+            #print("None")
             return None
-    def checkExistClass(self, class_checking, classes):
-        if classes is None: return False
+    @staticmethod
+    def checkExistClass(class_checking, classes):
+        if classes is None: 
+            return False
         for class_name in classes:
             if class_checking in class_name.lower():
                 return True
         return False
-
-    def getTitle(self, html):
+    @staticmethod
+    def getTitle(html):
         soup = BeautifulSoup(html, "lxml")
         return soup.title.string

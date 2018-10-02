@@ -1,0 +1,26 @@
+
+	Trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi
+Trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi Hôm nay Microsoft vừa công bố một số thay đổi mới cho 8.0. Các thay đổi mới chủ yếu xoay quanh các tùy chọn hiển thị trạng thái người dùng. Theo đó trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi nhiều. Bài viết liên quan 
+Microsoft đã gặp phải sự phản đối dữ dội của người dùng sau khi công bố khai tử các phiên bản Skype cũ và khuyến khích người dùng sử dụng phiên bản 
+8.0 được thiết kế lại mới hoàn toàn hồi đầu tháng này, ngay sau đó hãng đã phải thông báo kế hoạch mới, mở rộng việc hỗ trợ Skype 7.0 trong một thời gian nữa. 
+Trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi 
+Nhóm phát triển Skype sau đó cũng dần loại bỏ các tính năng không mong muốn trên phiên bản 
+mới, đơn giản hóa giao diện ứng dụng giúp người dùng sử dụng dễ dàng hơn. Hôm nay hãng cũng vừa công bố một số cải tiến mới cho Skype 8.0 trên diễn đàn cộng đồng Skype (thông qua OnMSFT). Theo đó những thay đổi lần này xoay quanh việc hiển thị trạng thái người dùng Online / Away. 
+Đầu tiên là trên Skype cho máy tính, trạng thái Online sẽ không biết mất ngay khi người dùng thu nhỏ ứng dụng, miễn là ứng dụng vẫn đang được sử dụng và điều này cũng không làm ảnh hưởng đến những trải nghiệm của người dùng thiết bị màn hình cảm ứng. Không rõ liệu thay đổi này có ảnh hưởng đến 
+hay không vì ứng dụng hoạt động hơi khác so với các ứng dụng bên ngoài Store. Việc đóng cửa sổ chính Skype nhưng không đóng ứng dụng hoàn toàn trên khay hệ thống, vì vậy có thể ứng dụng không được coi là đang chạy khi cửa sổ chính đóng. 
+Ngoài ra Microsoft cũng đang sử dụng cách tiếp cận mới, cho phép người dùng có thể kiểm soát trạng thái trực tuyến của mình trên Skype tốt hơn. Trong tương lai người dùng sẽ có 4 tùy chọn hiển thị trạng thái của mình với các liên hệ, bao gồm: Active 
+(đang hoạt động), Recently Active 
+(hoạt động gần đây), Away 
+và Not Active 
+(không hoạt động). 
+Thay đổi lớn nhất ở đây là người dùng có thể tự thiết lập trạng thái Away, giống như cách mà họ làm trên các phiên bản Skype trước. Trên các phiên bản Skype cũ hơn, các trạng thái mới sẽ hoạt động đúng như mong đợi, chỉ khác là các trạng thái Recently Active và Away sẽ hiển thị như trạng thái Away. Ngay lúc này, các bạn có thể tham khảo cách đổi tên, 
+tại đây. 
+Trạng thái Invisible sẽ không còn, nhưng được thay thế bằng cài đặt Hide my presence 
+mới. Về cơ bản cài đặt Hide my presence hoạt động tương tự như trạng thái Invisible trước đây, tức là người dùng có thể ẩn trạng thái hoạt động của mình để người khác không thể thấy được. 
+Đối với trạng thái Do Not Disturb, nhóm phát triển cho biết người dùng báo cáo lại và cho rằng tên của trạng thái có phần hơi thô lỗ. Để giải quyết vấn đề này, nhóm phát triển quyết định triển khai trạng thái Quiet Mode để thay thế cho Do Not Disturb. Theo đó Quiet Mode sẽ tắt tiếng toàn bộ thông báo khi người dùng đang hoạt động, nếu muốn người dùng vẫn có thể sử dụng trạng thái Do not disturb để thông báo rằng không muốn bị làm phiền tại thời điểm nào đó. 
+Ngoài ra nếu muốn người dùng khác biết được lý do, bạn đang bận công việc gì đó, trong trường hợp này có thể thiết lập phần dòng trạng thái (status) là đang bận, hoặc đang bận họp, ... . 
+Cuối cùng là một số thay đổi nhỏ trên các ứng dụng Skype cho thiết bị di động. Theo nội dung mà Peter Skillman, giám đốc thiết kế Skype đăng tải trên Twitter cho biết người dùng có thể sớm lưu số điện thoại mới trên Skype từ danh bạ. Chưa hết, người dùng cũng có thể chỉnh sửa và thêm số điện thoại vào các địa chỉ liên hệ Skype hiện tại. 
+Việc gõ tiếng Việt có dấu trên Skype bằng các phần mềm hỗ trợ như Unikey, Vietkey đã quá quen thuộc với người dùng, nhưng với một số lượng người dùng mới thì chưa nắm rõ cách thực hiện thế nào, bạn tham khảo cách 
+tại đây http://thuthuat.taimienphi.vn/trang-thai-online-tren-skype-8-0-se-khong-co-gi-thay-doi-38159n.aspx 
+Để đảm bảo tính bảo mật cũng như an toàn cho người dùng internet, cơ quan an ninh yêu cầu các website phải triển khai hệ thống xác thực tên miền. Tuy nhiên website của Nhà Trắng vẫn chưa thực hiện dẫn đến 
+làm giả mạo email dễ dàng hơn. Tác giả: ( 4.0 ★- 3 đánh giá) ĐG của bạn? Bài viết liên quan Từ khoá liên quan: Trạng thái Online trên Skype 8.0 sẽ không có gì thay đổi , Skype 8.0, thay đổi trên Skype 8.0, SOFT LIÊN QUAN ĐỌC NHIỀU Tin Mới
