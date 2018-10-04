@@ -1,0 +1,42 @@
+
+	Cách sửa lỗi Google Chrome không hồi đáp, không phản hồi
+Sửa lỗi Google Chrome không hồi đáp, không phản hồi 
+» Giả sử nếu đang duyệt web trên Chrome, nhưng trình duyệt không phản hồi, không hồi đáp. Làm thế nào để sửa lỗi này? Mời bạn cùng tham khảo bài viết sửa lỗi Google không hồi đáp, không phản hồi dưới đây của Taimienphi.vn nhé. Bài viết liên quan Google Chrome 
+là một trong những trình duyệt phổ biến có số lượng người dùng nhiều nhất hiện nay. Bạn có đang sử dụng 
+? Giả sử vào một ngày đẹp trời khi đang duyệt web trên trình duyệt nhưng Chrome bị đơ không sử dụng được, và bạn không biết làm cách nào để sửa lỗi Google Chrome không hồi đáp 
+, không phản hồi. Nếu đang phải đối mặt với lỗi này, thì hãy tham khảo bài viết dưới đây để được hướng dẫn khắc phục 1 cách chi tiết nhất nhé. Sửa lỗi Google Chrome không hồi đáp, không phản hồi Lưu ý: 
+Giả định bạn thực hiện các bước cơ bản như kiểm tra kết nối Internet, reset lại router (bộ định tuyến), ... nhưng không khả dụng. Dưới đây là một số cách sửa lỗi bạn có thể áp dụng để sửa lỗi. 
+Đôi khi một vài thứ gì đó trên trang web chẳng hạn như quảng cáo, video hoặc các mã lỗi, ... cũng có thể là nguyên nhân khiến Chrome ngừng hoạt động và trình duyệt không hồi đáp, dù bạn có áp dụng cách nào để đóng trình duyệt ( click vào biểu tượng dấu X 
+hoặc nhấn tổ hợp phím Alt + F4 
+) cũng đều vô ích. 
+Cách tốt nhất trong trường hợp này là kill Chrome lại. Nhấn tổ hợp phím Ctrl + Shift + Esc 
+để mở Task Manager. Tại đây bạn tìm và kích chuột phải vào process Chrome 
+, chọn End Task 
+. 
+Ngoài ra nếu muốn Task Manager hiển thị trên Always on top 
+để ứng dụng không bị ẩn sau cửa sổ trình duyệt Chrome bị lỗi không phản hồi, trên cửa sổ Task Manager, bạn click chọn Options 
+, sau đó đánh tích chọn hộp nằm kế bên Always on top. 
+Tiện ích mở rộng Chrome có thể thay đổi, và một tiện ích mở rộng tinh ranh chạy ẩn cũng có thể là thủ phạm gây ra lỗi Chrome không hồi đáp, không phản hồi. Nếu lỗi Chrome không hồi đáp, không phản hồi xảy ra thường xuyên, click chọn biểu tượng 3 dấu chấm thẳng hàng ở góc trên cùng cửa sổ trình duyệt, chọn More tools 
+(thêm các công cụ) => Extensions 
+(tiện ích mở rộng), sau đó và bật 
+từng cái một và kiểm tra xem việc sửa lỗi Google Chrome không hồi đáp, không phản hồi đã thành công hay chưa. 
+Nếu lỗi vẫn còn, kích hoạt lại tiện ích mở rộng đó. Thực hiện các bước tương tự với tất cả các tiện ích mở rộng cho đến khi tìm ra đâu là thủ phạm gây ra lỗi trình duyệt Google Chrome không hồi đáp, không phản hồi, xóa tiện ích mở rộng đó đi để sửa lỗi. 
+Máy chủ proxy hoạt động như máy chủ trung gian kết nối giữa trình duyệt của bạn và Internet, cho phép bạn ẩn danh khi duyệt web online. Mặc định Chrome sử dụng các thiết lập proxy được tích hợp trong Windows. Tuy nhiên nếu đang phải đối mặt với lỗi Chrome không hồi đáp, không phản hồi bạn có thể thử tắt tùy chọn tự động phát hiện thiết lập 
+để sửa lỗi. 
+Để làm được điều này, bạn truy cập menu Settings trên Chrome, cuộn xuống dưới tìm và click chọn Advanced 
+(nâng cao), sau đó cuộn tiếp xuống dưới tìm và click chọn Open proxy settings 
+(mở cài đặt proxy). Trên cửa sổ Internet Properties, click chọn tab Connections 
+=> LAN Settings, 
+đảm bảo tất cả các hộp đã được đánh tích chọn. 
+Ngoài ra bạn có thể đánh tích chọn Automatically detect settings. 
+Hoặc nếu muốn chạy địa chỉ proxy khác, bạn đánh tích chọn Use a proxy server 
+và nhập địa chỉ proxy vào đó. 
+Nếu áp dụng những cách trên nhưng kết quả không khả dụng, thử áp dụng cách cuối cùng là reset lại trình duyệt Chrome. Lưu ý là 
+chứ không phải cài đặt lại trình duyệt. Trong menu Settings trình duyệt Chrome có tùy chọn để reset lại trình duyệt. 
+Mở menu Chrome, truy cập Settings 
+=> Advanced 
+, cuộn xuống góc dưới cùng, tìm và click chọn Reset 
+, sau đó chọn Reset 
+một lần nữa để xác nhận. http://thuthuat.taimienphi.vn/sua-loi-google-chrome-khong-hoi-dap-khong-phan-hoi-29293n.aspx 
+Không thể phủ nhận Chrome là tiện ích hữu ích và phổ biến nhất hiện nay, nếu đang phải đối mặt với lỗi Chrome không hồi đáp 
+, bạn có thể áp dụng cách sửa lỗi Google Chrome không hồi đáp, không phản hồi ở trên để khắc phục. Mọi ý kiến đóng góp của bạn cho Taimienphi.vn vui lòng để lại trong mục bình luận bên dưới bài viết. Tác giả: ( 4.0 ★- 3 đánh giá) ĐG của bạn? Bài viết liên quan Từ khoá liên quan: Sửa lỗi Google Chrome không hồi đáp , sửa lỗi Google Chrome không phản hồi, cách sửa lỗi Google Chrome không hồi đáp, SOFT LIÊN QUAN ĐỌC NHIỀU Tin Mới
